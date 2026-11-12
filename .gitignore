@@ -1,0 +1,8 @@
+# 本仓由受控树投影生成（publish_face.py 白名单）。
+# 手改一个文件，CI 就会因「哈希与 publish_manifest.json 不符」而红。
+# 下面只排除本机运行垃圾与可重建产物。
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,87 @@
+{
+  "manifest_version": "1.0",
+  "generator": "publish_face.py v0.1.1",
+  "generated_at": "2026-11-12T13:53:31+08:00",
+  "stage": "spec",
+  "units": [],
+  "source_root": "${JOURNAL_ROOT}",
+  "tree_hash": "69e019e92004d4c7d6bc09d0af9bdb6be3816293051559adca9ab21f2857be16",
+  "file_count": 8,
+  "total_bytes": 124403,
+  "redactions": [
+    {
+      "rule": "受控树根 -> ${JOURNAL_ROOT}",
+      "count": 1
+    },
+    {
+      "rule": "旧批次工作区绝对路径 -> <旧批次工作区>",
+      "count": 2
+    }
+  ],
+  "files": [
+    {
+      "path": "ALICE期刊_顶层文件_v5.9.4.md",
+      "bytes": 44286,
+      "sha256": "25e2bc3367aaefa2e6e65a463323f88e8c59668216623ebcc7119b2d25744ac0",
+      "source": "ALICE期刊_顶层文件_v5.9.4.md",
+      "source_sha256": "c43a7b4576f1e840c020a4f589dc48b7a2488e5444b427d0b2997c762c29bd50",
+      "normalized": true
+    },
+    {
+      "path": "00_规范/参考/风格规范_学术展示体_v1.2.md",
+      "bytes": 8719,
+      "sha256": "ad4e03e6f54d1dd4a05235fe38019792f9d8a2624feea2ddcaffc2127a504e29",
+      "source": "00_规范/参考/风格规范_学术展示体_v1.2.md",
+      "source_sha256": "ad4e03e6f54d1dd4a05235fe38019792f9d8a2624feea2ddcaffc2127a504e29",
+      "normalized": false
+    },
+    {
+      "path": "00_规范/参考/风格规范_专栏体_v1.1.md",
+      "bytes": 3734,
+      "sha256": "9bb8d837b861861443f14fdc7e563de14d7590b8fc11497c193f22ccdcb6fcd9",
+      "source": "00_规范/参考/风格规范_专栏体_v1.1.md",
+      "source_sha256": "9bb8d837b861861443f14fdc7e563de14d7590b8fc11497c193f22ccdcb6fcd9",
+      "normalized": false
+    },
+    {
+      "path": "00_规范/素材/AstralSeek_Lab_logo.png",
+      "bytes": 18250,
+      "sha256": "c820b8668c8314422d515630370abbb128869a55e26567d7432c77fc75d2a489",
+      "source": "00_规范/素材/AstralSeek_Lab_logo.png",
+      "source_sha256": "c820b8668c8314422d515630370abbb128869a55e26567d7432c77fc75d2a489",
+      "normalized": false
+    },
+    {
+      "path": "00_规范/脚本/build_html.py",
+      "bytes": 15484,
+      "sha256": "892a308290373aa55a3b8d75f4faab88cbd6acc5188f5d1c0f204aabb296c190",
+      "source": "00_规范/脚本/build_html.py",
+      "source_sha256": "892a308290373aa55a3b8d75f4faab88cbd6acc5188f5d1c0f204aabb296c190",
+      "normalized": false
+    },
+    {
+      "path": "00_规范/脚本/format_and_qc.py",
+      "bytes": 13122,
+      "sha256": "f6ba9914e844989c09f94d847dee89fb5890c3a67d9180b659a4fcc5b92af9f6",
+      "source": "00_规范/脚本/format_and_qc.py",
+      "source_sha256": "f6ba9914e844989c09f94d847dee89fb5890c3a67d9180b659a4fcc5b92af9f6",
+      "normalized": false
+    },
+    {
+      "path": "00_规范/脚本/qc_report_final.py",
+      "bytes": 20568,
+      "sha256": "0dca10f3ff6e74b73efa40f69e45cc4efef35feb17108b51dc4e9205e9df3fea",
+      "source": "00_规范/脚本/qc_report_final.py",
+      "source_sha256": "0dca10f3ff6e74b73efa40f69e45cc4efef35feb17108b51dc4e9205e9df3fea",
+      "normalized": false
+    },
+    {
+      "path": "00_规范/脚本/requirements.txt",
+      "bytes": 240,
+      "sha256": "2ee69a3f2376e1367ec4b45d69eb7bdffe2fc202874c0aaeac25fbc548ffa461",
+      "source": "00_规范/脚本/requirements.txt",
+      "source_sha256": "2ee69a3f2376e1367ec4b45d69eb7bdffe2fc202874c0aaeac25fbc548ffa461",
+      "normalized": false
+    }
+  ]
+}

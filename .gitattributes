@@ -1,0 +1,3 @@
+# 发布面的字节必须逐字不变——publish_manifest.json 记的是 sha256（含换行符）。
+# 任何 EOL 转换（CRLF<->LF）都会让清单在别的机器上失效，所以全部关闭。
+* -text

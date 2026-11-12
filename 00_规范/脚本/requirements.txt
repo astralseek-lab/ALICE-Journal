@@ -1,0 +1,5 @@
+# ALICE 期刊脚本依赖（2026-11-02）
+# 安装：<本目录>\.venv\Scripts\python.exe -m pip install -r requirements.txt
+# Python ≥ 3.12（format_and_qc 使用了 f-string 内嵌同类引号语法）
+pillow>=10.0
+beautifulsoup4>=4.12

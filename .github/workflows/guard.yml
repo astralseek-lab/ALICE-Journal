@@ -1,0 +1,65 @@
+name: publish-face-guard
+
+# 发布面是投影：任何未经 publish_manifest.json 登记的改动都应阻断。
+# 本工作流只做一件事——复算清单里每个文件的 sha256、复算 tree_hash、
+# 并拒绝清单外的文件。红 = 有人绕过投影直接改了本仓。
+
+"on":
+  push:
+  pull_request:
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 校验投影清单
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, sys
+
+          root = pathlib.Path('.')
+          mp = root / 'publish_manifest.json'
+          if not mp.is_file():
+              print('FAIL 缺少 publish_manifest.json')
+              sys.exit(5)
+          m = json.loads(mp.read_text(encoding='utf-8'))
+
+          bad = []
+          for e in m.get('files', []):
+              p = root / e['path']
+              if not p.is_file():
+                  bad.append('MISSING ' + e['path'])
+                  continue
+              h = hashlib.sha256(p.read_bytes()).hexdigest()
+              if h != e['sha256']:
+                  bad.append('HASH ' + e['path'])
+              if p.stat().st_size != e['bytes']:
+                  bad.append('SIZE ' + e['path'])
+
+          lines = '\n'.join(
+              e['path'] + '\t' + e['sha256']
+              for e in sorted(m.get('files', []), key=lambda x: x['path'])
+          )
+          th = hashlib.sha256(lines.encode('utf-8')).hexdigest()
+          if th != m.get('tree_hash'):
+              bad.append('TREE_HASH 清单 %s 复算 %s' % (m.get('tree_hash'), th))
+
+          listed = {e['path'] for e in m.get('files', [])}
+          allowed = {'publish_manifest.json', 'README.md', '.gitignore', '.gitattributes'}
+          for p in root.rglob('*'):
+              if not p.is_file():
+                  continue
+              rel = p.relative_to(root).as_posix()
+              if rel.split('/')[0] in ('.git', '.github'):
+                  continue
+              if rel not in listed and rel not in allowed:
+                  bad.append('EXTRA ' + rel)
+
+          if bad:
+              print('FAIL')
+              for b in bad:
+                  print('  ' + b)
+              sys.exit(2)
+          print('OK files=%d tree_hash=%s' % (len(m.get('files', [])), th))
+          PY
