@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0",
   "generator": "publish_face.py v0.1.1",
-  "generated_at": "2026-11-12T18:23:52+08:00",
+  "generated_at": "2026-11-12T18:33:29+08:00",
   "stage": "spec",
   "units": [],
   "source_root": "${JOURNAL_ROOT}",
