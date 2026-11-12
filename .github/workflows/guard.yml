@@ -46,7 +46,7 @@ jobs:
               bad.append('TREE_HASH 清单 %s 复算 %s' % (m.get('tree_hash'), th))
 
           listed = {e['path'] for e in m.get('files', [])}
-          allowed = {'publish_manifest.json', 'README.md', '.gitignore', '.gitattributes'}
+          allowed = {'publish_manifest.json', '.gitignore', '.gitattributes'}
           for p in root.rglob('*'):
               if not p.is_file():
                   continue
