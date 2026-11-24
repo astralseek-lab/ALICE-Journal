@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0",
-  "generator": "publish_face.py v0.3.2",
-  "generated_at": "2026-11-24T21:16:29+08:00",
+  "generator": "publish_face.py v0.3.3",
+  "generated_at": "2026-11-24T21:22:02+08:00",
   "stage": "object",
   "units": [
     "ALICE-2026-0001",
@@ -20,35 +20,11 @@
     "ALICE-2026-0014"
   ],
   "source_root": "${JOURNAL_ROOT}",
-  "tree_hash": "656d6d8c7a6a478c396ea9b28b3a5a9abe97e9f4e14a6c03592bfa387109f864",
-  "file_count": 522,
-  "total_bytes": 27370162,
+  "tree_hash": "bbe806fc5ddc405bb4292c46defb472bcfa73c4c96467763cc92bc5aa4246e73",
+  "file_count": 519,
+  "total_bytes": 27354974,
   "redactions": [],
   "files": [
-    {
-      "path": "docs/intake-qa/Intake-QA-2026-11-24-01_BCT-batch.md",
-      "bytes": 6999,
-      "sha256": "fb4c640e8f0139ea7e80f1bc6644b87851fa6be801e1b653a8196d02a50ab1a9",
-      "source": "docs/intake-qa/Intake-QA-2026-11-24-01_BCT-batch.md",
-      "source_sha256": "fb4c640e8f0139ea7e80f1bc6644b87851fa6be801e1b653a8196d02a50ab1a9",
-      "normalized": false
-    },
-    {
-      "path": "docs/intake-qa/Intake-QA-2026-11-24-02_public-README.md",
-      "bytes": 4514,
-      "sha256": "6ce363b326c1f0524b33951035af3fd47bba5ce422105d41eabb4982b138be15",
-      "source": "docs/intake-qa/Intake-QA-2026-11-24-02_public-README.md",
-      "source_sha256": "6ce363b326c1f0524b33951035af3fd47bba5ce422105d41eabb4982b138be15",
-      "normalized": false
-    },
-    {
-      "path": "docs/intake-qa/Intake-QA-2026-11-24-03_english-only.md",
-      "bytes": 3675,
-      "sha256": "3e2516a4b4906f50ee20993656515b877c45236c451a7161a0bccac8b218943d",
-      "source": "docs/intake-qa/Intake-QA-2026-11-24-03_english-only.md",
-      "source_sha256": "3e2516a4b4906f50ee20993656515b877c45236c451a7161a0bccac8b218943d",
-      "normalized": false
-    },
     {
       "path": "README.md",
       "bytes": 2709,
