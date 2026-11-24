@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0",
-  "generator": "publish_face.py v0.3.0",
-  "generated_at": "2026-11-24T20:42:15+08:00",
+  "generator": "publish_face.py v0.3.1",
+  "generated_at": "2026-11-24T21:06:36+08:00",
   "stage": "object",
   "units": [
     "ALICE-2026-0001",
@@ -20,9 +20,9 @@
     "ALICE-2026-0014"
   ],
   "source_root": "${JOURNAL_ROOT}",
-  "tree_hash": "db8c3fd532fdf1a20a554d0b5db25aef7c45ec3f26dbad1736547c08c6e71daa",
-  "file_count": 519,
-  "total_bytes": 27358015,
+  "tree_hash": "6b2b79d9fa319c64f7a73db930513f6e5258b16f400ddfb0ce346fd00f281517",
+  "file_count": 521,
+  "total_bytes": 27364079,
   "redactions": [],
   "files": [
     {
@@ -31,6 +31,22 @@
       "sha256": "44d507b53116591bd69f9e359db6e36ea460d0f23d65d3df23e00dcfed4f38df",
       "source": "00_规范/入库QA/入库QA_ALICE-2026本体BCT批_20261124.md",
       "source_sha256": "44d507b53116591bd69f9e359db6e36ea460d0f23d65d3df23e00dcfed4f38df",
+      "normalized": false
+    },
+    {
+      "path": "00_规范/入库QA/入库QA_公开面README_20261124.md",
+      "bytes": 3355,
+      "sha256": "8b084d7afee1c93a7b8ef9f39d79ec8335f334567f1af2d45771e5e0ef081c55",
+      "source": "00_规范/入库QA/入库QA_公开面README_20261124.md",
+      "source_sha256": "8b084d7afee1c93a7b8ef9f39d79ec8335f334567f1af2d45771e5e0ef081c55",
+      "normalized": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 2709,
+      "sha256": "18aebed64b5d632fe4a6b9a2121d9360b2b9a852eb89c3d8996365584d5777b1",
+      "source": "README.md",
+      "source_sha256": "18aebed64b5d632fe4a6b9a2121d9360b2b9a852eb89c3d8996365584d5777b1",
       "normalized": false
     },
     {
