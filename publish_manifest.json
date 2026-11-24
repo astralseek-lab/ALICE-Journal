@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0",
-  "generator": "publish_face.py v0.3.1",
-  "generated_at": "2026-11-24T21:06:36+08:00",
+  "generator": "publish_face.py v0.3.2",
+  "generated_at": "2026-11-24T21:16:29+08:00",
   "stage": "object",
   "units": [
     "ALICE-2026-0001",
@@ -20,25 +20,33 @@
     "ALICE-2026-0014"
   ],
   "source_root": "${JOURNAL_ROOT}",
-  "tree_hash": "6b2b79d9fa319c64f7a73db930513f6e5258b16f400ddfb0ce346fd00f281517",
-  "file_count": 521,
-  "total_bytes": 27364079,
+  "tree_hash": "656d6d8c7a6a478c396ea9b28b3a5a9abe97e9f4e14a6c03592bfa387109f864",
+  "file_count": 522,
+  "total_bytes": 27370162,
   "redactions": [],
   "files": [
     {
-      "path": "00_规范/入库QA/入库QA_ALICE-2026本体BCT批_20261124.md",
-      "bytes": 5750,
-      "sha256": "44d507b53116591bd69f9e359db6e36ea460d0f23d65d3df23e00dcfed4f38df",
-      "source": "00_规范/入库QA/入库QA_ALICE-2026本体BCT批_20261124.md",
-      "source_sha256": "44d507b53116591bd69f9e359db6e36ea460d0f23d65d3df23e00dcfed4f38df",
+      "path": "docs/intake-qa/Intake-QA-2026-11-24-01_BCT-batch.md",
+      "bytes": 6999,
+      "sha256": "fb4c640e8f0139ea7e80f1bc6644b87851fa6be801e1b653a8196d02a50ab1a9",
+      "source": "docs/intake-qa/Intake-QA-2026-11-24-01_BCT-batch.md",
+      "source_sha256": "fb4c640e8f0139ea7e80f1bc6644b87851fa6be801e1b653a8196d02a50ab1a9",
       "normalized": false
     },
     {
-      "path": "00_规范/入库QA/入库QA_公开面README_20261124.md",
-      "bytes": 3355,
-      "sha256": "8b084d7afee1c93a7b8ef9f39d79ec8335f334567f1af2d45771e5e0ef081c55",
-      "source": "00_规范/入库QA/入库QA_公开面README_20261124.md",
-      "source_sha256": "8b084d7afee1c93a7b8ef9f39d79ec8335f334567f1af2d45771e5e0ef081c55",
+      "path": "docs/intake-qa/Intake-QA-2026-11-24-02_public-README.md",
+      "bytes": 4514,
+      "sha256": "6ce363b326c1f0524b33951035af3fd47bba5ce422105d41eabb4982b138be15",
+      "source": "docs/intake-qa/Intake-QA-2026-11-24-02_public-README.md",
+      "source_sha256": "6ce363b326c1f0524b33951035af3fd47bba5ce422105d41eabb4982b138be15",
+      "normalized": false
+    },
+    {
+      "path": "docs/intake-qa/Intake-QA-2026-11-24-03_english-only.md",
+      "bytes": 3675,
+      "sha256": "3e2516a4b4906f50ee20993656515b877c45236c451a7161a0bccac8b218943d",
+      "source": "docs/intake-qa/Intake-QA-2026-11-24-03_english-only.md",
+      "source_sha256": "3e2516a4b4906f50ee20993656515b877c45236c451a7161a0bccac8b218943d",
       "normalized": false
     },
     {
