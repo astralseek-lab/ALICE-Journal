@@ -1,0 +1,50 @@
+{
+  "L1": {
+    "file": "code/schedule_k.py",
+    "entry": "l1_local_classes",
+    "lines": [
+      12,
+      14
+    ]
+  },
+  "L2": {
+    "file": "code/schedule_k.py",
+    "entry": "l2_subclass_edges",
+    "lines": [
+      17,
+      19
+    ]
+  },
+  "L3": {
+    "file": "code/schedule_k.py",
+    "entry": "l3_object_properties",
+    "lines": [
+      22,
+      24
+    ]
+  },
+  "L4": {
+    "file": "code/schedule_k.py",
+    "entry": "l4_annotation_properties",
+    "lines": [
+      27,
+      29
+    ]
+  },
+  "L5": {
+    "file": "code/schedule_k.py",
+    "entry": "l5_max_depth",
+    "lines": [
+      32,
+      34
+    ]
+  },
+  "L6": {
+    "file": "code/schedule_k.py",
+    "entry": "l6_leaf_classes",
+    "lines": [
+      37,
+      39
+    ]
+  }
+}

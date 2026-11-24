@@ -1,0 +1,94 @@
+{
+  "rule": "按页范围＋出现顺序取：八条标题（含 Step N: 前缀与尾巴词）在压空白后的 p1–p31 抽取面各恰出现一次；禁全文数 Step 串、禁按段名去重、禁只看节标题。实现：code/recount.py::recount_quantity（params quantity=steps、protocol_pages=8-13），按步号在声明页范围内文档序去重、验连续后计步数",
+  "source": "paper_text.txt 页 8-13；声明块 sha256=e692f1ba4df94e4628ce58978643443f23f392e125fb09bda6b5228aaa0d62cc（即该件全串 sha256）",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "step_1",
+      "title": "Step 1: Specifying the scope of the ontology The scope of the HBO was determined",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p8@Step 1: Specifying the scope of the ontology The scope of the HBO was determined",
+      "evidence_loc": "paper_text.txt#L8-L8",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 2,
+      "label": "step_2",
+      "title": "Step 2: Identifying candidate",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p8@Step 2: Identifying candidate",
+      "evidence_loc": "paper_text.txt#L8-L8",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 3,
+      "label": "step_3",
+      "title": "Step 3: Refining the ontology by applying it to relevant literature We",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p8@Step 3: Refining the ontology by applying it to relevant literature We",
+      "evidence_loc": "paper_text.txt#L8-L8",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 4,
+      "label": "step_4",
+      "title": "Step 4: Expert stakeholder review We",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p10@Step 4: Expert stakeholder review We",
+      "evidence_loc": "paper_text.txt#L10-L10",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 5,
+      "label": "step_5",
+      "title": "Step 5: Testing inter-rater reliability of researchers applying the ontology to annotate research reports To",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p11@Step 5: Testing inter-rater reliability of researchers applying the ontology to annotate research reports To",
+      "evidence_loc": "paper_text.txt#L11-L11",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 6,
+      "label": "step_6",
+      "title": "Step 6: Revising classes and adding relations between classes To structure the classes",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p12@Step 6: Revising classes and adding relations between classes To structure the classes",
+      "evidence_loc": "paper_text.txt#L12-L12",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 7,
+      "label": "step_7",
+      "title": "Step 7: Reviewing the ontology’s coverage by annotating constructs in behavioural theories The",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p12@Step 7: Reviewing the ontology’s coverage by annotating constructs in behavioural theories The",
+      "evidence_loc": "paper_text.txt#L12-L12",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 8,
+      "label": "step_8",
+      "title": "Step 8: Making the ontology machine-readable and available online When",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p13@Step 8: Making the ontology machine-readable and available online When",
+      "evidence_loc": "paper_text.txt#L13-L13",
+      "input": null,
+      "output": null
+    }
+  ]
+}

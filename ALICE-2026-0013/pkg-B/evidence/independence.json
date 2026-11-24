@@ -1,0 +1,6 @@
+{
+  "source": "pkg-B 为独立第二实现：iterparse 事件流读 XML、列名→列号逐字解析、手写 token 状态机、自行流式切节；未读 pkg-A 任何件",
+  "shared_code_with_a": false,
+  "entry": "code/measure.py::compute_all",
+  "signer_pkg_id": "ALICE-2026-0013/pkg-B"
+}

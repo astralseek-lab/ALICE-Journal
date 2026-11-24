@@ -1,0 +1,137 @@
+{
+  "task_id": "ALICE-2026-0014",
+  "pkg_id": "alice-pkg:ALICE-2026-0014/pkg-B",
+  "grade": "native",
+  "entry": "code/metrics.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "paper_text",
+        "uri": "paper_text.txt",
+        "bytes": 64283,
+        "sha256": "9f82fcfefb54ab608747a391e0421e56cd368e3b5503cb71decc10a911ace73e"
+      },
+      {
+        "slug": "fulltext",
+        "uri": "fulltext.pdf",
+        "bytes": 426749,
+        "sha256": "c4b925e9b29bca84d998e266306413874ee8854a4bc1cebced6a827867d2f517"
+      },
+      {
+        "slug": "esm1",
+        "uri": "esm1.docx",
+        "bytes": 77922,
+        "sha256": "fb8719a38a861626a12fd09828c0e8f16eb11f0482a0a8fc3590b4c4ceb90fc2"
+      },
+      {
+        "slug": "terms_bct_v1",
+        "uri": "terms_bct_v1.csv",
+        "bytes": 42798,
+        "sha256": "8560360ab02e4a8b7eff38a5efb5dbe504e348add85fad8c849d741d6bdcf100"
+      }
+    ],
+    "hooks": []
+  },
+  "params": {
+    "peer_held": [],
+    "readings_names": [
+      "min_items_per_cluster",
+      "empty_definition_count",
+      "pdf_pages",
+      "docx_tables",
+      "self_report_unmeasured"
+    ],
+    "reads_count": 5
+  },
+  "budget": {
+    "cpu_s": 0.482,
+    "gpu_s": 0,
+    "wall_clock_s": 0.482,
+    "cost_cny": 0
+  },
+  "judge": {
+    "metric": "exact_integer_match",
+    "band": "0",
+    "tolerance_reason": "K 量为整数计数，实测值唯一，无容差"
+  },
+  "quoted": [
+    {
+      "id": "A01",
+      "value": 93,
+      "source": "fulltext.pdf#p1#s8",
+      "locator": ""
+    },
+    {
+      "id": "A02",
+      "value": 16,
+      "source": "fulltext.pdf#p9#s6",
+      "locator": ""
+    },
+    {
+      "id": "A03",
+      "value": "Hierarchically Clustered Techniques",
+      "source": "fulltext.pdf#p1#s1",
+      "locator": ""
+    },
+    {
+      "id": "A04",
+      "value": "Table 4 Hierarchical structure labeling (step 6): frequency of words from labels given by participants (conjunctions removed)",
+      "source": "fulltext.pdf#p11",
+      "locator": ""
+    },
+    {
+      "id": "A05",
+      "value": "Table 5 Results of hierarchical cluster analysis of behavior change techniques (step 6): grouping within the 16 cluster solution, approxi- mately unbiased p values (AU), and standard errors",
+      "source": "fulltext.pdf#p12",
+      "locator": ""
+    },
+    {
+      "id": "A06",
+      "value": "No.",
+      "source": "esm1.docx#tbl@4#header",
+      "locator": ""
+    },
+    {
+      "id": "A07",
+      "value": "Method",
+      "source": "fulltext.pdf#p3",
+      "locator": "全文第 2/2 处"
+    },
+    {
+      "id": "A08",
+      "value": "Results",
+      "source": "fulltext.pdf#p6",
+      "locator": "全文第 2/5 处"
+    },
+    {
+      "id": "A09",
+      "value": "Discussion",
+      "source": "fulltext.pdf#p9#s1",
+      "locator": ""
+    },
+    {
+      "id": "A10",
+      "value": "1. Goals and planning",
+      "source": "esm1.docx#tbl@4#r1",
+      "locator": ""
+    },
+    {
+      "id": "A11",
+      "value": "16. Covert learning",
+      "source": "esm1.docx#tbl@4#r106",
+      "locator": ""
+    },
+    {
+      "id": "A12",
+      "value": "Published online: 20 March 2013",
+      "source": "fulltext.pdf#p1#s3",
+      "locator": ""
+    },
+    {
+      "id": "A13",
+      "value": "Step number",
+      "source": "esm1.docx#tbl@2#header",
+      "locator": "全文第 1/8 处"
+    }
+  ]
+}

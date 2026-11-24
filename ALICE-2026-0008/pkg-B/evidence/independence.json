@@ -1,0 +1,6 @@
+{
+  "entry": "code/sod_metrics.py",
+  "shared_code_with_a": false,
+  "signer_pkg_id": "pkg-B",
+  "source": "独立第二实现：xml.dom.minidom 解析＋显式栈迭代＋流式一次过计数＋urlsplit 划界；未 import／未读取 pkg-A 的任何文件"
+}

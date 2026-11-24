@@ -1,0 +1,111 @@
+{
+ "task_id": "ALICE-2026-0005",
+ "grade": "native",
+ "entry": "code/quant_a.py",
+ "chain": {
+  "upstream": [
+   {
+    "slug": "paper_text",
+    "uri": "https://inputs.alice-journal.invalid/ALICE-2026-0005/paper_text.txt",
+    "bytes": 38004,
+    "sha256": "74e892ac391690c25c668db4e23fbd2c0db9fcacc8308adfd55eeefed7d75da0"
+   },
+   {
+    "slug": "bcio_upper_level",
+    "uri": "https://inputs.alice-journal.invalid/ALICE-2026-0005/bcio_upper_level.owl",
+    "bytes": 461217,
+    "sha256": "b7d1d80ce1758900f71d884ab0930d5d348dcf839984a8ff4dd1b19ba1e915fe"
+   },
+   {
+    "slug": "bcio_style",
+    "uri": "https://inputs.alice-journal.invalid/ALICE-2026-0005/bcio_style.owl",
+    "bytes": 1209886,
+    "sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5"
+   }
+  ]
+ },
+ "params": {},
+ "budget": {
+  "cpu_s": 60.0,
+  "gpu_s": 0.0,
+  "wall_clock_s": 300.0,
+  "cost_cny": 0.0
+ },
+ "judge": {
+  "metric": "exact_match",
+  "band": "0",
+  "tolerance_reason": "整数量、严格相等（判据 20 以入口实返定位，无容差）"
+ },
+ "quoted": [
+  {
+   "id": "A01",
+   "value": 12,
+   "source": "paper_text.txt#L39"
+  },
+  {
+   "id": "A02",
+   "value": 21,
+   "source": "paper_text.txt#L58",
+   "locator": "#s3"
+  },
+  {
+   "id": "A03",
+   "value": 10,
+   "source": "paper_text.txt#L58",
+   "locator": "#s4"
+  },
+  {
+   "id": "A04",
+   "value": "Figure 1. Stages of development of the upper-level Behaviour Change Intervention Ontology.",
+   "source": "paper_text.txt#L18"
+  },
+  {
+   "id": "A05",
+   "value": "Figure 2. Initial schematic of upper-level Behaviour Change Intervention Ontology: scenario entities and causal connections.",
+   "source": "paper_text.txt#L40"
+  },
+  {
+   "id": "A06",
+   "value": "Figure 3. Entities and relationships that are central to the Behaviour Change Intervention Ontology (BCIO) V1.4.",
+   "source": "paper_text.txt#L59"
+  },
+  {
+   "id": "A07",
+   "value": "Methods",
+   "source": "paper_text.txt#L16"
+  },
+  {
+   "id": "A08",
+   "value": "Results",
+   "source": "paper_text.txt#L36"
+  },
+  {
+   "id": "A09",
+   "value": "Discussions and conclusions",
+   "source": "paper_text.txt#L71"
+  },
+  {
+   "id": "A10",
+   "value": "Initial drafting of entities and relationships in a causal model",
+   "source": "paper_text.txt#L19"
+  },
+  {
+   "id": "A11",
+   "value": "Creation of a sustainability plan",
+   "source": "paper_text.txt#L34",
+   "locator": "取第 1/2 处"
+  },
+  {
+   "id": "A12",
+   "value": "http://humanbehaviourchange.org/ontology/bcio_upper_level.owl/2026-11-10",
+   "source": "bcio_upper_level.owl#http://humanbehaviourchange.org/ontology/bcio_upper_level.owl/2026-11-10",
+   "locator": "rdf:resource=\"http://humanbehaviourchange.org/ontology/bcio_upper_level.owl/2026-11-10\""
+  },
+  {
+   "id": "A13",
+   "value": "http://humanbehaviourchange.org/ontology/bcio_upper_level.owl",
+   "source": "bcio_upper_level.owl#http://humanbehaviourchange.org/ontology/bcio_upper_level.owl",
+   "locator": "rdf:about=\"http://humanbehaviourchange.org/ontology/bcio_upper_level.owl\""
+  }
+ ]
+}

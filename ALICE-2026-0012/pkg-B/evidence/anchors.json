@@ -1,0 +1,71 @@
+[
+  {
+    "id": "A01",
+    "value": 14,
+    "source": "paper_text.txt#L25",
+    "locator": "首句；定位串止于取值之前"
+  },
+  {
+    "id": "A02",
+    "value": "A data extraction template for the behaviour change intervention ontology",
+    "source": "fulltext__PMC11170071.xml#front/article-meta/title-group/article-title"
+  },
+  {
+    "id": "A03",
+    "value": "four",
+    "source": "fulltext__PMC11170071.xml#front/article-meta/abstract[not(@abstract-type)]",
+    "locator": "developed in 之后紧接的英文数词"
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Forward citation searching for BCIO data extraction on Google Scholar.",
+    "source": "paper_text.txt#L15"
+  },
+  {
+    "id": "A05",
+    "value": "Table A1. Glossary of terms.",
+    "source": "paper.pdf#p12"
+  },
+  {
+    "id": "A06",
+    "value": "Behaviour Change Intervention Ontology (BCIO) data extraction template (v1)",
+    "source": "bcio_data_extraction_template_v1.xlsx#Intro#r1"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L10"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L23"
+  },
+  {
+    "id": "A09",
+    "value": "Discussion",
+    "source": "paper_text.txt#L34"
+  },
+  {
+    "id": "A10",
+    "value": "i) Scoping review of papers citing the BCIO",
+    "source": "paper_text.txt#L13",
+    "locator": "第 1/2 处"
+  },
+  {
+    "id": "A11",
+    "value": "iv) Launch and maintenance of data extraction template",
+    "source": "paper_text.txt#L21"
+  },
+  {
+    "id": "A12",
+    "value": "12/3/25",
+    "source": "bcio_data_extraction_template_v1.xlsx#Intro#r4",
+    "locator": "current as of 之后紧接的日期串"
+  },
+  {
+    "id": "A13",
+    "value": "168",
+    "source": "fulltext__PMC11170071.xml#front/article-meta/elocation-id"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "name": "L3_local",
+    "kind": "scalar",
+    "value": 21,
+    "sha256": "e08d959eb7a16a4cb5eaa8aefba60fb312cb3344fe789ecd148511a5cde5ac7b"
+  },
+  {
+    "name": "L4_local",
+    "kind": "scalar",
+    "value": 0,
+    "sha256": "3adb324f1f6390ca51b0d9123ad060721318343c7e4ef496ea9d1883a0db5c8c"
+  },
+  {
+    "name": "L5_alt",
+    "kind": "scalar",
+    "value": 7,
+    "sha256": "2c171c7cb3e4522c201970663d5ae4c3906ddad0bba915f6f3692f3cc85480ed"
+  },
+  {
+    "name": "L5_selfcheck",
+    "kind": "scalar",
+    "value": 0,
+    "sha256": "c8d0e5556b5455dde1137df5928fe85da1b92729842eb3a5c90972f8a0b3bcdf"
+  },
+  {
+    "name": "L6_alt",
+    "kind": "scalar",
+    "value": 954,
+    "sha256": "48a39e08ac7d2c046718b6e8adf5fe6327a792a1186b55e55c5d140882c4f0fb"
+  },
+  {
+    "name": "anonymous_class",
+    "kind": "scalar",
+    "value": 13,
+    "sha256": "8caf745642b959aa064ca0851e11f552d045aea457c4b1f6abc9d0126674dfd2"
+  },
+  {
+    "name": "anonymous_class_direct",
+    "kind": "scalar",
+    "value": 0,
+    "sha256": "a7eb9594235c3e767b41499c1dd768a70c739513b4f6b7e374ffb3001901126b"
+  },
+  {
+    "name": "self_report_unmeasured",
+    "kind": "map",
+    "value": {
+      "A02": 0.77,
+      "A03": 100
+    },
+    "sha256": "42c365e6428bfe65b0a1c6eb1f2281da058a6b9a8e280339982320dfb2b2e47f"
+  }
+]

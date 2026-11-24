@@ -1,0 +1,32 @@
+[
+  {
+    "role": "corpus",
+    "uri": "paper_text.txt",
+    "bytes": 18177,
+    "sha256": "63cf2c53bf1bc68c465d6632de73a2e0d387e228c3d4bb2ec387dce51cbe4442"
+  },
+  {
+    "role": "corpus",
+    "uri": "fulltext__PMC11170071.xml",
+    "bytes": 138022,
+    "sha256": "8af998ec1012781a030c387db8d52ef79f083a1525bdfe005e9b05dd8ebe8600"
+  },
+  {
+    "role": "esm",
+    "uri": "bcio_data_extraction_template_v1.xlsx",
+    "bytes": 185377,
+    "sha256": "9a8326ed4efe09d11c0c53a6fa1f1bc68979871689ef48def0f4e3b6d2598acc"
+  },
+  {
+    "role": "pdf",
+    "uri": "paper.pdf",
+    "bytes": 781665,
+    "sha256": "ca6cbf152a5369904648856df6295ef5bf3733d85463785dc3888fd97b9a8e7f"
+  },
+  {
+    "role": "esm",
+    "uri": "table_template_v1.csv",
+    "bytes": 384741,
+    "sha256": "462249cbcdfd5d34ecdb406a93130292ab9a1d84a8f156fc3ad4ec208759527d"
+  }
+]

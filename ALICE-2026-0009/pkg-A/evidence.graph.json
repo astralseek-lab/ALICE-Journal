@@ -1,0 +1,318 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0009",
+  "nodes": [
+    {
+      "id": "ALICE-2026-0009#n_in_paper",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 49854,
+      "sha256": "ec2209dfd5c078badf0b9e8b8f5d89cd93ffd41db9f64444bc78202dbe3e530f",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_in_schedule",
+      "kind": "input",
+      "ref": "ext:bcio_schedule",
+      "bytes": 509012,
+      "sha256": "e256f4082bf8bc91466f58723e16d535c6549263ed1418449f927760be4fc518",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_in_upper_level",
+      "kind": "input",
+      "ref": "ext:bcio_upper_level",
+      "bytes": 461217,
+      "sha256": "b7d1d80ce1758900f71d884ab0930d5d348dcf839984a8ff4dd1b19ba1e915fe",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_in_mode_of_delivery",
+      "kind": "input",
+      "ref": "ext:bcio_mode_of_delivery",
+      "bytes": 501500,
+      "sha256": "2f1fc5df0b208eb430e3a52c4a0e083206570778ec4dfe08c40e161a7f5857d9",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_code_k",
+      "kind": "code",
+      "value": {
+        "path": "code/schedule_k.py"
+      },
+      "bytes": 1600,
+      "sha256": "36f2d7eb07130c39e9beea581105426216859ba36bcbc1bf2b9458ff22157c09",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_code_build",
+      "kind": "code",
+      "value": {
+        "path": "code/build_artifacts.py"
+      },
+      "bytes": 15386,
+      "sha256": "c043241caa6cb166cf0ff6d9986719ac7189da4622d2afcc21ee71eecb1efaf2",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_l1",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_schedule"
+      ],
+      "transform": {
+        "code": "code/schedule_k.py",
+        "entry": "l1_local_classes",
+        "params": {}
+      },
+      "value": {
+        "v": 114
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_l2",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_schedule"
+      ],
+      "transform": {
+        "code": "code/schedule_k.py",
+        "entry": "l2_subclass_edges",
+        "params": {}
+      },
+      "value": {
+        "v": 303
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_l3",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_schedule"
+      ],
+      "transform": {
+        "code": "code/schedule_k.py",
+        "entry": "l3_object_properties",
+        "params": {}
+      },
+      "value": {
+        "v": 50
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_l4",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_schedule"
+      ],
+      "transform": {
+        "code": "code/schedule_k.py",
+        "entry": "l4_annotation_properties",
+        "params": {}
+      },
+      "value": {
+        "v": 56
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_l5",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_schedule"
+      ],
+      "transform": {
+        "code": "code/schedule_k.py",
+        "entry": "l5_max_depth",
+        "params": {}
+      },
+      "value": {
+        "v": 8
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_l6",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_schedule"
+      ],
+      "transform": {
+        "code": "code/schedule_k.py",
+        "entry": "l6_leaf_classes",
+        "params": {}
+      },
+      "value": {
+        "v": 75
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_gen_ns",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_schedule"
+      ],
+      "transform": {
+        "code": "code/build_artifacts.py",
+        "entry": "gen_ns_json",
+        "params": {}
+      },
+      "value": {
+        "v": 114
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_gen_anchors",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_paper",
+        "ALICE-2026-0009#n_in_schedule"
+      ],
+      "transform": {
+        "code": "code/build_artifacts.py",
+        "entry": "gen_anchors_json",
+        "params": {}
+      },
+      "value": {
+        "v": 13
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_gen_protocol",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_in_paper"
+      ],
+      "transform": {
+        "code": "code/build_artifacts.py",
+        "entry": "gen_protocol_json",
+        "params": {}
+      },
+      "value": {
+        "v": 7
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0009#n_gen_entries",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0009#n_code_k"
+      ],
+      "transform": {
+        "code": "code/build_artifacts.py",
+        "entry": "gen_entries_json",
+        "params": {}
+      },
+      "value": {
+        "v": 6
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "ALICE-2026-0009#n_in_schedule",
+      "to": "ALICE-2026-0009#n_l1",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_schedule",
+      "to": "ALICE-2026-0009#n_l2",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_schedule",
+      "to": "ALICE-2026-0009#n_l3",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_schedule",
+      "to": "ALICE-2026-0009#n_l4",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_schedule",
+      "to": "ALICE-2026-0009#n_l5",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_schedule",
+      "to": "ALICE-2026-0009#n_l6",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_schedule",
+      "to": "ALICE-2026-0009#n_gen_ns",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_paper",
+      "to": "ALICE-2026-0009#n_gen_anchors",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_schedule",
+      "to": "ALICE-2026-0009#n_gen_anchors",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_in_paper",
+      "to": "ALICE-2026-0009#n_gen_protocol",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0009#n_code_k",
+      "to": "ALICE-2026-0009#n_gen_entries",
+      "type": "derived_from"
+    }
+  ]
+}

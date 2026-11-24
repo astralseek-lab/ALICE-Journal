@@ -1,0 +1,21 @@
+[
+  {
+    "role": "corpus",
+    "uri": "paper_text.txt",
+    "doi": "10.12688/wellcomeopenres.19363.2",
+    "bytes": 44806,
+    "sha256": "a6fe460aa7d0da00eed75a669953651e883eaf3084084126caeb6f97be3a86e0"
+  },
+  {
+    "role": "ontology",
+    "uri": "bcto.owl",
+    "bytes": 681847,
+    "sha256": "764eec11410da13f3013678db201e7ebeb93367d5cb67a60cce04da822ded206"
+  },
+  {
+    "role": "corpus",
+    "uri": "fulltext__PMC10427801.xml",
+    "bytes": 213966,
+    "sha256": "49cc0eef5df08006be149b9333dc750f5f5034bf9a421f2bec84ee85b80b9f71"
+  }
+]

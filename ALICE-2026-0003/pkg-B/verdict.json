@@ -1,0 +1,220 @@
+{
+  "schema": "alice-b-verdict/1",
+  "task_id": "ALICE-2026-0003",
+  "result": "pass",
+  "inputs": {
+    "bcio_mode_of_delivery.owl": {
+      "bytes": 501500,
+      "sha256": "2f1fc5df0b208eb430e3a52c4a0e083206570778ec4dfe08c40e161a7f5857d9"
+    },
+    "paper_text.txt": {
+      "bytes": 32852,
+      "sha256": "1dadec645e41a0a44764535c662518ee0ba8303721aac74ca4bd8bf91ce09cd4"
+    },
+    "bcio_upper_level.owl": {
+      "bytes": 461217,
+      "sha256": "b7d1d80ce1758900f71d884ab0930d5d348dcf839984a8ff4dd1b19ba1e915fe"
+    }
+  },
+  "quantities": {
+    "L1_class_local": 135,
+    "L2_subclass_edges": 324,
+    "L3_object_properties": 50,
+    "L4_annotation_properties": 56,
+    "L5_max_depth": 5,
+    "L6_leaf_classes": 93
+  },
+  "impl": {
+    "family": "xml.dom.minidom 建 DOM 后显式栈迭代、单遍累计",
+    "differs_from_A": "第一套实现用 ElementTree 事件流（iterparse）；本包不用它（代码内零引用），遍历为显式栈迭代、计数单遍一次过、IRI 划界用 urlsplit 独立实现"
+  },
+  "anchors": [
+    {
+      "id": "A01",
+      "kind": "number",
+      "source": "paper_text.txt#L50",
+      "value": 65,
+      "line": 50,
+      "quote": "The final MoD Ontology presents a four-level hierarchical structure comprising",
+      "maps_to": "L1_class_local",
+      "mine": 135,
+      "delta": 70,
+      "explained": false,
+      "items_file": "deviations/A01.jsonl",
+      "reason": null
+    },
+    {
+      "id": "A02",
+      "kind": "text",
+      "source": "paper_text.txt#L37",
+      "value": "0.68 to 0.97",
+      "line": 37,
+      "quote": "Inter-rater reliability was calculated for each level of the hierarchy separately and considered to be ‘good’ for all levels (% agreement 86.6 to 97.8; Kappa 0.68 to 0.97)",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "论文自报一致性区间（str），六量中无同义实测端"
+    },
+    {
+      "id": "A03",
+      "kind": "number",
+      "source": "paper_text.txt#L43",
+      "value": 16,
+      "line": 43,
+      "quote": "Feedback was received from",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "论文自报专家回收份数，六量中无同义实测端"
+    },
+    {
+      "id": "A04",
+      "kind": "text",
+      "source": "paper_text.txt#L7",
+      "value": "Table 1. Glossary.",
+      "line": 7,
+      "quote": "Table 1. Glossary.",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "表题（术语表），语料表题不作六量实测端"
+    },
+    {
+      "id": "A05",
+      "kind": "text",
+      "source": "paper_text.txt#L17",
+      "value": "Table 2. Steps for developing the Mode of Delivery Ontology.",
+      "line": 17,
+      "quote": "Table 2. Steps for developing the Mode of Delivery Ontology.",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "表题（开发步骤表），不作六量实测端"
+    },
+    {
+      "id": "A06",
+      "kind": "text",
+      "source": "paper_text.txt#L51",
+      "value": "Table 3. Entity labels, definitions, URIs and examples of usage for Mode of Delivery Ontology entities.",
+      "line": 51,
+      "quote": "Table 3. Entity labels, definitions, URIs and examples of usage for Mode of Delivery Ontology entities.",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "表题（实体清单表），不作六量实测端"
+    },
+    {
+      "id": "A07",
+      "kind": "text",
+      "source": "paper_text.txt#L15",
+      "value": "Methods",
+      "line": 15,
+      "quote": "Methods",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "节标题（Methods 起点节界），非六量"
+    },
+    {
+      "id": "A08",
+      "kind": "text",
+      "source": "paper_text.txt#L35",
+      "value": "Results",
+      "line": 35,
+      "quote": "Results",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "节标题（Results 终点节界），非六量"
+    },
+    {
+      "id": "A09",
+      "kind": "text",
+      "source": "paper_text.txt#L53",
+      "value": "Discussion",
+      "line": 53,
+      "quote": "Discussion",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "节标题（Discussion 段界），非六量"
+    },
+    {
+      "id": "A10",
+      "kind": "text",
+      "source": "paper_text.txt#L19",
+      "value": "Step 1: Development of the preliminary ontology and piloting",
+      "line": 19,
+      "quote": "Step 1: Development of the preliminary ontology and piloting",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "Methods 步骤序列首项段名，非六量"
+    },
+    {
+      "id": "A11",
+      "kind": "text",
+      "source": "paper_text.txt#L32",
+      "value": "Step 7: Making the MoD Ontology machine-readable and available online",
+      "line": 32,
+      "quote": "Step 7: Making the MoD Ontology machine-readable and available online",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "Methods 步骤序列末项段名，非六量"
+    },
+    {
+      "id": "A12",
+      "kind": "text",
+      "source": "bcio_mode_of_delivery.owl#http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl/2026-11-10",
+      "value": "http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl/2026-11-10",
+      "line": 22,
+      "quote": "<owl:versionIRI rdf:resource=\"http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl/2026-11-10\"/>",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "本体版本快照 IRI（结构自述，不作识别锚）"
+    },
+    {
+      "id": "A13",
+      "kind": "text",
+      "source": "bcio_mode_of_delivery.owl#http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl",
+      "value": "http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl",
+      "line": 21,
+      "quote": "<owl:Ontology rdf:about=\"http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl\">",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "items_file": null,
+      "reason": "本体身份 IRI（识别锚），非六量"
+    }
+  ],
+  "not_done": [
+    "未做 OWL 推理",
+    "未做双人独立编码",
+    "未重抽语料：JATS XML 主件（fulltext__PMC7993627.xml）不在输入包内，行号依据仍为包内 paper_text.txt"
+  ]
+}

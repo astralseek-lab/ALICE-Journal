@@ -1,0 +1,427 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0006",
+  "nodes": [
+    {
+      "id": "ALICE-2026-0006#n_in_txt",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 29777,
+      "sha256": "f918cfc540e77b673707b451fffe0e03bbf264fb5f7f076aeecafc8dd1e648b5",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#n_in_owl",
+      "kind": "input",
+      "ref": "ext:bcio_setting",
+      "bytes": 497542,
+      "sha256": "9221ca33bd2f7f2160ef858bf306b6427c5a218ffcaf9f838a7459cdf5909a84",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#n_l1",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "l1_local_classes",
+        "params": {}
+      },
+      "value": {
+        "v": 118
+      },
+      "unit": "count",
+      "hook": true,
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#n_l2",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "l2_subclass_edges",
+        "params": {}
+      },
+      "value": {
+        "v": 313
+      },
+      "unit": "count",
+      "hook": true,
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#n_l3",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "l3_object_properties",
+        "params": {}
+      },
+      "value": {
+        "v": 50
+      },
+      "unit": "count",
+      "hook": true,
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#n_l4",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "l4_annotation_properties",
+        "params": {}
+      },
+      "value": {
+        "v": 56
+      },
+      "unit": "count",
+      "hook": true,
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#n_l5",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "l5_max_depth",
+        "params": {}
+      },
+      "value": {
+        "v": 9
+      },
+      "unit": "count",
+      "hook": true,
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#n_l6",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "l6_leaf_classes",
+        "params": {}
+      },
+      "value": {
+        "v": 78
+      },
+      "unit": "count",
+      "hook": true,
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_ns",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "evidence/ns.json"
+        }
+      },
+      "value": {
+        "path": "evidence/ns.json"
+      },
+      "bytes": 37439,
+      "sha256": "5dc8d4b7e57c27dc216922f36c93e4871511ce4c2a075f26d190ad7d795d9ee5",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_anchors",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_txt",
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "evidence/anchors.json"
+        }
+      },
+      "value": {
+        "path": "evidence/anchors.json"
+      },
+      "bytes": 2120,
+      "sha256": "c44a7528acc26e0ff36823fc92bb1507517a348f812a775d9b5c0932eb4c60c1",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_protocol",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_txt"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "evidence/protocol.json"
+        }
+      },
+      "value": {
+        "path": "evidence/protocol.json"
+      },
+      "bytes": 3719,
+      "sha256": "6fdf6d288c48c143a379dc31307adba31a0e0e20b5eafc7c8b7719bde70f1ea4",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_entries",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "evidence/entries.json"
+        }
+      },
+      "value": {
+        "path": "evidence/entries.json"
+      },
+      "bytes": 737,
+      "sha256": "bd14737d53cff31705d1a2e537df1f114bd21bf27728ca168a89f8a72a90a1c3",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_tiers",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "deviations/tiers.json"
+        }
+      },
+      "value": {
+        "path": "deviations/tiers.json"
+      },
+      "bytes": 46964,
+      "sha256": "b59e5c78cd202d78b8a98564f8e5d49ef6f882d70701c8663ff1f61fdd649117",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_overlap",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "deviations/overlap.json"
+        }
+      },
+      "value": {
+        "path": "deviations/overlap.json"
+      },
+      "bytes": 53,
+      "sha256": "1c666f410cc18e5a5c0627c2819bbe2046688a6d3ee26654b49ba2aab066f1b5",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_contrast",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "deviations/contrast.json"
+        }
+      },
+      "value": {
+        "path": "deviations/contrast.json"
+      },
+      "bytes": 1248,
+      "sha256": "6084f29da5fdcc67dd16de22b0d9a9271d3fbcb9fa7bbfbd98a3c8da767bdaf1",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_readings",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "deviations/readings.json"
+        }
+      },
+      "value": {
+        "path": "deviations/readings.json"
+      },
+      "bytes": 1128,
+      "sha256": "0f20f66b7547d6d3862a3653f1f9d747418aa705f263851af02f6cd097f4e0a8",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0006#a_diff_a01",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0006#n_in_owl"
+      ],
+      "transform": {
+        "code": "code/quant_a.py",
+        "entry": "emit_artifacts",
+        "params": {
+          "only": "deviations/diff_A01.json"
+        }
+      },
+      "value": {
+        "path": "deviations/diff_A01.json"
+      },
+      "bytes": 11791,
+      "sha256": "19b35a007a07cade9169f38c4032ef1fc77a0794f39d76355f91ca8c5ba35521",
+      "check": {
+        "mode": "hash"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#n_l1",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#n_l2",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#n_l3",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#n_l4",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#n_l5",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#n_l6",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#a_ns",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_txt",
+      "to": "ALICE-2026-0006#a_anchors",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#a_anchors",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_txt",
+      "to": "ALICE-2026-0006#a_protocol",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#a_entries",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#a_tiers",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#a_overlap",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#a_contrast",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#a_readings",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0006#n_in_owl",
+      "to": "ALICE-2026-0006#a_diff_a01",
+      "type": "derived_from"
+    }
+  ]
+}

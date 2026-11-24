@@ -1,0 +1,80 @@
+[
+  {
+    "id": "A01",
+    "value": 85,
+    "source": "paper_text.txt#L40",
+    "locator": "L40 内以 From the BCTO, 起头的那一句"
+  },
+  {
+    "id": "A02",
+    "value": 56,
+    "source": "paper_text.txt#L44",
+    "locator": "L44 内以 Drawing on the MoA Ontology’s most recent version 起头的那一句"
+  },
+  {
+    "id": "A03",
+    "value": "Since the first release of the TaTT in 2018",
+    "source": "paper_text.txt#L15",
+    "locator": "压空白后全文唯一处"
+  },
+  {
+    "id": "A04",
+    "value": "Table 2. Mapping the 74 BCTs in the TaTT to the BCTs in the BCTO ( Johnston et al., 2018; Johnston et al., 2021; Marques et al., 2024b; Michie et al., 2013). Note. BCT = Behaviour Change Technique; BCTO = Behaviour Change Technique Ontology; TaTT = Theory and Technique Tool * In these cases, both a class and its subclasses are shown in the mapping. This was done as the subclasses were considered to capture important aspects of a BCT group and would be useful to view in the mapping. ** This BCT has a large number of child classes – please refer to the full BCTO ( https://github.com/HumanBehaviourChangeProject/ontologies/blob/master/BehaviourChangeTechniques/BCIO-bcto-hierarchy.xlsx) for details",
+    "source": "paper_text.txt#L41",
+    "locator": "题注整行（Table 2. Mapping the 起，含 Note. 及脚注，不截断）"
+  },
+  {
+    "id": "A05",
+    "value": "Table 3. Mapping the 26 MoAs in the TaTT to the MoAs in the MoA Ontology ( Johnston et al., 2018; Johnston et al., 2021; Schenk et al., 2024). Note. MoA = Mechanism of Action; MAO = Mechanisms of Action Ontology; TaTT = Theory and Technique Tool * In some cases, both a class and its subclasses are shown in the mapping. This was done, as the relevant subclasses were considered to capture important aspects of an MoA group and would, therefore, be useful to view in the mapping. ** To capture “Optimism” a combination of “Belief about likelihood of consequences of an occurrence” [BCIO:006026] and “Evaluative belief” [BCIO:006038] are needed, as optimism involves beliefs about likelihoods and an evaluative component. It should be noted that “Optimism” can involve beliefs that negative events are unlikely.",
+    "source": "paper_text.txt#L47",
+    "locator": "题注整行（Table 3. Mapping the 起，含 Note. 及脚注，不截断）"
+  },
+  {
+    "id": "A06",
+    "value": "Table 4. Example workflow of using the TaTT, alongside BCIO mapping, during intervention development.",
+    "source": "paper_text.txt#L55",
+    "locator": "题注整行（Table 4. Example workflow 起）"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L27",
+    "locator": "行首独占一行"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L38",
+    "locator": "行首独占一行"
+  },
+  {
+    "id": "A09",
+    "value": "Discussion",
+    "source": "paper_text.txt#L49",
+    "locator": "行首独占一行"
+  },
+  {
+    "id": "A10",
+    "value": "Step 1: Mapping the BCTs from the BCTO to the TaTT",
+    "source": "paper_text.txt#L30",
+    "locator": "全文第 1/2 处（Methods 下；Results 下 L39 重列不计）"
+  },
+  {
+    "id": "A11",
+    "value": "Step 2: Mapping the MoAs from the MoA Ontology to the TaTT",
+    "source": "paper_text.txt#L33",
+    "locator": "全文第 1/2 处（Methods 下；Results 下 L43 重列不计）"
+  },
+  {
+    "id": "A12",
+    "value": "10",
+    "source": "fulltext__PMC12596556.xml#front/article-meta/volume",
+    "locator": "主件 front/article-meta 下（元素值按串自报）"
+  },
+  {
+    "id": "A13",
+    "value": "10.12688/wellcomeopenres.23879.2",
+    "source": "fulltext__PMC12596556.xml#front/article-meta/article-id[@pub-id-type='doi']",
+    "locator": "只取主件 front/article-meta 下那 1 个（全件共 5 个同型元素）"
+  }
+]

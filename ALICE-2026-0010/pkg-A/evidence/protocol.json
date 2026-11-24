@@ -1,0 +1,83 @@
+{
+  "rule": "按页范围＋出现顺序取：在压空白后的 p6–p8 抽取面内按声明块七条标题逐字定位（每条标题在全语料面恰出现一次）；不以 Step 开头的串计数、不按段名全文匹配去重、不以 Methods 小节数充当步数",
+  "source": "paper_text.txt p6-8；声明块 sha256=04fe77169641eaa59ee59ea4af212f7f1c705a1cc678e76931205c6ca055cc3d",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "step_1",
+      "title": "Step 1: defining the scope of the ontology",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p6@Step 1: defining the scope of the ontology",
+      "evidence_loc": "paper_text.txt#L6-L6",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 2,
+      "label": "step_2",
+      "title": "Step 2: identifying key entities and preliminary definitions",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p7@Step 2: identifying key entities and preliminary definitions",
+      "evidence_loc": "paper_text.txt#L7-L7",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 3,
+      "label": "step_3",
+      "title": "Step 3: refinement of the ontology through further literature annotation, discussion and revision",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p7@Step 3: refinement of the ontology through further literature annotation, discussion and revision",
+      "evidence_loc": "paper_text.txt#L7-L7",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 4,
+      "label": "step_4",
+      "title": "Step 4: expert stakeholder review",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p7@Step 4: expert stakeholder review",
+      "evidence_loc": "paper_text.txt#L7-L7",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 5,
+      "label": "step_5",
+      "title": "Step 5: inter-rater reliability of annotations using the intervention population ontology",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p8@Step 5: inter-rater reliability of annotations using the intervention population ontology",
+      "evidence_loc": "paper_text.txt#L8-L8",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 6,
+      "label": "step_6",
+      "title": "Step 6: specifying the relationships between intervention population ontology entities and ensuring alignment with other parts of the BCIO and relevant ontologies",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p8@Step 6: specifying the relationships between intervention population ontology entities and ensuring alignment with other parts of the BCIO and relevant ontologies",
+      "evidence_loc": "paper_text.txt#L8-L8",
+      "input": null,
+      "output": null
+    },
+    {
+      "pos": 7,
+      "label": "step_7",
+      "title": "Step 7: making the intervention population ontology machine-readable and available online",
+      "src": "paper_text.txt",
+      "kind": "page",
+      "target": "paper_text.txt#p8@Step 7: making the intervention population ontology machine-readable and available online",
+      "evidence_loc": "paper_text.txt#L8-L8",
+      "input": null,
+      "output": null
+    }
+  ]
+}

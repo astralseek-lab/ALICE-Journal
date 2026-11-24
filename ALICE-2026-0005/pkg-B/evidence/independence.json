@@ -1,0 +1,6 @@
+{
+ "entry": "code/quant_b.py::emit_artifacts",
+ "shared_code_with_a": false,
+ "signer_pkg_id": "pkg-B",
+ "source": "独立第二实现：minidom 迭代解析、显式栈遍历、流式一次过计数、urlsplit 划界（§5.3bis 十道）"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "A01",
+    "value": 190,
+    "source": "paper_text.txt#L36",
+    "locator": "#s1"
+  },
+  {
+    "id": "A02",
+    "value": 186,
+    "source": "paper_text.txt#L41",
+    "locator": "#s1"
+  },
+  {
+    "id": "A03",
+    "value": 6,
+    "source": "paper_text.txt#L45",
+    "locator": "#s1"
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Glossary.",
+    "source": "paper_text.txt#L6"
+  },
+  {
+    "id": "A05",
+    "value": "Table 2. Entity labels, definitions and examples for all Intervention Source Entities. Note: BCIO = Behaviour Change Intervention Ontology; BFO = Basic Formal Ontology; MF = Mental Functioning Ontology; OBI = Ontology of Biomedical Investigations.",
+    "source": "paper_text.txt#L50"
+  },
+  {
+    "id": "A06",
+    "value": "Name",
+    "source": "paper_text.txt#L51"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L9"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L30"
+  },
+  {
+    "id": "A09",
+    "value": "Conclusion",
+    "source": "paper_text.txt#L63"
+  },
+  {
+    "id": "A10",
+    "value": "Step 1 – Development of the scope and definition of the Intervention Source Ontology",
+    "source": "paper_text.txt#L11"
+  },
+  {
+    "id": "A11",
+    "value": "Step 7 – Disseminating and maintaining the Intervention Source Ontology",
+    "source": "paper_text.txt#L27"
+  },
+  {
+    "id": "A12",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_source.owl/2026-11-10",
+    "source": "bcio_source.owl#http://humanbehaviourchange.org/ontology/bcio_source.owl/2026-11-10",
+    "locator": "rdf:resource=\"http://humanbehaviourchange.org/ontology/bcio_source.owl/2026-11-10\""
+  },
+  {
+    "id": "A13",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_source.owl",
+    "source": "bcio_source.owl#http://humanbehaviourchange.org/ontology/bcio_source.owl",
+    "locator": "rdf:about=\"http://humanbehaviourchange.org/ontology/bcio_source.owl\""
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "task_id": "ALICE-2026-0009",
+  "grade": "native",
+  "entry": "code/sdo_k.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "paper_text",
+        "uri": "file:./paper_text.txt",
+        "bytes": 49854,
+        "sha256": "ec2209dfd5c078badf0b9e8b8f5d89cd93ffd41db9f64444bc78202dbe3e530f"
+      },
+      {
+        "slug": "bcio_schedule",
+        "uri": "file:./bcio_schedule.owl",
+        "bytes": 509012,
+        "sha256": "e256f4082bf8bc91466f58723e16d535c6549263ed1418449f927760be4fc518"
+      },
+      {
+        "slug": "bcio_upper_level",
+        "uri": "file:./bcio_upper_level.owl",
+        "bytes": 461217,
+        "sha256": "b7d1d80ce1758900f71d884ab0930d5d348dcf839984a8ff4dd1b19ba1e915fe"
+      },
+      {
+        "slug": "bcio_mode_of_delivery",
+        "uri": "file:./bcio_mode_of_delivery.owl",
+        "bytes": 501500,
+        "sha256": "2f1fc5df0b208eb430e3a52c4a0e083206570778ec4dfe08c40e161a7f5857d9"
+      }
+    ],
+    "hooks": []
+  },
+  "params": {
+    "peer_held": [
+      "0005",
+      "0003"
+    ],
+    "readings_names": [
+      "L3_local",
+      "L4_local",
+      "L5_alt",
+      "L5_selfcheck",
+      "L6_alt",
+      "dir_class_counts",
+      "initial_version_class_count",
+      "anonymous_class",
+      "self_report_unmeasured"
+    ],
+    "reads_count": 9
+  },
+  "budget": {
+    "cpu_s": 3,
+    "gpu_s": 0,
+    "wall_clock_s": 5,
+    "cost_cny": 0
+  },
+  "judge": {
+    "metric": "六量自算两包同值＋随件判分器在册 21 条逐条过",
+    "band": "整数严格相等（零容差）",
+    "tolerance_reason": "六个 K 量均为确定性整数计数：判据 20 入口实返严格相等、判据 12 两跑同值，无容差需求",
+    "version": "v1.19"
+  },
+  "quoted": [
+    {
+      "id": "A01",
+      "value": 49,
+      "source": "paper_text.txt#L715",
+      "locator": ""
+    },
+    {
+      "id": "A02",
+      "value": 0.54,
+      "source": "paper_text.txt#L85",
+      "locator": ""
+    },
+    {
+      "id": "A03",
+      "value": 17,
+      "source": "paper_text.txt#L642",
+      "locator": ""
+    },
+    {
+      "id": "A04",
+      "value": "Table 1. Glossary of terms.",
+      "source": "paper_text.txt#L259",
+      "locator": ""
+    },
+    {
+      "id": "A05",
+      "value": "Table 2. Behaviour Change Intervention Schedule of Delivery Ontology.",
+      "source": "paper_text.txt#L780",
+      "locator": ""
+    },
+    {
+      "id": "A06",
+      "value": "Specifying the Schedule of Delivery of Interventions within\nthe Behaviour Change Intervention Ontology",
+      "source": "paper_text.txt#p1（第 1/2 处）",
+      "locator": ""
+    },
+    {
+      "id": "A07",
+      "value": "Methods",
+      "source": "paper_text.txt#L357（第 2/2 处）",
+      "locator": ""
+    },
+    {
+      "id": "A08",
+      "value": "Results",
+      "source": "paper_text.txt#L601（第 2/2 处）",
+      "locator": ""
+    },
+    {
+      "id": "A09",
+      "value": "Discussion",
+      "source": "paper_text.txt#L728（第 2/2 处）",
+      "locator": ""
+    },
+    {
+      "id": "A10",
+      "value": "Step 1- Defining the scope of the BCI Schedule of\nDelivery Ontology through literature review",
+      "source": "paper_text.txt#p6（第 1/2 处）",
+      "locator": ""
+    },
+    {
+      "id": "A11",
+      "value": "Step 7 – Making the Schedule of Delivery Ontology\nmachine-readable and available online",
+      "source": "paper_text.txt#p9（第 2/2 处）",
+      "locator": ""
+    },
+    {
+      "id": "A12",
+      "value": "http://humanbehaviourchange.org/ontology/Schedule/bcio_schedule.owl/2026-11-10",
+      "source": "bcio_schedule.owl#http://humanbehaviourchange.org/ontology/Schedule/bcio_schedule.owl/2026-11-10",
+      "locator": ""
+    },
+    {
+      "id": "A13",
+      "value": "http://humanbehaviourchange.org/ontology/Schedule/bcio_schedule.owl",
+      "source": "bcio_schedule.owl#http://humanbehaviourchange.org/ontology/Schedule/bcio_schedule.owl",
+      "locator": ""
+    }
+  ]
+}

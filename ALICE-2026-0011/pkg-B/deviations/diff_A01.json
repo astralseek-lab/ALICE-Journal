@@ -1,0 +1,39 @@
+{
+  "anchor": "A01",
+  "measured": 7,
+  "self_reported": "seven",
+  "items": [
+    {
+      "key": "Step 1: Development of the scope and definition of the ontology",
+      "ord": 1
+    },
+    {
+      "key": "Step 2: Identifying key entities and developing their preliminary definitions",
+      "ord": 2
+    },
+    {
+      "key": "Step 3: Refining the ontology through an iterative process of literature annotation, discussion and revision",
+      "ord": 3
+    },
+    {
+      "key": "Step 4: Expert stakeholder review",
+      "ord": 4
+    },
+    {
+      "key": "Step 5: Testing inter-rater reliability and making revisions",
+      "ord": 5
+    },
+    {
+      "key": "Step 6: Specifying relationships between entities in the ontology",
+      "ord": 6
+    },
+    {
+      "key": "Step 7: Disseminating and maintaining the ontology",
+      "ord": 7
+    }
+  ],
+  "rows": 7,
+  "gap": null,
+  "direction": null,
+  "sha256": "14c047e175b7fd28dde555e3a93694d205f5966c0d1146f5b4963017c526a2d0"
+}

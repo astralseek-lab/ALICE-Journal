@@ -1,0 +1,72 @@
+[
+  {
+    "id": "A01",
+    "value": 145,
+    "source": "paper_text.txt#L38",
+    "locator": "#s1"
+  },
+  {
+    "id": "A02",
+    "value": 0.77,
+    "source": "paper_text.txt#L36",
+    "locator": "#s1"
+  },
+  {
+    "id": "A03",
+    "value": 100,
+    "source": "paper_text.txt#L18",
+    "locator": "#s2"
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Glossary.",
+    "source": "paper_text.txt#L8"
+  },
+  {
+    "id": "A05",
+    "value": "Table 2. URIs, labels and definitions for all Style of Delivery Ontology entities.",
+    "source": "paper_text.txt#L58"
+  },
+  {
+    "id": "A06",
+    "value": "Figure 1. The upper level of the Behaviour Change Intervention Ontology (BCIO) V1.5.",
+    "source": "paper_text.txt#L11"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L40"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L50"
+  },
+  {
+    "id": "A09",
+    "value": "Conclusions",
+    "source": "paper_text.txt#L71"
+  },
+  {
+    "id": "A10",
+    "value": "Step 1 – Development of the scope and definition of the Style of Delivery Ontology",
+    "source": "paper_text.txt#L43",
+    "locator": "取第 1/2 处"
+  },
+  {
+    "id": "A11",
+    "value": "Step 7 – Disseminating and maintaining the Style of Delivery Ontology",
+    "source": "paper_text.txt#L49",
+    "locator": "取第 1/2 处"
+  },
+  {
+    "id": "A12",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_style.owl/2026-11-10",
+    "source": "bcio_style.owl#http://humanbehaviourchange.org/ontology/bcio_style.owl/2026-11-10"
+  },
+  {
+    "id": "A13",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_style.owl",
+    "source": "bcio_style.owl#http://humanbehaviourchange.org/ontology/bcio_style.owl"
+  }
+]

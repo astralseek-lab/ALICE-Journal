@@ -1,0 +1,26 @@
+[
+  {
+    "role": "corpus",
+    "uri": "https://inputs.alice-journal.invalid/ALICE-2026-0007/paper_text.txt",
+    "bytes": 30991,
+    "sha256": "2223d6ada002833c210d46b64a1c18b0a5ccd3077e3e2999ca52547ff4ee5825"
+  },
+  {
+    "role": "ontology",
+    "uri": "https://inputs.alice-journal.invalid/ALICE-2026-0007/bcio_source.owl",
+    "bytes": 576535,
+    "sha256": "fbf987ab20b05aba493dddac448592e614ccf104d8b321233829eed8f337c069"
+  },
+  {
+    "role": "contrast",
+    "uri": "https://inputs.alice-journal.invalid/ALICE-2026-0007/bcio_upper_level.owl",
+    "bytes": 461217,
+    "sha256": "b7d1d80ce1758900f71d884ab0930d5d348dcf839984a8ff4dd1b19ba1e915fe"
+  },
+  {
+    "role": "contrast",
+    "uri": "https://inputs.alice-journal.invalid/ALICE-2026-0007/bcio_style.owl",
+    "bytes": 1209886,
+    "sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5"
+  }
+]

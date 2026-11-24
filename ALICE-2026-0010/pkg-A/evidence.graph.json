@@ -1,0 +1,202 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0010",
+  "nodes": [
+    {
+      "id": "ALICE-2026-0010#n_ont",
+      "kind": "input",
+      "ref": "ext:bcio_population",
+      "bytes": 972092,
+      "sha256": "38c47120d86ee8ad8fb97e79cd8fd1b4cbad2c0e757df5cc297689759a59c63b",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0010#n_corpus",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 90463,
+      "sha256": "04fe77169641eaa59ee59ea4af212f7f1c705a1cc678e76931205c6ca055cc3d",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0010#n_target",
+      "kind": "input",
+      "ref": "ext:bcio_style",
+      "bytes": 1209886,
+      "sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0010#n_v1",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0010#n_ont"
+      ],
+      "transform": {
+        "code": "code/quant.py",
+        "entry": "measure",
+        "params": {
+          "quantity": "V1"
+        }
+      },
+      "value": {
+        "v": 952
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0010#n_v2",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0010#n_ont"
+      ],
+      "transform": {
+        "code": "code/quant.py",
+        "entry": "measure",
+        "params": {
+          "quantity": "V2"
+        }
+      },
+      "value": {
+        "v": 79
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0010#n_v3",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0010#n_ont"
+      ],
+      "transform": {
+        "code": "code/quant.py",
+        "entry": "measure",
+        "params": {
+          "quantity": "V3"
+        }
+      },
+      "value": {
+        "v": 876
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0010#n_returned",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0010#n_ont",
+        "ALICE-2026-0010#n_target"
+      ],
+      "transform": {
+        "code": "code/quant.py",
+        "entry": "join_returned",
+        "params": {}
+      },
+      "value": {
+        "v": 952
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0010#n_tonly",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0010#n_ont",
+        "ALICE-2026-0010#n_target"
+      ],
+      "transform": {
+        "code": "code/quant.py",
+        "entry": "join_target_only",
+        "params": {}
+      },
+      "value": {
+        "v": 352
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0010#n_steps",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0010#n_corpus"
+      ],
+      "transform": {
+        "code": "code/quant.py",
+        "entry": "measure",
+        "params": {
+          "quantity": "steps"
+        }
+      },
+      "value": {
+        "v": 7
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "ALICE-2026-0010#n_ont",
+      "to": "ALICE-2026-0010#n_v1",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0010#n_ont",
+      "to": "ALICE-2026-0010#n_v2",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0010#n_ont",
+      "to": "ALICE-2026-0010#n_v3",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0010#n_ont",
+      "to": "ALICE-2026-0010#n_returned",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0010#n_target",
+      "to": "ALICE-2026-0010#n_returned",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0010#n_ont",
+      "to": "ALICE-2026-0010#n_tonly",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0010#n_target",
+      "to": "ALICE-2026-0010#n_tonly",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0010#n_corpus",
+      "to": "ALICE-2026-0010#n_steps",
+      "type": "derived_from"
+    }
+  ]
+}

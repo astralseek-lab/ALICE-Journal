@@ -1,0 +1,1304 @@
+{
+  "tier1": {
+    "items": [
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_002000|http://humanbehaviourchange.org/ontology/BCIO_036000",
+        "ord": 1
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_002000|http://humanbehaviourchange.org/ontology/BCIO_039000",
+        "ord": 2
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_003000|http://humanbehaviourchange.org/ontology/BCIO_037000",
+        "ord": 3
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_005000|http://humanbehaviourchange.org/ontology/BCIO_051025",
+        "ord": 4
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_007000|http://humanbehaviourchange.org/ontology/BCIO_046000",
+        "ord": 5
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_008000|http://humanbehaviourchange.org/ontology/BCIO_045000",
+        "ord": 6
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_009000|http://humanbehaviourchange.org/ontology/BCIO_051010",
+        "ord": 7
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_010004|http://humanbehaviourchange.org/ontology/BCIO_010003",
+        "ord": 8
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_010083|http://humanbehaviourchange.org/ontology/BCIO_010004",
+        "ord": 9
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_011000|http://humanbehaviourchange.org/ontology/BCIO_050315",
+        "ord": 10
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_015000|http://humanbehaviourchange.org/ontology/BCIO_015095",
+        "ord": 11
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_015095|http://humanbehaviourchange.org/ontology/BCIO_041000",
+        "ord": 12
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_016000|http://humanbehaviourchange.org/ontology/BCIO_018000",
+        "ord": 13
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_017000|http://humanbehaviourchange.org/ontology/BCIO_023000",
+        "ord": 14
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_018000|http://humanbehaviourchange.org/ontology/BCIO_038000",
+        "ord": 15
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_022000|http://humanbehaviourchange.org/ontology/BCIO_050315",
+        "ord": 16
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_023000|http://humanbehaviourchange.org/ontology/BCIO_035000",
+        "ord": 17
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_025000|http://humanbehaviourchange.org/ontology/BCIO_023000",
+        "ord": 18
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026004|http://humanbehaviourchange.org/ontology/BCIO_026003",
+        "ord": 19
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026005|http://humanbehaviourchange.org/ontology/BCIO_026004",
+        "ord": 20
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026006|http://humanbehaviourchange.org/ontology/BCIO_026004",
+        "ord": 21
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026007|http://humanbehaviourchange.org/ontology/BCIO_026003",
+        "ord": 22
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026008|http://humanbehaviourchange.org/ontology/BCIO_026007",
+        "ord": 23
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026011|http://humanbehaviourchange.org/ontology/BCIO_026010",
+        "ord": 24
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026012|http://humanbehaviourchange.org/ontology/BCIO_026010",
+        "ord": 25
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026020|http://humanbehaviourchange.org/ontology/BCIO_026019",
+        "ord": 26
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026023|http://humanbehaviourchange.org/ontology/BCIO_026022",
+        "ord": 27
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026027|http://humanbehaviourchange.org/ontology/BCIO_026022",
+        "ord": 28
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026028|http://humanbehaviourchange.org/ontology/BCIO_026022",
+        "ord": 29
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026030|http://humanbehaviourchange.org/ontology/BCIO_026029",
+        "ord": 30
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026031|http://humanbehaviourchange.org/ontology/BCIO_026029",
+        "ord": 31
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026032|http://humanbehaviourchange.org/ontology/BCIO_026029",
+        "ord": 32
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026033|http://humanbehaviourchange.org/ontology/BCIO_026029",
+        "ord": 33
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026034|http://humanbehaviourchange.org/ontology/BCIO_026029",
+        "ord": 34
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026035|http://humanbehaviourchange.org/ontology/BCIO_026029",
+        "ord": 35
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026042|http://humanbehaviourchange.org/ontology/BCIO_026041",
+        "ord": 36
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026043|http://humanbehaviourchange.org/ontology/BCIO_026041",
+        "ord": 37
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026044|http://humanbehaviourchange.org/ontology/BCIO_026041",
+        "ord": 38
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026045|http://humanbehaviourchange.org/ontology/BCIO_026041",
+        "ord": 39
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026047|http://humanbehaviourchange.org/ontology/BCIO_026046",
+        "ord": 40
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026048|http://humanbehaviourchange.org/ontology/BCIO_026046",
+        "ord": 41
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026049|http://humanbehaviourchange.org/ontology/BCIO_026048",
+        "ord": 42
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026050|http://humanbehaviourchange.org/ontology/BCIO_026048",
+        "ord": 43
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_029000|http://humanbehaviourchange.org/ontology/BCIO_041000",
+        "ord": 44
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_030000|http://humanbehaviourchange.org/ontology/BCIO_010083",
+        "ord": 45
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_031000|http://humanbehaviourchange.org/ontology/BCIO_050551",
+        "ord": 46
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_032000|http://humanbehaviourchange.org/ontology/BCIO_050315",
+        "ord": 47
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_036100|http://humanbehaviourchange.org/ontology/BCIO_050267",
+        "ord": 48
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_044000|http://humanbehaviourchange.org/ontology/BCIO_044004",
+        "ord": 49
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_044003|http://humanbehaviourchange.org/ontology/BCIO_043000",
+        "ord": 50
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_044004|http://humanbehaviourchange.org/ontology/BCIO_044003",
+        "ord": 51
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_047000|http://humanbehaviourchange.org/ontology/BCIO_051026",
+        "ord": 52
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_047001|http://humanbehaviourchange.org/ontology/BCIO_047000",
+        "ord": 53
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050210|http://humanbehaviourchange.org/ontology/BCIO_036100",
+        "ord": 54
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050211|http://humanbehaviourchange.org/ontology/BCIO_050210",
+        "ord": 55
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050267|http://humanbehaviourchange.org/ontology/BCIO_036107",
+        "ord": 56
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050315|http://humanbehaviourchange.org/ontology/BCIO_043000",
+        "ord": 57
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050551|http://humanbehaviourchange.org/ontology/BCIO_041000",
+        "ord": 58
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050914|http://humanbehaviourchange.org/ontology/BCIO_026007",
+        "ord": 59
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050915|http://humanbehaviourchange.org/ontology/BCIO_026007",
+        "ord": 60
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050916|http://humanbehaviourchange.org/ontology/BCIO_040000",
+        "ord": 61
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_051010|http://humanbehaviourchange.org/ontology/BCIO_043000",
+        "ord": 62
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_051025|http://humanbehaviourchange.org/ontology/BCIO_051027",
+        "ord": 63
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_051026|http://humanbehaviourchange.org/ontology/BCIO_051028",
+        "ord": 64
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_051028|http://humanbehaviourchange.org/ontology/BCIO_051027",
+        "ord": 65
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_051029|http://humanbehaviourchange.org/ontology/BCIO_051027",
+        "ord": 66
+      }
+    ],
+    "rows": 66,
+    "sha256": "0e65f24f4145810a7e0b81fa475f1605e6bda767356c2b63b098b8dae3c2cefd"
+  },
+  "tier2": {
+    "items": [
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_001000|http://purl.obolibrary.org/obo/COB_0000082",
+        "ord": 1
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_006000|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 2
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_010000|http://purl.obolibrary.org/obo/BFO_0000023",
+        "ord": 3
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_010003|http://purl.obolibrary.org/obo/BFO_0000023",
+        "ord": 4
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_014000|http://purl.obolibrary.org/obo/BFO_0000027",
+        "ord": 5
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_020000|http://purl.obolibrary.org/obo/IAO_0000030",
+        "ord": 6
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_021000|http://purl.obolibrary.org/obo/IAO_0000088",
+        "ord": 7
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_024000|http://purl.obolibrary.org/obo/OBI_0000260",
+        "ord": 8
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026000|http://purl.obolibrary.org/obo/ENVO_01000254",
+        "ord": 9
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026001|http://purl.obolibrary.org/obo/GAZ_00000448",
+        "ord": 10
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026002|http://purl.obolibrary.org/obo/GAZ_00000448",
+        "ord": 11
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026003|http://purl.obolibrary.org/obo/BFO_0000020",
+        "ord": 12
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026009|http://purl.obolibrary.org/obo/OMRSE_00000191",
+        "ord": 13
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026010|http://purl.obolibrary.org/obo/OMRSE_00000191",
+        "ord": 14
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026013|http://purl.obolibrary.org/obo/OMRSE_00000191",
+        "ord": 15
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026014|http://purl.obolibrary.org/obo/OMRSE_00000191",
+        "ord": 16
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026015|http://purl.obolibrary.org/obo/OMRSE_00000063",
+        "ord": 17
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026016|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 18
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026017|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 19
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026018|http://purl.obolibrary.org/obo/OMRSE_00000106",
+        "ord": 20
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026019|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 21
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026021|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 22
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026022|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 23
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026024|http://purl.obolibrary.org/obo/OMRSE_00000064",
+        "ord": 24
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026025|http://purl.obolibrary.org/obo/OMRSE_00000064",
+        "ord": 25
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026026|http://purl.obolibrary.org/obo/OMRSE_00000064",
+        "ord": 26
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026029|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 27
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026036|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 28
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026037|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 29
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026038|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 30
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026039|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 31
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026040|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 32
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026041|http://purl.obolibrary.org/obo/BFO_0000029",
+        "ord": 33
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026046|http://purl.obolibrary.org/obo/BFO_0000029",
+        "ord": 34
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026051|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 35
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_027000|http://purl.obolibrary.org/obo/IAO_0000088",
+        "ord": 36
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_028000|http://purl.obolibrary.org/obo/OBI_0000260",
+        "ord": 37
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_033000|http://purl.obolibrary.org/obo/COB_0000082",
+        "ord": 38
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_034000|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 39
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_035000|http://purl.obolibrary.org/obo/IAO_0000027",
+        "ord": 40
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_036000|http://purl.obolibrary.org/obo/OGMS_0000060",
+        "ord": 41
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_036107|http://purl.obolibrary.org/obo/BFO_0000003",
+        "ord": 42
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_037000|http://purl.obolibrary.org/obo/COB_0000082",
+        "ord": 43
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_038000|http://purl.obolibrary.org/obo/SEPIO_0000125",
+        "ord": 44
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_039000|http://purl.obolibrary.org/obo/BFO_0000001",
+        "ord": 45
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_040000|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 46
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_041000|http://purl.obolibrary.org/obo/BFO_0000027",
+        "ord": 47
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_043000|http://purl.obolibrary.org/obo/BFO_0000144",
+        "ord": 48
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_045000|http://purl.obolibrary.org/obo/COB_0000082",
+        "ord": 49
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_046000|http://purl.obolibrary.org/obo/COB_0000082",
+        "ord": 50
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050300|http://purl.obolibrary.org/obo/BFO_0000020",
+        "ord": 51
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_050419|http://purl.obolibrary.org/obo/IAO_0000030",
+        "ord": 52
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_051027|http://purl.obolibrary.org/obo/BFO_0000001",
+        "ord": 53
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_051028|http://purl.obolibrary.org/obo/BFO_0000003",
+        "ord": 54
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_051029|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 55
+      }
+    ],
+    "rows": 55,
+    "sha256": "9926c9b7dfae1838b4e621cae3bbbf282836e7c564bd497fe24e04544b0ea907"
+  },
+  "tier3": {
+    "items": [
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000179|http://humanbehaviourchange.org/ontology/BCIO_050300",
+        "ord": 1
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000349|http://purl.obolibrary.org/obo/MF_0000033",
+        "ord": 2
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000352|http://purl.obolibrary.org/obo/MF_0000016",
+        "ord": 3
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000377|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 4
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000381|http://purl.obolibrary.org/obo/MF_0000031",
+        "ord": 5
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000399|http://addictovocab.org/ADDICTO_0000381",
+        "ord": 6
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000456|http://purl.obolibrary.org/obo/IAO_0000007",
+        "ord": 7
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000511|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 8
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000715|http://addictovocab.org/ADDICTO_0000381",
+        "ord": 9
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0000750|http://purl.obolibrary.org/obo/IAO_0000027",
+        "ord": 10
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001050|http://purl.obolibrary.org/obo/MF_0000016",
+        "ord": 11
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001087|http://addictovocab.org/ADDICTO_0000399",
+        "ord": 12
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001109|http://addictovocab.org/ADDICTO_0000456",
+        "ord": 13
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001127|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 14
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001135|http://humanbehaviourchange.org/ontology/BCIO_050211",
+        "ord": 15
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001212|http://purl.obolibrary.org/obo/MF_0000032",
+        "ord": 16
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001273|http://addictovocab.org/ADDICTO_0001109",
+        "ord": 17
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001303|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 18
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001317|http://purl.obolibrary.org/obo/OGMS_0000060",
+        "ord": 19
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001318|http://purl.obolibrary.org/obo/OGMS_0000060",
+        "ord": 20
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001350|http://humanbehaviourchange.org/ontology/BCIO_050210",
+        "ord": 21
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001377|http://addictovocab.org/ADDICTO_0000399",
+        "ord": 22
+      },
+      {
+        "key": "http://addictovocab.org/ADDICTO_0001378|http://purl.obolibrary.org/obo/MF_0000032",
+        "ord": 23
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000002|http://purl.obolibrary.org/obo/BFO_0000001",
+        "ord": 24
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000003|http://purl.obolibrary.org/obo/BFO_0000001",
+        "ord": 25
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000004|http://purl.obolibrary.org/obo/BFO_0000002",
+        "ord": 26
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000006|http://purl.obolibrary.org/obo/BFO_0000141",
+        "ord": 27
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000008|http://purl.obolibrary.org/obo/BFO_0000003",
+        "ord": 28
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000015|http://purl.obolibrary.org/obo/BFO_0000003",
+        "ord": 29
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000016|http://purl.obolibrary.org/obo/BFO_0000017",
+        "ord": 30
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000017|http://purl.obolibrary.org/obo/BFO_0000020",
+        "ord": 31
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000019|http://purl.obolibrary.org/obo/BFO_0000020",
+        "ord": 32
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000020|http://purl.obolibrary.org/obo/BFO_0000002",
+        "ord": 33
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000023|http://purl.obolibrary.org/obo/BFO_0000017",
+        "ord": 34
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000024|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 35
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000027|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 36
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000029|http://purl.obolibrary.org/obo/BFO_0000141",
+        "ord": 37
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000030|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 38
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000031|http://purl.obolibrary.org/obo/BFO_0000002",
+        "ord": 39
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000034|http://purl.obolibrary.org/obo/BFO_0000016",
+        "ord": 40
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000038|http://purl.obolibrary.org/obo/BFO_0000008",
+        "ord": 41
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000040|http://purl.obolibrary.org/obo/BFO_0000004",
+        "ord": 42
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000141|http://purl.obolibrary.org/obo/BFO_0000004",
+        "ord": 43
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000144|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 44
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/BFO_0000182|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 45
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/COB_0000082|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 46
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_00000064|http://humanbehaviourchange.org/ontology/BCIO_026046",
+        "ord": 47
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_00000091|http://humanbehaviourchange.org/ontology/BCIO_026046",
+        "ord": 48
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_00000106|http://humanbehaviourchange.org/ontology/BCIO_026046",
+        "ord": 49
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_00000111|http://humanbehaviourchange.org/ontology/BCIO_026046",
+        "ord": 50
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_00000469|http://purl.obolibrary.org/obo/ENVO_03501288",
+        "ord": 51
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_00000469|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 52
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_00000562|http://humanbehaviourchange.org/ontology/BCIO_026046",
+        "ord": 53
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_01000254|http://purl.obolibrary.org/obo/RO_0002577",
+        "ord": 54
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_01000408|http://purl.obolibrary.org/obo/BFO_0000024",
+        "ord": 55
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_01000452|http://purl.obolibrary.org/obo/BFO_0000016",
+        "ord": 56
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_01001110|http://purl.obolibrary.org/obo/ENVO_01000254",
+        "ord": 57
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/ENVO_03501288|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 58
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GAZ_00000448|http://purl.obolibrary.org/obo/BFO_0000006",
+        "ord": 59
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0003008|http://purl.obolibrary.org/obo/GO_0032501",
+        "ord": 60
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0007610|http://purl.obolibrary.org/obo/OGMS_0000060",
+        "ord": 61
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0007611|http://purl.obolibrary.org/obo/GO_0050890",
+        "ord": 62
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0008150|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 63
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0032501|http://purl.obolibrary.org/obo/GO_0008150",
+        "ord": 64
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0046959|http://purl.obolibrary.org/obo/GO_0046958",
+        "ord": 65
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0046960|http://purl.obolibrary.org/obo/GO_0046958",
+        "ord": 66
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0050877|http://purl.obolibrary.org/obo/GO_0003008",
+        "ord": 67
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0050890|http://purl.obolibrary.org/obo/GO_0050877",
+        "ord": 68
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/GO_0051705|http://purl.obolibrary.org/obo/GO_0007610",
+        "ord": 69
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000007|http://purl.obolibrary.org/obo/IAO_0000033",
+        "ord": 70
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000027|http://purl.obolibrary.org/obo/IAO_0000030",
+        "ord": 71
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000030|http://purl.obolibrary.org/obo/BFO_0000031",
+        "ord": 72
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000033|http://purl.obolibrary.org/obo/IAO_0000030",
+        "ord": 73
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000078|http://purl.obolibrary.org/obo/IAO_0000102",
+        "ord": 74
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000088|http://purl.obolibrary.org/obo/IAO_0000310",
+        "ord": 75
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000102|http://purl.obolibrary.org/obo/IAO_0000027",
+        "ord": 76
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000104|http://purl.obolibrary.org/obo/IAO_0000033",
+        "ord": 77
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/IAO_0000310|http://purl.obolibrary.org/obo/IAO_0000030",
+        "ord": 78
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000001|http://purl.obolibrary.org/obo/MFOEM_000195",
+        "ord": 79
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000002|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 80
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000003|http://purl.obolibrary.org/obo/OGMS_0000060",
+        "ord": 81
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000005|http://purl.obolibrary.org/obo/MF_0000031",
+        "ord": 82
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000006|http://purl.obolibrary.org/obo/MFOEM_000195",
+        "ord": 83
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000007|http://purl.obolibrary.org/obo/MF_0000032",
+        "ord": 84
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000009|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 85
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000019|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 86
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000020|http://purl.obolibrary.org/obo/MFOEM_000019",
+        "ord": 87
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000021|http://purl.obolibrary.org/obo/MFOEM_000019",
+        "ord": 88
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000022|http://purl.obolibrary.org/obo/MFOEM_000019",
+        "ord": 89
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000023|http://purl.obolibrary.org/obo/MFOEM_000019",
+        "ord": 90
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000026|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 91
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000028|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 92
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000032|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 93
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000033|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 94
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000035|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 95
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000040|http://purl.obolibrary.org/obo/MFOEM_000035",
+        "ord": 96
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000042|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 97
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000053|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 98
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000055|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 99
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000056|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 100
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000060|http://purl.obolibrary.org/obo/MFOEM_000005",
+        "ord": 101
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000061|http://purl.obolibrary.org/obo/MFOEM_000005",
+        "ord": 102
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000072|http://purl.obolibrary.org/obo/MFOEM_000005",
+        "ord": 103
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000075|http://purl.obolibrary.org/obo/MFOEM_000005",
+        "ord": 104
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000076|http://purl.obolibrary.org/obo/MFOEM_000075",
+        "ord": 105
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000078|http://purl.obolibrary.org/obo/MFOEM_000075",
+        "ord": 106
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000080|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 107
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000085|http://purl.obolibrary.org/obo/MFOEM_000226",
+        "ord": 108
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000091|http://purl.obolibrary.org/obo/MFOEM_000005",
+        "ord": 109
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000103|http://purl.obolibrary.org/obo/MFOEM_000005",
+        "ord": 110
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000107|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 111
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000109|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 112
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000112|http://purl.obolibrary.org/obo/MFOEM_000080",
+        "ord": 113
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000124|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 114
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000169|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 115
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000193|http://purl.obolibrary.org/obo/MFOEM_000195",
+        "ord": 116
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000195|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 117
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000203|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 118
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000204|http://purl.obolibrary.org/obo/MF_0000203",
+        "ord": 119
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000205|http://purl.obolibrary.org/obo/MFOEM_000006",
+        "ord": 120
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000209|http://purl.obolibrary.org/obo/MFOEM_000032",
+        "ord": 121
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000210|http://purl.obolibrary.org/obo/MFOEM_000032",
+        "ord": 122
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000212|http://purl.obolibrary.org/obo/MFOEM_000001",
+        "ord": 123
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000218|http://purl.obolibrary.org/obo/MFOEM_000042",
+        "ord": 124
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MFOEM_000226|http://purl.obolibrary.org/obo/MFOEM_000005",
+        "ord": 125
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000006|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 126
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000008|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 127
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000012|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 128
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000013|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 129
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000015|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 130
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000016|http://purl.obolibrary.org/obo/OGMS_0000087",
+        "ord": 131
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000017|http://purl.obolibrary.org/obo/BFO_0000144",
+        "ord": 132
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000018|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 133
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000019|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 134
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000020|http://purl.obolibrary.org/obo/OGMS_0000060",
+        "ord": 135
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000021|http://purl.obolibrary.org/obo/GO_0051705",
+        "ord": 136
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000027|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 137
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000030|http://purl.obolibrary.org/obo/BFO_0000020",
+        "ord": 138
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000031|http://purl.obolibrary.org/obo/MF_0000030",
+        "ord": 139
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000032|http://purl.obolibrary.org/obo/BFO_0000016",
+        "ord": 140
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000033|http://purl.obolibrary.org/obo/MF_0000032",
+        "ord": 141
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000041|http://purl.obolibrary.org/obo/MF_0000033",
+        "ord": 142
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000043|http://purl.obolibrary.org/obo/MF_0000032",
+        "ord": 143
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000045|http://purl.obolibrary.org/obo/MF_0000020",
+        "ord": 144
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000048|http://purl.obolibrary.org/obo/MF_0000043",
+        "ord": 145
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000050|http://purl.obolibrary.org/obo/MF_0000048",
+        "ord": 146
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000074|http://purl.obolibrary.org/obo/BFO_0000019",
+        "ord": 147
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000083|http://purl.obolibrary.org/obo/MF_0000015",
+        "ord": 148
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000088|http://purl.obolibrary.org/obo/OGMS_0000060",
+        "ord": 149
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000202|http://purl.obolibrary.org/obo/MF_0000032",
+        "ord": 150
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/MF_0000203|http://purl.obolibrary.org/obo/MF_0000032",
+        "ord": 151
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OBI_0000093|http://purl.obolibrary.org/obo/BFO_0000001",
+        "ord": 152
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OBI_0000245|http://purl.obolibrary.org/obo/BFO_0000001",
+        "ord": 153
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OBI_0000260|http://purl.obolibrary.org/obo/BFO_0000017",
+        "ord": 154
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OGMS_0000060|http://purl.obolibrary.org/obo/BFO_0000015",
+        "ord": 155
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OGMS_0000087|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 156
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000061|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 157
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000062|http://purl.obolibrary.org/obo/OMRSE_00000061",
+        "ord": 158
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000063|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 159
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000064|http://humanbehaviourchange.org/ontology/BCIO_026022",
+        "ord": 160
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000076|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 161
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000092|http://purl.obolibrary.org/obo/OMRSE_00002072",
+        "ord": 162
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000094|http://purl.obolibrary.org/obo/OMRSE_00000092",
+        "ord": 163
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000102|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 164
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000104|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 165
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000106|http://purl.obolibrary.org/obo/OMRSE_00000150",
+        "ord": 166
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000114|http://purl.obolibrary.org/obo/OMRSE_00000063",
+        "ord": 167
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000150|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 168
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000191|http://purl.obolibrary.org/obo/OMRSE_00000062",
+        "ord": 169
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000222|http://purl.obolibrary.org/obo/IAO_0000033",
+        "ord": 170
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000235|http://purl.obolibrary.org/obo/OMRSE_00000222",
+        "ord": 171
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000311|http://purl.obolibrary.org/obo/OMRSE_00002061",
+        "ord": 172
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000504|http://purl.obolibrary.org/obo/OMRSE_00002061",
+        "ord": 173
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00000929|http://purl.obolibrary.org/obo/OMRSE_00002061",
+        "ord": 174
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00002029|http://purl.obolibrary.org/obo/COB_0000082",
+        "ord": 175
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00002061|http://purl.obolibrary.org/obo/IAO_0000027",
+        "ord": 176
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OMRSE_00002072|http://purl.obolibrary.org/obo/BFO_0000023",
+        "ord": 177
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OPMI_0000093|http://purl.obolibrary.org/obo/IAO_0000030",
+        "ord": 178
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OPMI_0000121|http://purl.obolibrary.org/obo/OPMI_0000093",
+        "ord": 179
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OPMI_0000121|http://purl.obolibrary.org/obo/OPMI_0000326",
+        "ord": 180
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/OPMI_0000326|http://purl.obolibrary.org/obo/BFO_0000017",
+        "ord": 181
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/PATO_0000044|http://purl.obolibrary.org/obo/BFO_0000020",
+        "ord": 182
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/PDRO_0000074|http://purl.obolibrary.org/obo/OMRSE_00000102",
+        "ord": 183
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/PDRO_0000117|http://purl.obolibrary.org/obo/IAO_0000030",
+        "ord": 184
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/RO_0002577|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 185
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/SEPIO_0000004|http://purl.obolibrary.org/obo/COB_0000082",
+        "ord": 186
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/SEPIO_0000004|http://purl.obolibrary.org/obo/OBI_0000011",
+        "ord": 187
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/SEPIO_0000125|http://purl.obolibrary.org/obo/SEPIO_0000004",
+        "ord": 188
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/UBERON_0000061|http://purl.obolibrary.org/obo/UBERON_0000465",
+        "ord": 189
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/UBERON_0000465|http://purl.obolibrary.org/obo/BFO_0000040",
+        "ord": 190
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/UBERON_0000465|http://purl.obolibrary.org/obo/UBERON_0001062",
+        "ord": 191
+      },
+      {
+        "key": "http://purl.obolibrary.org/obo/UBERON_0001062|http://purl.obolibrary.org/obo/BFO_0000004",
+        "ord": 192
+      }
+    ],
+    "rows": 192,
+    "sha256": "8ab6163aa849526fbb434a9707d500beb2acd49c35ca7cc4eebd9d93da7e0dc1"
+  },
+  "anon_subclass_objects": {
+    "items": [
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_001000|@anonymous#1",
+        "ord": 1
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_003000|@anonymous#3",
+        "ord": 2
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_003000|@anonymous#4",
+        "ord": 3
+      },
+      {
+        "key": "http://humanbehaviourchange.org/ontology/BCIO_026003|@anonymous#5",
+        "ord": 4
+      }
+    ],
+    "rows": 4,
+    "sha256": "06722d944eaea7dd66b8565a821d69860636b0b0d4f881330b03d73da322081f"
+  },
+  "readings_alt": {
+    "items": [
+      {
+        "key": "partition_total",
+        "value": 317
+      }
+    ],
+    "rows": 1,
+    "sha256": "582c49bf3edd38b08d6736b1db26778ea10dbf49f57abd014a98e705312d1bab"
+  }
+}

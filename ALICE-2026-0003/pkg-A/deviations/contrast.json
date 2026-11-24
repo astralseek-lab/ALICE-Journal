@@ -1,0 +1,35 @@
+[
+  {
+    "rule": "owl:Ontology@rdf:about 去文件名当目录这一读法命中的类数",
+    "hits": 135,
+    "derivation_ref": {
+      "code": "code/quantities.py",
+      "entry": "contrast_hits",
+      "params": {
+        "rule": "about_dirname"
+      }
+    }
+  },
+  {
+    "rule": "类名前缀 BCIO_ 这一读法命中的类数",
+    "hits": 135,
+    "derivation_ref": {
+      "code": "code/quantities.py",
+      "entry": "contrast_hits",
+      "params": {
+        "rule": "prefix_BCIO"
+      }
+    }
+  },
+  {
+    "rule": "本地类名第一个 _ 之前段里出现最多的前缀这一读法命中的类数",
+    "hits": 135,
+    "derivation_ref": {
+      "code": "code/quantities.py",
+      "entry": "contrast_hits",
+      "params": {
+        "rule": "top_prefix"
+      }
+    }
+  }
+]

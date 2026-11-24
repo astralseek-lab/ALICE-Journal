@@ -1,0 +1,483 @@
+{
+  "anchor": "A01",
+  "measured": 118,
+  "self_reported": 72,
+  "items": [
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_001000",
+      "ord": 1
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_002000",
+      "ord": 2
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_003000",
+      "ord": 3
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_005000",
+      "ord": 4
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_006000",
+      "ord": 5
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_007000",
+      "ord": 6
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_008000",
+      "ord": 7
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_009000",
+      "ord": 8
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010000",
+      "ord": 9
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010003",
+      "ord": 10
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010004",
+      "ord": 11
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010083",
+      "ord": 12
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_011000",
+      "ord": 13
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_014000",
+      "ord": 14
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_015000",
+      "ord": 15
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_015095",
+      "ord": 16
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_016000",
+      "ord": 17
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_017000",
+      "ord": 18
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_018000",
+      "ord": 19
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_020000",
+      "ord": 20
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_021000",
+      "ord": 21
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_022000",
+      "ord": 22
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_023000",
+      "ord": 23
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_024000",
+      "ord": 24
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_025000",
+      "ord": 25
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026000",
+      "ord": 26
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026001",
+      "ord": 27
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026002",
+      "ord": 28
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026003",
+      "ord": 29
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026004",
+      "ord": 30
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026005",
+      "ord": 31
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026006",
+      "ord": 32
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026007",
+      "ord": 33
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026008",
+      "ord": 34
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026009",
+      "ord": 35
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026010",
+      "ord": 36
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026011",
+      "ord": 37
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026012",
+      "ord": 38
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026013",
+      "ord": 39
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026014",
+      "ord": 40
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026015",
+      "ord": 41
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026016",
+      "ord": 42
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026017",
+      "ord": 43
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026018",
+      "ord": 44
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026019",
+      "ord": 45
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026020",
+      "ord": 46
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026021",
+      "ord": 47
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026022",
+      "ord": 48
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026023",
+      "ord": 49
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026024",
+      "ord": 50
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026025",
+      "ord": 51
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026026",
+      "ord": 52
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026027",
+      "ord": 53
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026028",
+      "ord": 54
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026029",
+      "ord": 55
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026030",
+      "ord": 56
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026031",
+      "ord": 57
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026032",
+      "ord": 58
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026033",
+      "ord": 59
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026034",
+      "ord": 60
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026035",
+      "ord": 61
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026036",
+      "ord": 62
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026037",
+      "ord": 63
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026038",
+      "ord": 64
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026039",
+      "ord": 65
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026040",
+      "ord": 66
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026041",
+      "ord": 67
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026042",
+      "ord": 68
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026043",
+      "ord": 69
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026044",
+      "ord": 70
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026045",
+      "ord": 71
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026046",
+      "ord": 72
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026047",
+      "ord": 73
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026048",
+      "ord": 74
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026049",
+      "ord": 75
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026050",
+      "ord": 76
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_026051",
+      "ord": 77
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_027000",
+      "ord": 78
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_028000",
+      "ord": 79
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_029000",
+      "ord": 80
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_030000",
+      "ord": 81
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_031000",
+      "ord": 82
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_032000",
+      "ord": 83
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_033000",
+      "ord": 84
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_034000",
+      "ord": 85
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_035000",
+      "ord": 86
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_036000",
+      "ord": 87
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_036100",
+      "ord": 88
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_036107",
+      "ord": 89
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_037000",
+      "ord": 90
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_038000",
+      "ord": 91
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_039000",
+      "ord": 92
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_040000",
+      "ord": 93
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_041000",
+      "ord": 94
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_043000",
+      "ord": 95
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_044000",
+      "ord": 96
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_044003",
+      "ord": 97
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_044004",
+      "ord": 98
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_045000",
+      "ord": 99
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_046000",
+      "ord": 100
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_047000",
+      "ord": 101
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_047001",
+      "ord": 102
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050210",
+      "ord": 103
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050211",
+      "ord": 104
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050267",
+      "ord": 105
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050300",
+      "ord": 106
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050315",
+      "ord": 107
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050419",
+      "ord": 108
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050551",
+      "ord": 109
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050914",
+      "ord": 110
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050915",
+      "ord": 111
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_050916",
+      "ord": 112
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_051010",
+      "ord": 113
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_051025",
+      "ord": 114
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_051026",
+      "ord": 115
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_051027",
+      "ord": 116
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_051028",
+      "ord": 117
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_051029",
+      "ord": 118
+    }
+  ],
+  "rows": 118,
+  "gap": 46,
+  "direction": "实测多",
+  "sha256": "6ea81dae09d861265d995451d40cf14df2ee9bbfe7f7b7be203993b567b2ca34"
+}

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "A01",
+  "source": "paper_text.txt#L39",
+  "value": 12
+ },
+ {
+  "id": "A02",
+  "locator": "#s3",
+  "source": "paper_text.txt#L58",
+  "value": 21
+ },
+ {
+  "id": "A03",
+  "locator": "#s4",
+  "source": "paper_text.txt#L58",
+  "value": 10
+ },
+ {
+  "id": "A04",
+  "source": "paper_text.txt#L18",
+  "value": "Figure 1. Stages of development of the upper-level Behaviour Change Intervention Ontology."
+ },
+ {
+  "id": "A05",
+  "source": "paper_text.txt#L40",
+  "value": "Figure 2. Initial schematic of upper-level Behaviour Change Intervention Ontology: scenario entities and causal connections."
+ },
+ {
+  "id": "A06",
+  "source": "paper_text.txt#L59",
+  "value": "Figure 3. Entities and relationships that are central to the Behaviour Change Intervention Ontology (BCIO) V1.4."
+ },
+ {
+  "id": "A07",
+  "source": "paper_text.txt#L16",
+  "value": "Methods"
+ },
+ {
+  "id": "A08",
+  "source": "paper_text.txt#L36",
+  "value": "Results"
+ },
+ {
+  "id": "A09",
+  "source": "paper_text.txt#L71",
+  "value": "Discussions and conclusions"
+ },
+ {
+  "id": "A10",
+  "source": "paper_text.txt#L19",
+  "value": "Initial drafting of entities and relationships in a causal model"
+ },
+ {
+  "id": "A11",
+  "locator": "取第 1/2 处",
+  "source": "paper_text.txt#L34",
+  "value": "Creation of a sustainability plan"
+ },
+ {
+  "id": "A12",
+  "locator": "rdf:resource=\"http://humanbehaviourchange.org/ontology/bcio_upper_level.owl/2026-11-10\"",
+  "source": "bcio_upper_level.owl#http://humanbehaviourchange.org/ontology/bcio_upper_level.owl/2026-11-10",
+  "value": "http://humanbehaviourchange.org/ontology/bcio_upper_level.owl/2026-11-10"
+ },
+ {
+  "id": "A13",
+  "locator": "rdf:about=\"http://humanbehaviourchange.org/ontology/bcio_upper_level.owl\"",
+  "source": "bcio_upper_level.owl#http://humanbehaviourchange.org/ontology/bcio_upper_level.owl",
+  "value": "http://humanbehaviourchange.org/ontology/bcio_upper_level.owl"
+ }
+]

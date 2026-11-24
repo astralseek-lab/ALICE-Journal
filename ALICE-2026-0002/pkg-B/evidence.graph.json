@@ -1,0 +1,94 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0002",
+  "nodes": [
+    {
+      "id": "ALICE-2026-0002#n_src",
+      "kind": "input",
+      "ref": "ext:bcio_moa",
+      "bytes": 1585048,
+      "sha256": "61e53a6d3908cd16be20058cdfd2de2ac8785a89834cc2bbca1dddf889f1ab4e",
+      "check": {"mode": "hash"}
+    },
+    {
+      "id": "ALICE-2026-0002#n_paper",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 59867,
+      "sha256": "fc2d1542d23916b31bebf8cfad95f1f0d6cfa6a21687d32655d3440a282efb11",
+      "check": {"mode": "hash"}
+    },
+    {
+      "id": "ALICE-2026-0002#n_d_L1",
+      "kind": "derived",
+      "from": ["ALICE-2026-0002#n_src"],
+      "transform": {"code": "code/moa_entry_b.py", "entry": "parse", "params": {"quantity": "L1_class_local"}},
+      "value": {"v": 0, "unit": "count"},
+      "unit": "count",
+      "check": {"mode": "recompute"}
+    },
+    {
+      "id": "ALICE-2026-0002#n_d_L2",
+      "kind": "derived",
+      "from": ["ALICE-2026-0002#n_src"],
+      "transform": {"code": "code/moa_entry_b.py", "entry": "parse", "params": {"quantity": "L2_subclass_edges"}},
+      "value": {"v": 0, "unit": "count"},
+      "unit": "count",
+      "check": {"mode": "recompute"}
+    },
+    {
+      "id": "ALICE-2026-0002#n_d_L3",
+      "kind": "derived",
+      "from": ["ALICE-2026-0002#n_src"],
+      "transform": {"code": "code/moa_entry_b.py", "entry": "parse", "params": {"quantity": "L3_object_props"}},
+      "value": {"v": 0, "unit": "count"},
+      "unit": "count",
+      "check": {"mode": "recompute"}
+    },
+    {
+      "id": "ALICE-2026-0002#n_d_L4",
+      "kind": "derived",
+      "from": ["ALICE-2026-0002#n_src"],
+      "transform": {"code": "code/moa_entry_b.py", "entry": "parse", "params": {"quantity": "L4_annotation_props"}},
+      "value": {"v": 0, "unit": "count"},
+      "unit": "count",
+      "check": {"mode": "recompute"}
+    },
+    {
+      "id": "ALICE-2026-0002#n_d_L5",
+      "kind": "derived",
+      "from": ["ALICE-2026-0002#n_src"],
+      "transform": {"code": "code/moa_entry_b.py", "entry": "parse", "params": {"quantity": "L5_depth_max"}},
+      "value": {"v": 0, "unit": "edges"},
+      "unit": "edges",
+      "check": {"mode": "recompute"}
+    },
+    {
+      "id": "ALICE-2026-0002#n_d_L6",
+      "kind": "derived",
+      "from": ["ALICE-2026-0002#n_src"],
+      "transform": {"code": "code/moa_entry_b.py", "entry": "parse", "params": {"quantity": "L6_leaf_classes"}},
+      "value": {"v": 0, "unit": "count"},
+      "unit": "count",
+      "check": {"mode": "recompute"}
+    },
+    {
+      "id": "ALICE-2026-0002#n_d_X",
+      "kind": "derived",
+      "from": ["ALICE-2026-0002#n_src"],
+      "transform": {"code": "code/moa_entry_b.py", "entry": "parse", "params": {"quantity": "X_ext_classes"}},
+      "value": {"v": 0, "unit": "count"},
+      "unit": "count",
+      "check": {"mode": "recompute"}
+    }
+  ],
+  "edges": [
+    {"from": "ALICE-2026-0002#n_src", "to": "ALICE-2026-0002#n_d_L1", "type": "derived_from"},
+    {"from": "ALICE-2026-0002#n_src", "to": "ALICE-2026-0002#n_d_L2", "type": "derived_from"},
+    {"from": "ALICE-2026-0002#n_src", "to": "ALICE-2026-0002#n_d_L3", "type": "derived_from"},
+    {"from": "ALICE-2026-0002#n_src", "to": "ALICE-2026-0002#n_d_L4", "type": "derived_from"},
+    {"from": "ALICE-2026-0002#n_src", "to": "ALICE-2026-0002#n_d_L5", "type": "derived_from"},
+    {"from": "ALICE-2026-0002#n_src", "to": "ALICE-2026-0002#n_d_L6", "type": "derived_from"},
+    {"from": "ALICE-2026-0002#n_src", "to": "ALICE-2026-0002#n_d_X", "type": "derived_from"}
+  ]
+}

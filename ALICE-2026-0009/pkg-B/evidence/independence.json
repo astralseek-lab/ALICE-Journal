@@ -1,0 +1,6 @@
+{
+  "entry": "code/sdo_k.py 的六个固定入口（l1_local_classes … l6_leaf_classes）",
+  "shared_code_with_a": false,
+  "signer_pkg_id": "pkg-B/ALICE-2026-0009__r_8ca461c01376",
+  "source": "独立实现自述：xml.dom.minidom 解析（不用 ElementTree）、显式栈迭代遍历、流式一次过计数、urlsplit（netloc＋path）独立划界；命名空间主值独立另算一次，三个对照读法按件实算进 deviations 的 contrast 件；L2 三档由 pulldom 流式复核；匿名类独立判定；L5／L6 两读法均实算；protocol 按声明块区间从语料重数七步；未 import／引用另一实现包的任何模块、路径或产物。"
+}

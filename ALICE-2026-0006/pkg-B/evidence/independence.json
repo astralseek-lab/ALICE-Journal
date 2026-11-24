@@ -1,0 +1,6 @@
+{
+  "entry": "code/quant_b.py::main",
+  "shared_code_with_a": false,
+  "signer_pkg_id": "pkg-B",
+  "source": "本实现为独立第二实现：minidom 解析、显式栈迭代、流式一次过计数、urlsplit 划界；未读取、未导入、未改写另一实现包的任何代码与产物"
+}

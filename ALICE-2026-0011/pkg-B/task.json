@@ -1,0 +1,131 @@
+{
+  "task_id": "ALICE-2026-0011",
+  "grade": "native",
+  "entry": "code/step_tally.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "paper_text",
+        "uri": "paper_text.txt",
+        "bytes": 46895,
+        "sha256": "5f6bbf71856394abe6377c8cb3485e345e114066aa3c7411fafcc0617c505354"
+      },
+      {
+        "slug": "fulltext__PMC7786424",
+        "uri": "fulltext__PMC7786424.xml",
+        "bytes": 214403,
+        "sha256": "2ca936c045f6d9a43707bda94ca3432a8ebdc0f46b93c55a86c44ce3f56e3b5f"
+      }
+    ],
+    "hooks": [
+      "ALICE-2026-0011#n_m1",
+      "ALICE-2026-0011#n_m2",
+      "ALICE-2026-0011#n_m3"
+    ]
+  },
+  "params": {
+    "peer_held": [],
+    "peer_unheld": [],
+    "peer_universe": [],
+    "readings_names": [
+      "h2_h3_level_counts",
+      "table2_tr_total",
+      "corpus_sha",
+      "k_ruling",
+      "table2_rows"
+    ],
+    "reads_count": 5
+  },
+  "budget": {
+    "cpu_s": 30,
+    "gpu_s": 0,
+    "wall_clock_s": 1800,
+    "cost_cny": 0
+  },
+  "judge": {
+    "metric": "exact_count",
+    "band": "±0",
+    "tolerance_reason": "三量为整数计数、主口径写死、两次遍历须同值，不设容差",
+    "version": "35b82345b95885b59a46f7cba7c42d93f4c343d0119798dfa75a4755e076589e"
+  },
+  "quoted": [
+    {
+      "id": "A01",
+      "value": "seven",
+      "source": "paper_text.txt#L24",
+      "locator": ""
+    },
+    {
+      "id": "A02",
+      "value": "Term",
+      "source": "paper_text.txt#L5",
+      "locator": ""
+    },
+    {
+      "id": "A03",
+      "value": "Step",
+      "source": "paper_text.txt#L28",
+      "locator": ""
+    },
+    {
+      "id": "A04",
+      "value": "Table 1. Glossary of terms used in this article.",
+      "source": "paper_text.txt#L4",
+      "locator": ""
+    },
+    {
+      "id": "A05",
+      "value": "Table 2. The refined ontology development method.",
+      "source": "paper_text.txt#L27",
+      "locator": "取第 2/2 处"
+    },
+    {
+      "id": "A06",
+      "value": "Table 3. Steps in the Behaviour Change Intervention Ontology (BCIO) development method related to principles in ontology development.",
+      "source": "paper_text.txt#L73",
+      "locator": ""
+    },
+    {
+      "id": "A07",
+      "value": "Methods",
+      "source": "paper_text.txt#L23",
+      "locator": "取第 2/2 处"
+    },
+    {
+      "id": "A08",
+      "value": "Discussion",
+      "source": "paper_text.txt#L68",
+      "locator": "取第 2/2 处"
+    },
+    {
+      "id": "A09",
+      "value": "Conclusions",
+      "source": "paper_text.txt#L79",
+      "locator": ""
+    },
+    {
+      "id": "A10",
+      "value": "Step 1: Development of the scope and definition of the ontology",
+      "source": "paper_text.txt#L29",
+      "locator": ""
+    },
+    {
+      "id": "A11",
+      "value": "Step 7: Disseminating and maintaining the ontology",
+      "source": "paper_text.txt#L64",
+      "locator": ""
+    },
+    {
+      "id": "A12",
+      "value": "5",
+      "source": "fulltext__PMC7786424.xml#front/article-meta/volume",
+      "locator": ""
+    },
+    {
+      "id": "A13",
+      "value": "126",
+      "source": "fulltext__PMC7786424.xml#front/article-meta/elocation-id",
+      "locator": ""
+    }
+  ]
+}

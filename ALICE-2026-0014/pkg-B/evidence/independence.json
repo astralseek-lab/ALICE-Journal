@@ -1,0 +1,6 @@
+{
+  "source": "pkg-B 为同一轮内的独立第二实现：docx 直解 word/document.xml 自行重建行格（不经 python-docx）；CSV 手写 RFC4180 逐字符状态机流式一次过（不经标准库 csv）；按 No. 整数前缀分组与编号守恒独立判行；protocol 自行从 paper_text.txt 重新定位八步标题；实现全程未 import、未摘抄另一实现的任何模块",
+  "shared_code_with_a": false,
+  "entry": "code/metrics.py::count_items",
+  "signer_pkg_id": "alice-pkg:ALICE-2026-0014/pkg-B"
+}

@@ -1,0 +1,6 @@
+{
+  "source": "读 bcio_population.owl 与 bcio_style.owl：minidom 建 DOM 后以显式栈做文档序深度优先遍历（祖先链由栈携带，不用 parent 映射），三个量与档③在同一趟各自累加；逐类回指对目标件逐行流式扫描 owl:Class 声明行；语料按分页符流式切块后在页范围内逐字命中七条声明标题",
+  "shared_code_with_a": false,
+  "entry": "code/measure_b.py",
+  "signer_pkg_id": "ALICE-2026-0010#pkg-B"
+}

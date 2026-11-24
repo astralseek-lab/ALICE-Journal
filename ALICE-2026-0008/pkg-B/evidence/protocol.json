@@ -1,0 +1,83 @@
+{
+  "rule": "先列 Methods 下全部标题（Ethics／Design 与 Step 1–7），再按位置取标题以 Step 开头的七个；禁用标题去重",
+  "source": "paper_text.txt#L43-L49",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "Step 1 – Development of the scope and definition of the Style of Delivery Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L43-L43",
+      "evidence_loc": "paper_text.txt#L43-L43",
+      "input": "字典与关键论文（Dombrowski et al., 2016；Hagger & Hardcastle, 2014 等）",
+      "output": "『style of delivery』的初步定义与本体的范围界定"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "Step 2 – Identifying key entities and developing the preliminary Style of Delivery Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L44-L44",
+      "evidence_loc": "paper_text.txt#L44-L44",
+      "input": "Step 1 的初步定义与范围；100 篇已发表干预报告（自下而上）；经 Ontology Lookup Service 检索的既有本体（自上而下）",
+      "output": "Style of Delivery Ontology 的初步原型版本"
+    },
+    {
+      "pos": 3,
+      "label": "S3",
+      "title": "Step 3 – Refining the ontology through literature annotation, discussion and revision",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L45-L45",
+      "evidence_loc": "paper_text.txt#L45-L45",
+      "input": "Step 2 的初步本体；100 篇干预评估报告（EPPI-Reviewer 4，两人结对独立标注）",
+      "output": "经标注、讨论与修订后的本体（实体增删与定义修订）"
+    },
+    {
+      "pos": 4,
+      "label": "S4",
+      "title": "Step 4 – Expert stakeholder review",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L46-L46",
+      "evidence_loc": "paper_text.txt#L46-L46",
+      "input": "Step 3 产出的本体；25 位受邀专家利益相关者（Qualtrics 在线问卷）",
+      "output": "专家反馈处理后的修订本体"
+    },
+    {
+      "pos": 5,
+      "label": "S5",
+      "title": "Step 5 – Inter-rater reliability of annotations using the Style of Delivery Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L47-L47",
+      "evidence_loc": "paper_text.txt#L47-L47",
+      "input": "Step 4 后的本体；两批各 50 篇论文（熟悉与不熟悉本体的标注者各一批）",
+      "output": "Krippendorff's Alpha 信度评估结果与据此的进一步修订"
+    },
+    {
+      "pos": 6,
+      "label": "S6",
+      "title": "Step 6 – Specifying relationships between Style of Delivery Ontology entities",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L48-L48",
+      "evidence_loc": "paper_text.txt#L48-L48",
+      "input": "此前各步确定的实体集；Basic Formal Ontology 原则与 Relation Ontology",
+      "output": "实体间关系的形式化（含 is_a 层级与 is process attribute of）"
+    },
+    {
+      "pos": 7,
+      "label": "S7",
+      "title": "Step 7 – Disseminating and maintaining the Style of Delivery Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L49-L49",
+      "evidence_loc": "paper_text.txt#L49-L49",
+      "input": "定稿的 Style of Delivery Ontology（ROBOT 模板转换为 OWL）",
+      "output": "GitHub 发布与版本化、Ontology Lookup Service 与 BSSO Foundry 收录"
+    }
+  ]
+}

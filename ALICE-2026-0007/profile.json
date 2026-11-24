@@ -1,0 +1,11 @@
+[
+  {
+    "@type": [
+      "ResearchPackage",
+      "NativeObject"
+    ],
+    "task_id": "ALICE-2026-0007",
+    "grade": "native",
+    "note": "原始复算包，非翻译件；profile 组 1 @type 元素集合无 TranslatedObject"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "rule": "rdf:about 去文件名：owl:Ontology@rdf:about 去掉末段文件名作为命名空间前缀，类 IRI 以此前缀开头者计入（与主值同值：巧合，不是判据）；推导：宿主＋最集中目录为 http://humanbehaviourchange.org/ontology/（见 evidence/ns.json）",
+    "hits": 1304,
+    "derivation_ref": {
+      "code": "code/sod_metrics.py",
+      "entry": "contrast_strip_filename",
+      "params": {}
+    }
+  },
+  {
+    "rule": "前缀 BCIO_：类 IRI 末段以 BCIO_ 开头者计入（与主值同值：巧合，不是判据）；推导：主口径按宿主＋目录而非前缀，本行仅留痕",
+    "hits": 1304,
+    "derivation_ref": {
+      "code": "code/sod_metrics.py",
+      "entry": "contrast_prefix_bcio",
+      "params": {}
+    }
+  },
+  {
+    "rule": "出现最多的前缀：全件具名类 IRI 按目录层分组取最集中者计入（与主值同值：巧合，不是判据）；推导：本件最集中目录即 /ontology/，与主口径重合属结构事实",
+    "hits": 1304,
+    "derivation_ref": {
+      "code": "code/sod_metrics.py",
+      "entry": "contrast_most_common_prefix",
+      "params": {}
+    }
+  }
+]

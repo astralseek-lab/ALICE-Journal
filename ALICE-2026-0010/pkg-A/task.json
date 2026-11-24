@@ -1,0 +1,128 @@
+{
+  "task_id": "ALICE-2026-0010",
+  "grade": "native",
+  "kind": [
+    "ontology",
+    "protocol"
+  ],
+  "entry": "code/quant.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "bcio_population",
+        "uri": "file:///opt/data/profiles/portal-u-363fd91a/workspace/ALICE-2026-0010/bcio_population.owl",
+        "bytes": 972092,
+        "sha256": "38c47120d86ee8ad8fb97e79cd8fd1b4cbad2c0e757df5cc297689759a59c63b"
+      },
+      {
+        "slug": "paper_text",
+        "uri": "file:///opt/data/profiles/portal-u-363fd91a/workspace/ALICE-2026-0010/paper_text.txt",
+        "bytes": 90463,
+        "sha256": "04fe77169641eaa59ee59ea4af212f7f1c705a1cc678e76931205c6ca055cc3d"
+      },
+      {
+        "slug": "bcio_style",
+        "uri": "file:///opt/data/profiles/portal-u-363fd91a/workspace/ALICE-2026-0010/bcio_style.owl",
+        "bytes": 1209886,
+        "sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5"
+      }
+    ]
+  },
+  "params": {
+    "quantity": "入口分派键：V1／V2／V3／steps／figure_label_yield",
+    "ns_rule": "owl:Ontology@rdf:about 的 host＋该 host 下去重类 IRI 数最多的目录（平票按目录串升序取第一个）",
+    "v2_derivation": "一次遍历：对每个 rdfs:subClassOf 元素取包含它的最近 owl:Class 祖先的 rdf:about 为主体、@rdf:resource 为宾语；过滤条件＝主体在本地命名空间且宾语不在本地命名空间；命中则累加 v2 += 1；不用减法",
+    "partition_rule": "同一次遍历按主体／宾语的本地命名空间隶属分三档：两端皆本地→档①；主体本地宾语外部→档②；主体外部或匿名→档③；另一次遍历复核总账",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "peer_held": [],
+    "readings_names": [
+      "external_by_domain",
+      "anonymous_class",
+      "anonymous_restriction_count",
+      "unreturned",
+      "target_only",
+      "identity",
+      "self_report_unmeasured"
+    ],
+    "reads_count": 7
+  },
+  "budget": {
+    "cpu_s": 300,
+    "gpu_s": 0,
+    "wall_clock_s": 300,
+    "cost_cny": 0
+  },
+  "judge": {
+    "metric": "exact_count",
+    "band": "0",
+    "tolerance_reason": "结构计数任务，断言值为整数计数，逐条自算，不容差"
+  },
+  "quoted": [
+    {
+      "id": "A01",
+      "value": 218,
+      "source": "paper_text.txt#L9"
+    },
+    {
+      "id": "A02",
+      "value": ".79",
+      "source": "paper_text.txt#L9#s26"
+    },
+    {
+      "id": "A03",
+      "value": 139,
+      "source": "paper_text.txt#L9"
+    },
+    {
+      "id": "A04",
+      "value": "Table 1. Glossary of terms.",
+      "source": "paper_text.txt#L5"
+    },
+    {
+      "id": "A05",
+      "value": "Table 2. IDs, labels, definitions, parent classes and how aggregated for all Intervention Population Ontology entities.",
+      "source": "paper_text.txt#L10"
+    },
+    {
+      "id": "A06",
+      "value": "Development of an Intervention Population Ontology for specifying the characteristics of intervention participants",
+      "source": "paper_text.txt#L1"
+    },
+    {
+      "id": "A07",
+      "value": "Methods",
+      "source": "paper_text.txt#L6#s22"
+    },
+    {
+      "id": "A08",
+      "value": "Results",
+      "source": "paper_text.txt#L8#s33"
+    },
+    {
+      "id": "A09",
+      "value": "Discussion",
+      "source": "paper_text.txt#L23"
+    },
+    {
+      "id": "A10",
+      "value": "Step 1: defining the scope of the ontology",
+      "source": "paper_text.txt#L6#s23"
+    },
+    {
+      "id": "A11",
+      "value": "Step 7: making the intervention population ontology machine-readable and available online",
+      "source": "paper_text.txt#L8#s22"
+    },
+    {
+      "id": "A12",
+      "value": "http://humanbehaviourchange.org/ontology/Population/bcio_population.owl/2026-11-10",
+      "source": "bcio_population.owl#http://humanbehaviourchange.org/ontology/Population/bcio_population.owl/2026-11-10"
+    },
+    {
+      "id": "A13",
+      "value": "http://humanbehaviourchange.org/ontology/Population/bcio_population.owl",
+      "source": "bcio_population.owl#http://humanbehaviourchange.org/ontology/Population/bcio_population.owl"
+    }
+  ],
+  "gaps": []
+}

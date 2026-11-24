@@ -1,0 +1,83 @@
+{
+  "rule": "paper_text.txt 的 L357–L600 区间内取行首 Step N 标题，编号须 1–7 连续；禁用标题去重、句中引用不计（行范围计数路；sop:protocol 声明块 sha256=ec2209dfd5c078badf0b9e8b8f5d89cd93ffd41db9f64444bc78202dbe3e530f）",
+  "source": "paper_text.txt#L357-L600",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "Step 1- Defining the scope of the BCI Schedule of Delivery Ontology through literature review",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L362-L390",
+      "evidence_loc": "paper_text.txt#L362-L362",
+      "input": "概念文献语料（top-down scoping review 的对象）",
+      "output": "本体范围定义与初始类清单（文献回顾产出）"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "Step 2- Identifying key BCI Schedule of Delivery classes and their definitions",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L391-L457",
+      "evidence_loc": "paper_text.txt#L391-L391",
+      "input": "Step 1 抽取的信息（范围与初始清单）",
+      "output": "关键类及其定义的初始结构"
+    },
+    {
+      "pos": 3,
+      "label": "S3",
+      "title": "Step 3- Refinement of the BCI Schedule of Delivery Ontology through an iterative process of literature annotation, discussion and revision",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L458-L482",
+      "evidence_loc": "paper_text.txt#L458-L458",
+      "input": "Step 2 的初版类结构",
+      "output": "经文献标注—讨论—修订迭代精炼后的本体版本"
+    },
+    {
+      "pos": 4,
+      "label": "S4",
+      "title": "Step 4 – Expert stakeholder review",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L483-L520",
+      "evidence_loc": "paper_text.txt#L483-L483",
+      "input": "Step 3 精炼后的本体",
+      "output": "专家利益相关者评审意见与相应修订"
+    },
+    {
+      "pos": 5,
+      "label": "S5",
+      "title": "Step 5 – Inter-rater reliability of annotations using the BCI Schedule of Delivery Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L521-L561",
+      "evidence_loc": "paper_text.txt#L521-L521",
+      "input": "Step 4 评审后的本体与标注指南",
+      "output": "标注者间信度（Krippendorff's α）评估结果"
+    },
+    {
+      "pos": 6,
+      "label": "S6",
+      "title": "Step 6 - Specifying relationships between classes",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L562-L570",
+      "evidence_loc": "paper_text.txt#L562-L562",
+      "input": "前五步确定的类清单",
+      "output": "类间关系规格（与 BFO 对齐的关系定义）"
+    },
+    {
+      "pos": 7,
+      "label": "S7",
+      "title": "Step 7 – Making the Schedule of Delivery Ontology machine-readable and available online",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L571-L600",
+      "evidence_loc": "paper_text.txt#L571-L571",
+      "input": "Step 6 定稿的类与关系",
+      "output": "机器可读并在线发布的本体（OWL 发布件）"
+    }
+  ]
+}

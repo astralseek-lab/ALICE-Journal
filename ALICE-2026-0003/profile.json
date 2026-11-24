@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "aro": "https://example.invalid/aro#"
+  },
+  "@type": [
+    "aro:NativeObject"
+  ],
+  "task_id": "ALICE-2026-0003",
+  "note": "本包为原生自算包（grade: native），gaps 为空。"
+}

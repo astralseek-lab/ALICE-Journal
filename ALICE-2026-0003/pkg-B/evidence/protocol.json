@@ -1,0 +1,83 @@
+{
+  "rule": "paper_text.txt 中 Methods 行之后首个 Step N: 标题行起、Results 行之前止；按位置取，一行为一步，N 从 1 起连续；Results 内同形标题不计",
+  "source": "paper_text.txt#L15-L35",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "develop-pilot",
+      "title": "Step 1: Development of the preliminary ontology and piloting",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L19-L20",
+      "evidence_loc": "paper_text.txt#L19-L20",
+      "input": null,
+      "output": "the preliminary MoD ontology"
+    },
+    {
+      "pos": 2,
+      "label": "stakeholder-r1",
+      "title": "Step 2: Stakeholder review (Round 1)",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L21-L22",
+      "evidence_loc": "paper_text.txt#L21-L22",
+      "input": "the preliminary MoD Ontology",
+      "output": "the MoD Ontology was published online"
+    },
+    {
+      "pos": 3,
+      "label": "irr-r2",
+      "title": "Step 3: Inter-rater reliability testing (Round 2)",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L23-L24",
+      "evidence_loc": "paper_text.txt#L23-L24",
+      "input": "The revised version",
+      "output": "Inter-rater reliability was calculated using the same procedure as in Step 1"
+    },
+    {
+      "pos": 4,
+      "label": "stakeholder-r2",
+      "title": "Step 4: Stakeholder review (Round 2)",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L25-L26",
+      "evidence_loc": "paper_text.txt#L25-L26",
+      "input": "the revised ontology",
+      "output": "suggestions for improved terminology"
+    },
+    {
+      "pos": 5,
+      "label": "irr-r3",
+      "title": "Step 5: Inter-rater reliability testing (Round 3)",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L27-L29",
+      "evidence_loc": "paper_text.txt#L27-L29",
+      "input": "this revised version of the MoD Ontology (as well as the annotation guidance manual)",
+      "output": "a final round of inter-rater reliability assessment"
+    },
+    {
+      "pos": 6,
+      "label": "specify-relations",
+      "title": "Step 6: Specifying relationships within the MoD Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L30-L31",
+      "evidence_loc": "paper_text.txt#L30-L31",
+      "input": null,
+      "output": "relationships between ontology entities"
+    },
+    {
+      "pos": 7,
+      "label": "machine-readable",
+      "title": "Step 7: Making the MoD Ontology machine-readable and available online",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L32-L34",
+      "evidence_loc": "paper_text.txt#L32-L34",
+      "input": "a table of entities",
+      "output": "This OWL version of the MoD Ontology"
+    }
+  ]
+}

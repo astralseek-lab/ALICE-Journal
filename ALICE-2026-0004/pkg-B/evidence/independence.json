@@ -1,0 +1,6 @@
+{
+  "source": "xml.sax 流式事件解析：单次过文件收集类声明与子类边，显式栈维护所在类；IRI 划界用 urlsplit 取 netloc＋path 独立判定；mapping 行号由流式行扫描独立生成；不读、不引用、不复制另一包的任何件",
+  "shared_code_with_a": false,
+  "entry": "code/recount.py",
+  "signer_pkg_id": "ALICE-2026-0004#pkg-B"
+}

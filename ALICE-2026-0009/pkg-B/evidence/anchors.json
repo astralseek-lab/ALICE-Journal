@@ -1,0 +1,80 @@
+[
+  {
+    "id": "A01",
+    "value": 49,
+    "source": "paper_text.txt#L715",
+    "locator": ""
+  },
+  {
+    "id": "A02",
+    "value": 0.54,
+    "source": "paper_text.txt#L85",
+    "locator": ""
+  },
+  {
+    "id": "A03",
+    "value": 17,
+    "source": "paper_text.txt#L642",
+    "locator": ""
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Glossary of terms.",
+    "source": "paper_text.txt#L259",
+    "locator": ""
+  },
+  {
+    "id": "A05",
+    "value": "Table 2. Behaviour Change Intervention Schedule of Delivery Ontology.",
+    "source": "paper_text.txt#L780",
+    "locator": ""
+  },
+  {
+    "id": "A06",
+    "value": "Specifying the Schedule of Delivery of Interventions within\nthe Behaviour Change Intervention Ontology",
+    "source": "paper_text.txt#p1（第 1/2 处）",
+    "locator": ""
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L357（第 2/2 处）",
+    "locator": ""
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L601（第 2/2 处）",
+    "locator": ""
+  },
+  {
+    "id": "A09",
+    "value": "Discussion",
+    "source": "paper_text.txt#L728（第 2/2 处）",
+    "locator": ""
+  },
+  {
+    "id": "A10",
+    "value": "Step 1- Defining the scope of the BCI Schedule of\nDelivery Ontology through literature review",
+    "source": "paper_text.txt#p6（第 1/2 处）",
+    "locator": ""
+  },
+  {
+    "id": "A11",
+    "value": "Step 7 – Making the Schedule of Delivery Ontology\nmachine-readable and available online",
+    "source": "paper_text.txt#p9（第 2/2 处）",
+    "locator": ""
+  },
+  {
+    "id": "A12",
+    "value": "http://humanbehaviourchange.org/ontology/Schedule/bcio_schedule.owl/2026-11-10",
+    "source": "bcio_schedule.owl#http://humanbehaviourchange.org/ontology/Schedule/bcio_schedule.owl/2026-11-10",
+    "locator": ""
+  },
+  {
+    "id": "A13",
+    "value": "http://humanbehaviourchange.org/ontology/Schedule/bcio_schedule.owl",
+    "source": "bcio_schedule.owl#http://humanbehaviourchange.org/ontology/Schedule/bcio_schedule.owl",
+    "locator": ""
+  }
+]

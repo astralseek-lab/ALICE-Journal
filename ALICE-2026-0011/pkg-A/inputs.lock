@@ -1,0 +1,14 @@
+[
+  {
+    "role": "corpus",
+    "uri": "paper_text.txt",
+    "bytes": 46895,
+    "sha256": "5f6bbf71856394abe6377c8cb3485e345e114066aa3c7411fafcc0617c505354"
+  },
+  {
+    "role": "corpus",
+    "uri": "fulltext__PMC7786424.xml",
+    "bytes": 214403,
+    "sha256": "2ca936c045f6d9a43707bda94ca3432a8ebdc0f46b93c55a86c44ce3f56e3b5f"
+  }
+]

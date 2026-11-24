@@ -1,0 +1,67 @@
+[
+  {
+    "id": "A01",
+    "value": "seven",
+    "source": "paper_text.txt#L24"
+  },
+  {
+    "id": "A02",
+    "value": "Term",
+    "source": "paper_text.txt#L5"
+  },
+  {
+    "id": "A03",
+    "value": "Step",
+    "source": "paper_text.txt#L28"
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Glossary of terms used in this article.",
+    "source": "paper_text.txt#L4"
+  },
+  {
+    "id": "A05",
+    "value": "Table 2. The refined ontology development method.",
+    "source": "paper_text.txt#L27"
+  },
+  {
+    "id": "A06",
+    "value": "Table 3. Steps in the Behaviour Change Intervention Ontology (BCIO) development method related to principles in ontology development.",
+    "source": "paper_text.txt#L73"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L23"
+  },
+  {
+    "id": "A08",
+    "value": "Discussion",
+    "source": "paper_text.txt#L68"
+  },
+  {
+    "id": "A09",
+    "value": "Conclusions",
+    "source": "paper_text.txt#L79"
+  },
+  {
+    "id": "A10",
+    "value": "Step 1: Development of the scope and definition of the ontology",
+    "source": "paper_text.txt#L29"
+  },
+  {
+    "id": "A11",
+    "value": "Step 7: Disseminating and maintaining the ontology",
+    "source": "paper_text.txt#L64"
+  },
+  {
+    "id": "A12",
+    "value": "5",
+    "source": "fulltext__PMC7786424.xml#front/article-meta/volume"
+  },
+  {
+    "id": "A13",
+    "value": "126",
+    "source": "fulltext__PMC7786424.xml#front/article-meta/elocation-id"
+  }
+]

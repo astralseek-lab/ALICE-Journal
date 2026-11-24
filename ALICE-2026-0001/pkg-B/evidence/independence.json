@@ -1,0 +1,6 @@
+{
+  "entry": "code/bcto_scan.py",
+  "shared_code_with_a": false,
+  "signer_pkg_id": "pkg-B",
+  "source": "pkg-B 由 xml.sax 流式＋迭代遍历＋urlsplit 划界独立实现；语料按行流式自行切节"
+}

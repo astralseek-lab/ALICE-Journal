@@ -1,0 +1,1034 @@
+RESEARCH ARTICLE
+Specifying the Schedule of Delivery of Interventions within
+the Behaviour Change Intervention Ontology
+[version 1; peer review: 4 approved with reservations, 1 not approved]
+Marta M. Marques
+1, Robert West
+2, Candice Moore3, Janna Hastings
+4-6,
+Ailbhe Finnerty
+7, Emily Hayes3, Paulina Schenk
+8, Susan Michie
+8
+1National School of Public Health, NOVA University of Lisbon, Comprehensive Health Research Centre, Lisbon, Portugal
+2Department of Behavioural Science and Health, University College London, London, UK
+3University College London Research Department of Clinical Educational and Health Psychology, London, England, UK
+4Institute for Implementation Science in Health Care, Faculty of Medicine, University of Zurich,, Zurich, Switzerland
+5School of Medicine, University of St Gallen, St. Gallen, Switzerland
+6Swiss Institute of Bioinformatics, Lausanne, Vaud, Switzerland
+7University College London Social Research Institute, London, England, UK
+8University College London Centre for Behaviour Change, London, England, UK
+First published: 09 Dec 2024, 9:721
+https://doi.org/10.12688/wellcomeopenres.23236.1
+Latest published: 09 Dec 2024, 9:721
+https://doi.org/10.12688/wellcomeopenres.23236.1
+v1
+Abstract
+Background
+Advancing and applying behavioural science requires clear, consistent
+and coherent descriptions of behaviour change interventions.
+Ontologies provide a means to do this and enable information to be
+computer-readable. This study aimed to develop an ontology
+describing the ‘schedule of delivery’ of behaviour change interventions
+within the Behaviour Change Intervention Ontology (BCIO).
+Methods
+The Behaviour Change Intervention Schedule of Delivery Ontology (BCISDO)
+was developed following the method developed for the BCIO: 1)
+defining the ontology’s scope through literature review, 2) specifying
+the entities, their labels, definitions and relationships, 3) refining the
+ontology by piloting its use in annotations, 4) stakeholder review of
+the ontology’s comprehensiveness and clarity; 5) inter-rater reliability
+testing through annotating intervention reports using the ontology; 6)
+specifying the relationships between classes; and 7) publishing a
+machine-readable version of the ontology.
+Results
+Open Peer Review
+Approval Status
+1
+2
+3
+4
+5
+version 1
+09 Dec 2024
+view
+view
+view
+view
+view
+Mor Peleg
+, University of Haifa, Haifa,
+Israel
+1.
+Nikos Ntoumanis, University of Southern
+Denmark, Odense, Denmark
+2.
+Tamla Evans
+, University of Cambridge
+School of Clinical Medicine, Cambridge, UK
+3.
+Elin M Andersson
+, Umea University,
+Umeå, Sweden
+4.
+Jasmin Ma
+, School of Kinesiology,
+University of British Columbia, Vancouver,
+Canada
+5.
+Any reports and responses or comments on the
+article can be found at the end of the article.Schedule of Delivery was defined as ‘A behaviour change intervention
+attribute that is its temporal organisation’. The initial version
+comprised 9 classes (e.g., intervention temporal part, intervention
+duration). Following annotations, stakeholder review and team
+discussions, four classes were added. Inter-rater reliability was α= 0.54
+for researchers familiar with the ontology and, following updates to
+the annotation guidance, α=0.60 (acceptable) for researchers
+unfamiliar with it. Differences were readily resolved through
+discussion. The results from inter-rater reliability and further team
+discussions led to additional changes in the ontology. The final
+ontology contains 49 classes; 14 refer to the duration and frequency
+of an intervention, its temporal parts and contact events, and 45 refer
+to their associated aggregation data items (e.g. mean, maximum).
+Conclusions
+The BCISDO provides a reliable means of describing the temporal
+organisation of behaviour change interventions. It is linked with other
+BCIO ontologies describing characteristics of delivery (e.g. mode of
+delivery), content and dose (i.e. the amount), contributing to the
+accumulation of evidence in behavioural science.
+Plain language summary
+To improve interventions that aim to change behaviour, we need clear
+and consistent ways to describe them. A method for doing this is by
+using knowledge structures called ontologies. These organise
+information, using clear definitions of terms and of relationships
+between terms, for example the duration of an intervention or the
+number or frequency of sessions over time. Every term is uniquely
+defined which allows information organised in this way to be
+computer readable. This study aimed to create an ontology to
+describe how the timing of behaviour change interventions is
+structured.
+We developed the Behaviour Change Intervention Schedule of
+Delivery Ontology by first reviewing the literature to define its scope.
+The ontology focused on the duration, frequency, and timing of an
+intervention. ‘Schedule of Delivery’ was defined as an attribute of
+behaviour change interventions that refers to its temporal
+organisation. From published research reports, we identified key
+concepts (called classes), their names, definitions, and how they relate
+each other. We tested and refined the ontology in several rounds,
+asking experts to review it for clarity and completeness. The resulting
+Schedule of Delivery Ontology consists of 49 classes. We published the
+ontology in a computable-reader format, and freely available to all.
+The Behaviour Change Intervention Schedule of Delivery Ontology
+provides a reliable way to describe how behaviour change
+interventions are organised over time. It connects with other parts of
+the Behaviour Change Intervention Ontology, helping to build a
+stronger evidence base in behavioural science.Corresponding authors: Marta M. Marques (mmarques@ensp.unl.pt), Janna Hastings (janna.hastings@gmail.com)
+Author roles: M. Marques M: Conceptualization, Formal Analysis, Investigation, Methodology, Resources, Validation, Writing – Original
+Draft Preparation, Writing – Review & Editing; West R: Conceptualization, Formal Analysis, Investigation, Methodology, Supervision,
+Validation, Visualization, Writing – Original Draft Preparation, Writing – Review & Editing; Moore C: Data Curation, Formal Analysis,
+Investigation, Methodology, Resources, Writing – Original Draft Preparation, Writing – Review & Editing; Hastings J: Data Curation,
+Investigation, Software, Supervision, Validation, Visualization, Writing – Review & Editing; Finnerty A: Data Curation, Formal Analysis,
+Investigation, Software, Writing – Review & Editing; Hayes E: Formal Analysis, Investigation, Writing – Review & Editing; Schenk P: Data
+Curation, Validation, Visualization, Writing – Review & Editing; Michie S: Conceptualization, Funding Acquisition, Methodology, Project
+Administration, Supervision, Writing – Review & Editing
+Competing interests: No competing interests were disclosed.
+Grant information: This work was supported by Wellcome [201524].
+The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+Copyright: © 2024 M. Marques M et al. This is an open access article distributed under the terms of the Creative Commons Attribution
+License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+How to cite this article: M. Marques M, West R, Moore C et al. Specifying the Schedule of Delivery of Interventions within the
+Behaviour Change Intervention Ontology [version 1; peer review: 4 approved with reservations, 1 not approved] Wellcome Open
+Research 2024, 9:721 https://doi.org/10.12688/wellcomeopenres.23236.1
+First published: 09 Dec 2024, 9:721 https://doi.org/10.12688/wellcomeopenres.23236.1
+Keywords
+ontology, evidence synthesis, intervention, behaviour change,
+stakeholder review, delivery
+This article is included in the Human Behaviour-
+Change Project (including the APRICOT project)
+gateway.Introduction
+Behaviour change is essential to address many global issues
+facing humanity today, including environmental, health, and
+social crises. This creates a need for high quality research in
+behaviour change (Michie et al., 2017). To achieve behaviour
+change, it is necessary to understand the factors influencing
+change, and to specify these factors precisely so that evaluations
+of the processes and outcomes of interventions can by evalu-
+ated, and knowledge about how best to bring about change can
+be accumulated. Similarly, it is also important to precisely spec-
+ify attributes of interventions, such as their content and dose,
+and aspects of delivery, such as mode (e.g. digital, face-to-face;
+Marques et al., 2021), and schedule (patterning over time). A
+consistent, well-defined terminology and classification of the
+schedule of a Behaviour Change Intervention (BCI; For the
+definitions of technical terms used in this paper - in bold and
+italicised-, see the glossary in Table 1) enable clearer descrip-
+tions, more accurate replication and easier translation of effec-
+tive interventions into practice (Michie et al., 2021). Further,
+researchers can make more granular comparisons across large
+numbers of studies to derive more specific conclusions, for
+example to investigate how intervention content (Marques et al.,
+2024; Michie et al., 2015) and aspects of delivery (Marques
+et al., 2021; Norris et al., 2021b; Wright et al., 2023) interact
+with other important aspects of interventions, such as the target
+behaviour (Schenk et al., 2024a) and mechanisms of action
+(Schenk et al., 2024b), over time.
+The specification and reporting of behaviour change interven-
+tions have improved over time, as frameworks have been devel-
+oped. For example, the TIDIER checklist (Hoffmann et al.,
+2014) includes 12 items, two of which refer to “how long”
+interventions are and “when” they take place relative to other
+important events (e.g. how long after diagnosis an intervention
+is delivered). However, the TIDIER checklist does not describe,
+classify or provide a consistent terminology for the schedule
+of a BCI. The Behaviour Change Techniques Taxonomy v1
+(BCTTv1) provided a more consistent terminology to specify
+behaviour change techniques (BCTs) of interventions (Michie
+et al., 2015), i.e., “the smallest parts of the content of a behav-
+iour change intervention that are observable, replicable and on
+their own have the potential to bring about behaviour change”
+(Michie et al., 2021). Consisting of 93 BCTs, this taxonomy
+has been widely used to select BCTs when developing inter-
+ventions, more consistently report findings about BCTs, and
+synthesise knowledge about BCTs (Corker et al., 2023). Frame-
+works for representing knowledge, such as checklists and
+taxonomies have been helpful but they lack the precision needed
+to link domains of knowledge across complex topics and disci-
+plines, or to ensure that the organised information is computer-
+readable. Ontologies are structures for representing knowledge
+that allow ‘interoperability’ and computer-readability.
+Ontologies define classes of entities (anything that exists in
+the universe) and their relations (Arp et al., 2015; Hastings,
+2017). Entities and their relations are defined to represent their
+essential properties in such a way that they are uniquely and
+fully specified and assigned a unique label. This enables data
+to be computer-readable, allowing computational analysis of
+large amounts of complex data (Gene Ontology Consortium,
+2015). As part of the Human Behaviour-Change Project (Michie
+et al., 2017), researchers have developed ontologies for
+representing behaviour change interventions - the Behaviour
+Change Intervention Ontology (BCIO; Michie et al., 2021) and
+its components.
+The BCIO aims to represent all relevant aspects of behav-
+ioural interventions and their evaluations. Therefore, classes
+in the upper level of the ontology include the BCI scenario and
+the BCI evaluation study. A BCI scenario is formally defined
+as the “process in which a behaviour change intervention
+is applied in a given context, including BCI engagement and
+outcome behaviour” (Michie et al., 2021). Context refers to a
+particular population in a particular setting. Within the ontol-
+ogy, a BCI is specified through its content (i.e. behaviour
+change technique, dose), and characterisis of the delivery of
+the content (i.e. mode of delivery, source, style of delivery,
+and schedule of delivery). Each of these characteristics are
+formally specified through a hierarchy of classes of entities
+elaborated in lower level ontologies. The BCIO component
+ontologies include intervention setting (Norris et al., 2020),
+target populations (ref), mode of delivery (Marques et al.,
+2021), source of delivery (Norris et al., 2021b), style of deliv-
+ery (Wright et al., 2023), behaviour change techniques (Marques
+et al., 2024), mechanisms of action (Schenk et al., 2024b), and
+human behaviour (Schenk et al., 2024a).
+BCI content consists of specific techniques, such as set behav-
+ioural goal BCT, which are delivered through various modes
+of delivery (e.g. digital, in-person). Most interventions consist
+of a range of such behaviour change techniques, which can be
+delivered over shorter or longer time periods and at different
+intervals (e.g., Schippers et al., 2017). Descriptions of the sched-
+ule of BCI often focus on the length of time an intervention spans
+(e.g. number/duration of sessions) and assume a straightfor-
+ward relation to the dose, such that more intervention sessions
+delivered for longer amounts of time are considered a larger
+dose (Rowbotham et al., 2019). However, there are other
+temporal aspects of the intervention schedule which may impact
+on intervention effectiveness.
+To be able to answer granular questions about when and how
+much of a BCI or a BCT is necessary to achieve a desrired
+behaviour change, we need greater conceptual clarity and to pro-
+vide a means for researchers and interventionists to describe
+temporal aspects of interventions in much detail as possible.
+For example, we need to be able to clearly specify a BCT
+delivered during six brief, five minute sessions across the
+course of a two month intervention, and distinguish it from
+the same BCT delivered for 30 minutes during a single ses-
+sion. An ontology, with unambiguous classes that capture, label
+and define such temporal aspects, could provide the language
+needed to do this.Table 1. Glossary of terms.
+Term
+Definition
+Source
+Annotation
+Process of coding, or tagging, selected parts of documents or other
+resources to identify the presence of ontology entities.
+Michie et al. (2017)
+Annotation guidance
+manual
+Written guidance on how to identify and tag pieces of text from
+intervention evaluation reports with specific codes relating to
+classes in the ontology, using for example EPPI-Reviewer software.
+Michie et al. (2017)
+Basic Formal Ontology
+(BFO)
+An upper-level ontology specifying foundational distinctions
+between different types of entity, such as between continuants and
+occurrents, developed to support integration, especially of data
+obtained through scientific research.
+Arp et al. (2015)
+Behaviour Change
+Intervention (BCI)
+An intervention that has the aim of influencing human behaviour.
+Michie et al. (2021)
+BCI Delivery
+An intervention delivery in which the intervention is a behaviour
+change intervention.
+BCI Schedule of Delivery
+A behaviour change intervention attribute that is its temporal
+organisation
+Class
+Classes in ontologies represent types of entities in the world. The
+terms “entity” and “class” are often used interchangeably to refer to
+the entities represented in an ontology. Classes can be arranged
+hierarchically by the specification of parent and child classes; see
+definition of parent class in the glossary.
+Arp et al. (2015)
+Entity
+Anything that exists or can be imagined, including objects,
+processes, and their attributes. It Includes mental process, i.e., the
+process and content of cognitive representations, and emotions.
+Arp et al. (2015)
+EPPI-Reviewer (EPPI =
+Evidence for Policy &
+Practice Information
+Centre)
+A web-based software program for managing and analysing data in
+all types of systematic review (meta-analysis, framework synthesis,
+thematic synthesis etc.) It manages references, stores PDF files and
+facilitates qualitative and quantitative analyses. It also has a facility
+to annotate published papers.
+Thomas et al. (2020) EPPI-Reviewer 4:
+http://eppi.ioe.ac.uk/eppireviewer4/
+EPPI-Reviewer Web Version: https://
+eppi.ioe.ac.uk/eppireviewer-web/
+GitHub
+A web-based platform used as a repository for sharing computer
+code, allowing version control.
+https://github.com/
+Inter-rater reliability
+Statistical assessment of similarity and dissimilarity of coding
+between two or more coders. If inter-rater reliability is high this
+suggests that ontology class definitions and labels are being
+interpreted similarly by the coders.
+Gwet (2014)
+Interoperability
+Two systems are interoperable to the extent that the data in each
+system can be used by the other system. Note: An ontology is
+interoperable with another ontology if it can be used together with
+the other ontology.
+http://www.obofoundry.org/
+principles/fp-010-collaboration.html
+Issue tracker
+An online log for problems identified by users accessing and using
+an ontology.
+BCIO issue tracker: https://
+github.com/HumanBehaviour
+ChangeProject/ontologies/issues
+The Open Biological and
+Biomedical Ontology
+(OBO) Foundry
+A collective of ontology developers who are committed to
+collaboration and adherence to shared principles. The mission of
+the OBO Foundry is to develop a family of interoperable ontologies
+that are both logically well-formed and scientifically accurate.
+Smith et al. (2007); www.obofoundry.
+org/
+OBO Foundry principles
+Good practice principles of ontology development and maintenance
+intended as normative for OBO Foundry ontologies. Ontologies
+submitted to OBO Foundry are evaluated against them.
+http://www.obofoundry.org/
+principles/fp-000-summary.htmlAim
+This study aimed to develop a clear, usable and reliable
+ontology representing the BCI schedule of delivery, defined
+as a “BCI attribute that is its temporal organisation”.
+Methods
+We developed the BCI Schedule Ontology in seven iterative
+steps, broadly following the method for developing ontolo-
+gies in the Human Behaviour-Change Project (Wright et al.,
+2020).
+Step 1- Defining the scope of the BCI Schedule of
+Delivery Ontology through literature review
+The first step involved a top-down scoping of the conceptual lit-
+erature. Initially, our search was focused on aspects related to
+the dose of interventions. A preliminary search was conducted in
+Web of Science, Google Scholar, using different combination of
+keywords, including: “dose”, “dosage”, “behavior”, “interven-
+tion”, “review”, “framework”. Additionally, existing ontolo-
+gies were searched on Ontology Lookup Service (Côté et al.,
+2008).
+The bottom-up approach involved annotating relevant infor-
+mation from a set of BCI published reports that were part of a
+large dataset of behaviour change intervention reports partially
+annotated for behaviour change techniques, mechanisms of
+action and modes of delivery, covering a range of health behav-
+iours (Carey et al., 2019; Michie et al., 2015). Principles of
+data saturation were followed with data coding conducted in
+batches until no new information was found, resulting in the
+annotation of 32 intervention reports.
+Reviewing the initial list of entities from the literature review,
+it was clear that two different dimensions were described as
+part of dose: the quantity of content, and temporal arrange-
+ment of delivery (e.g. frequency, duration). It was thus agreed
+between the research team that conceptual clarity would be bet-
+ter achieved by separating dose and schedule ontologies accord-
+ingly (manuscript describing dose within the BCIO is under
+preparation). A first definition of BCI schedule of delivery was
+developed following principles of good ontological definitions
+(Michie et al., 2019).
+Step 2- Identifying key BCI Schedule of Delivery classes
+and their definitions
+The information extracted in Step 1 was mapped to create ini-
+tial structures of the BCI Schedule of Delivery Ontology
+by grouping similar entities as candidate classes, eliminat-
+ing redundant terms, and excluding irrelevant terms. Entities
+from other ontologies were directly reused if the ontology con-
+formed with the Open Biological and Biomedical Ontology
+(OBO) Foundry principles technical principles for ontologies
+Term
+Definition
+Source
+Ontology
+A standardised representational framework providing a set of
+entities for the consistent description (or “annotation” or “tagging”)
+of data and information across disciplinary and research community
+boundaries.
+Arp et al. (2015)
+Parent class
+A class within an ontology that is hierarchically related to one or
+more child classes (subclasses) such that all members of the child
+class are also members of the parent class, and all properties of the
+parent class are also properties of the child class.
+Arp et al. (2015)
+Relation
+The manner in which two entities are connected or linked.
+Arp et al. (2015)
+ROBOT
+An automated command line tool for ontology workflows.
+Jackson et al. (2019); http://robot.
+obolibrary.org
+Uniform Resource
+Identifiers (URI)
+A string of characters that unambiguously identifies an ontology or
+an individual entity within an ontology. Having URI identifiers is one
+of the OBO Foundry principles.
+http://www.obofoundry.org/
+principles/fp-003-uris.html
+Versioning
+Ontologies that have been released are expected to change over
+time as they are developed and refined, leading to a series of
+different files. Consumers of ontologies must be able to specify
+exactly which ontology files they used to encode their data or build
+their applications and be able to retrieve unaltered copies of those
+files in perpetuity. Versioning is one of the OBO Foundry principles.
+http://www.obofoundry.org/
+principles/fp-004-versioning.html
+Web Ontology
+Language (OWL)
+A formal language for describing ontologies. It provides methods
+to model classes of entities, how they relate to each other and
+the properties they have. OWL is designed to be interpreted by
+computer programs and is extensively used in the Semantic Web
+where rich knowledge about web documents and the relationships
+between them are represented using OWL syntax.
+https://www.w3.org/TR/owl2-quick-
+reference/(OBO Foundry, 2019; Wright et al., 2020), in particular advis-
+ing the use of Uniform Resource Identifiers for entities (Smith
+et al., 2007), and being structured (i.e. having an upper-level)
+using the Basic Formal Ontology (BFO; Arp et al., 2015). If
+a relevant class was found that did not follow these principles,
+making it more difficult to directly re-use, a new class was cre-
+ated, and the pre-existing relevant class was cross-referenced
+by the new class. This practice reduces redundancy (i.e.,
+unduplicated entities) and ensures interoperability between
+ontologies.
+Step 3- Refinement of the BCI Schedule of Delivery
+Ontology through an iterative process of literature
+annotation, discussion and revision
+We tested the first version of the BCI Schedule of Delivery
+Ontology by annotating a small number of intervention reports
+(10 on physical activity and 15 on smoking cessation) and made
+some minor adjustments. After that, the ontology was used
+to annotate a set of 80 smoking cessation behaviour change
+intervention reports. Reports were randomised controlled tri-
+als included in Cochrane reviews (List of papers used in devel-
+opment of ontology: https://osf.io/4qcby/ (West et al., 2020)).
+EPPI-Reviewer 4 software (Thomas et al., 2020) was used
+for the annotations. An open alternative to this software used
+for annotation is PDFAnno (Shindo et al., 2018). Annota-
+tions followed an annotation guidance manual (West et al.,
+2020). Two researchers (MM, CM & EH) independently anno-
+tated the papers in batches of ~10, then met to discuss any dis-
+crepancies and agree revisions to the codeset or to develop
+further annotations guidance to improve the quality of annotations.
+Throughout this process, changes to the ontology or guid-
+ance were discussed with the research team of behavioural
+science experts and an ontology expert. A revised version of the
+BCI Schedule of Delivery Ontology was agreed which was
+deemed stable and required no further annotation to generate
+additional entities.
+Step 4 – Expert stakeholder review
+An international panel of behavioural scientists and pub-
+lic health experts identified from UCL’s Centre for Behaviour
+Change stakeholder list (Wright et al., 2020) were invited to
+provide feedback on the the BCI Schedule of Delivery Ontol-
+ogy resulting from Step 3. This list was made up of behaviour
+change experts who: (i) provided feedback on previous stud-
+ies in the UCL Centre for Behaviour Change and expressed
+interest in being contacted for future studies, or (ii) registered
+their interest in being contacted for stakeholder activities in the
+Human Behaviour-Change Project. The random sample gen-
+erator Research randomizer was used to select 100 participants
+from the wider HBCP panel of 351 experts. Of the 100 experts,
+72 were from “well-represented” countries in the stakeholder list
+(the UK, USA, Canada, Netherlands and Australia), while 28
+were from “less-well represented” countries (Germany, Estonia,
+Japan, Chile, Uganda etc). Invitations to participate were sent via
+email, and experts gave feedback by completing an online ques-
+tionnaire delivered via Qualtrics software (https://osf.io/tm2fh)
+(Norris et al., 2021a; West et al., 2020).
+The task was designed to take no longer than 45 minutes to
+complete. Experts were asked to: 1) Identify the characteris-
+tics of an intervention schedule they would be most interested
+in for understanding variation in the effectiveness of behaviour
+change interventions (open-ended question); 2) Provide feed-
+back on the completeness and comprehensiveness of the ontol-
+ogy; 3) Identify any missing classes (if yes, which classes should
+be added); 4) Identify any changes to classes or their defini-
+tions (if yes, what changes should be considered); 5) indicate
+if there were any classes that should be placed in a different
+position within the ontology’s hierarchy.
+Two researchers (AFM, MM) logged and responded to each stake-
+holder comment in terms of the relevant change to the ontology
+or the rationale for not further addressing the comment, after
+which the larger research team provided feedback on the sug-
+gested changes to the ontology. The BCI Schedule of Deliv-
+ery Ontology and annotation guidance manual were revised in
+accordance.
+Step 5 – Inter-rater reliability of annotations using the
+BCI Schedule of Delivery Ontology
+To ensure that researchers could reliably annotate temporal
+aspects of interventions, assessment of inter-rater reliability of
+annotating intervention reports using the BCI Schedule of Deliv-
+ery Ontology was done in two ways. First, two members of the
+research team leading the development of this ontology (CM,
+AFM), independently annotated references to the schedule of
+delivery in 50 intervention reports (30 for smoking cessation
+and 20 for physical activity), using EPPI-Reviewer. This number
+of papers was selected as 50 papers would give a 10–15% mar-
+gin of error around the estimated percentage agreement between
+coders (Gwet, 2014; Wright et al., 2020). Secondly, two behav-
+iour change experts unfamiliar with the ontology but with
+MSc related to behavioural science and with experience in
+annotating behaviour change intervention reports, annotated
+another set of 50 reports with a variety of target behaviours
+were randomly chosen using the EPPI Reviewer funtion, and
+assigned to the experts using the distribute work functionality in
+EPPI-Reviewer, from a database of papers. Annotations fol-
+lowed an annotation guidance manual (https://osf.io/paem8)
+(West et al., 2020).
+Annotated data was extracted as JSON files from EPPI-Reviewer
+and run through the Automation Inter-Rater Reliability script
+for calculating inter-rater reliability, developed as part of the
+Human
+Behaviour
+Change
+Project
+(Finnerty
+&
+Moore,
+2020), incorporating the Python script Krippendorff 0.3.2.
+Krippendorff’s alpha (Hayes & Krippendorff, 2007) was used
+as the inter-rater reliability coefficient as it corrects well for
+chance and can be used for multiple data-types (e.g. nominal,
+ordinal or interval).
+Additional changes to the BCI Schedule of Delivery Ontology
+were made based on the issues arising from inter-rater reliabil-
+ity testing, and final revision of classes, definitions and labels
+by the research team.Step 6 - Specifying relationships between classes
+The research team specified and refined the relationships
+between the classes in the BCI Schedule of Delivery Ontol-
+ogy, making sure all relationships were in line with BFO and
+the Relation Ontology (Smith et al., 2005). For example, the
+hierarchical “is_a” relationship is used to connect subclasses
+of intervention schedule of delivery (e.g, a regular sched-
+ule of delivery can be specified as a subclass of intervention
+schedule of delivery).
+Step 7 – Making the Schedule of Delivery Ontology
+machine-readable and available online
+The BCI Schedule of Delivery Ontology was represented in tables
+including classes’ labels, definitions, elaborations, key relation-
+ships, examples and synonyms. To release the ontology in a
+machine readable and interoperable format, we created a ver-
+sion in Web Ontology Language (OWL) format (Antoniou &
+Van Harmelen, 2004), enabling it to be searched, visualised
+and queried, using standard ontology tools and software. A
+script based on the ROBOT ontology toolkit library (Jackson
+et al., 2019) was used to convert the primary Excel files in
+which ontology developers specify content into the OWL for-
+mat, linking it with the upper level of the BCIO, incorporating
+relevant metadata such as labels, synonyms and definitions, and
+the relationships between classes. The OWL version of the BCI
+Schedule of Delivery Ontology is stored in the Human Behav-
+iour-Change Project’s GitHub repository, an online platform for
+sharing and versioning resources.
+The GitHub repository has an issue tracker which allows feed-
+back and queries to be submitted by members of the GitHub
+community; these can be responded to and, if necessary,
+addressed in subsequent ontology releases. The BCI Schedule
+of Delivery is part of the Behaviour Change Intervention Ontol-
+ogy which is available online in the Behavioural and Social
+Sciences Ontology Foundry, a repository for ontologies in
+the behavioural and social science domains; and an associ-
+ated community of practice is being built. The final Behaviour
+Change Intervention Ontology will also be submitted to the
+Open Biological and Biomedical Ontology (OBO) Foundry
+(Smith et al., 2007).
+Results
+Step 1- Defining the scope of the BCI Schedule of
+Delivery Ontology through literature review
+The conceptual literature research presented information about
+ways of operationalising the schedule of delivery of a BCI. The
+main features of schedule found in the 32 reports were dura-
+tion (68%), frequency (59%) and schedule (34%). The reports
+also contained many examples of measures of time (e.g. min-
+utes, hours, weeks), frequency (e.g. weekly, monthly) and rela-
+tive time (e.g. five weeks after initiation of support). Schedule
+was initially defined as “The temporal organisation of a behav-
+iour change intervention, expressed in terms of the overall
+duration of the intervention, the number of components and
+their duration, frequency and regularity.”
+Step 2- Identifying key BCI Schedule of Delivery classes
+and their definitions
+The first version of the Schedule Ontology contained 9 classes
+(available at: https://osf.io/qmcf4/) (West et al., 2020), which
+encompassed the duration or temporal organisation of events,
+such as intervention contacts (e.g. number, duration or fre-
+quency of sessions). Additional temporal classes (e.g. when
+an intervention session takes place relative to other events),
+were also included.
+Step 3- Refinement of the BCI Schedule of Delivery
+Ontology through an iterative process of literature
+annotation and discussion
+Annotations of 105 intervention reports using the BCI Sched-
+ule of Delivery Ontology resulted in revisions. The definition
+of Schedule of Delivery was redefined as ‘An attribute of a BCI
+delivery that involves its temporal organisation.’ The refined
+Schedule Ontology resulting from the annotations consisted of
+13 classes: Intervention temporal part, contact event, BCI dura-
+tion, contact event duration, intervention temporal part duration,
+interval between intervention temporal parts, contact event fre-
+quency, number of contact events, temporal reference associated
+with the intervention, intervention temporal part frequency,
+total contact event duration, regular intervention sched-
+ule and irregular intervention schedule (https://osf.io/65r8e/)
+(West et al., 2020).
+Step 4 – Expert stakeholder review
+From the 100 experts invited to participate in the stakeholder
+review task, 28 experts responded to the request but only 17
+of those that responded completed the task; 24% of the com-
+pleted responses were from experts from “less-well repre-
+sented” countries. Their feedback was analysed and responses
+to the suggested changes can be found at (https://osf.io/z98tq)
+(West et al., 2020).
+No additional classes were added to or removed from the ontol-
+ogy at this step; however, the ontology was updated to give
+more informal definitions and elaborations to make the classes
+clearer as requested by the experts. The annotation guidance
+manual was also refined based on expert uncertainties of how
+to use several of the classes (e.g., being able to apply a class to
+an intervention aspect more than once) and whether the classes
+related to the planned or actual events in the interven-
+tion (the classes relate to the intervention scenario which is
+what was reported rather than planned for the intervention).
+Step 5 – Inter-rater reliability of annotations using the
+BCI Schedule of Delivery Ontology
+Krippendorff’s alpha values were calculated from 50 papers
+reporting smoking cessation and reporting physical activity
+behavior change interventions that were annotated by research-
+ers familiar with the schedule ontology. A value of a=0.54
+was obtained, which is lower than what is deemed acceptable
+(a=0.60). Interval temporal part and associated classes were the
+ones that revealed more difficulties with annotation, and thedescription of these classes was improved in the manual guid-
+ance for the external annotation. Another 50 papers reporting
+interventions in the same behavioral domain that were annotated
+by behavioural science researchers unfamiliar with the ontolo-
+gies generated a alpha value of a=0.60, indicating an acceptable
+reliability.
+Discussions between the research team on consistency between
+classes, and labels and defintions led to final revisions of
+the ontology. The following changes were made:
+•
+Revision of the definition of BCI Schedule of Delivery
+to: "A behaviour change intervention attribute that is
+its temporal organisation".
+•
+Revision of the labels of all entities to "BCI" instead
+of intervention
+•
+Inclusion of two additional classes: BCI Duration
+(“<A temporal interval> between the star and end of
+a BCI”), and order of BCI temporal parts (“a <BCI
+attribute> that is the temporal positioning of BCI
+parts.
+•
+Data items that were described as "aggregates" (capturing
+data relating to the minimum, maximum, mean or
+median for temporal classes, such as BCI duration)
+were moved to separate classes, presenting a "is about"
+relation with their parent class.
+Step 6 - Specifying relationships between classes
+A key relationship specified between classed and their parent
+classes was the “is_a” relationship, for example, “regular BCI
+schedule of delivery” is_a “BCI schedule of delivery”. Another
+relationship that associates classes that are representational or
+quantitative in nature, such as data iems, to the relevant class that
+they are about was the “is_about” relationship. For example,
+the following relationship links “mean BCI duration statistic”
+to “BCI duration”: “mean BCI duration statistic” is_about “BCI
+duration”. In addition, the “is_attribute_of” relationship ena-
+bled us to specify that “BCI schedule of delivery” is an attribute
+or a characteristic of a “behaviour change intervention”: “BCI
+schedule of delivery” is_attribute_of “behaviour change inter-
+vention. Finally, the parthood relationship (“part_of”) allowed us
+to capture composition. For example, an intervention temporal
+part is a part of an intervention.
+Step 7 – Making the Schedule of Delivery Ontology
+machine-readable and available online
+Classes IDs, labels, definitions, parent classes and type of rela-
+tions are presented in Table 2. The final version of the BCI
+Schedule of Delivery Ontology contains 49 classes. Of these,
+14 classes specify unique entities related to the duration and
+frequency of a BCI, its temporal parts and contact events, and
+35 are associated aggregate data items (statistic, mean, median,
+minimum, maximum).
+The BCI Schedule of Delivery Ontology is available in a
+downloadable format available from GitHub (https://github.com/
+HumanBehaviourChangeProject/ontologies/blob/master/Sched-
+ule/bcio_schedule.owl), and it can be browsed in the dedicated
+BCIO Search Tool and Ontology Lookup Service. The ontol-
+ogy is accompanied by an annotation guidance manual that pro-
+vides guidance on how to annotate for these entities in BCI
+reports (https://osf.io/2rfwy). (West et al., 2020).
+Discussion
+This study developed a formal and machine-readable specifica-
+tion and classification of the characteristics of the schedule of
+an intervention (e.g. duration) - the Behaviour Change Inter-
+vention Schedule of Delivery Ontology, as part of the Behav-
+iour Change Intervention Ontology (Michie et al., 2021).
+It consists of 49 classes, of which 14 specified entities related
+to the duration and frequency of a BCI, its temporal parts and
+contact events, and 35 were associated aggregate data items (sta-
+tistic, mean, median, minimum, maximum). This method of
+specifying characteristics of the schedule of delivery of behav-
+iour change interventions in terms of classes, labels and defini-
+tions provides a shared vocabulary for reporting and describing
+interventions, improving clarity, reducing ambiguity and enabling
+communication across disciplines.
+While the preliminary development focused on the concept of
+dose, the initial literature research and annotations, and discus-
+sion within the research team, revealed that within the domain
+of behavioural science, most of the concepts named as dose
+characteristics were characteristics of schedule, i.e. temporal
+organisation of the delivery of an intervention, and aspects related
+with duration and frequency of an intervention and its parts.
+Dose is exclusively the amount of content, which may refer to
+the number of behaviour change techniques that are used and is
+further described elsewhere. Schedule is related to the delivery
+of the content of interventions, i.e. their timing. The distinction
+between these entities and their representation through an ontol-
+ogy is crucial to improve reporting, accuracy of evidence-
+synthesis and understanding. The annotations done during
+the development of this ontology revealed the complexi-
+ties of annotating unique entities of time and parts in existing
+intervention reports, due to the poor reporting of these char-
+acteristics. In many instances there was no detailed infor-
+mation about the schedule of the different parts of an
+intervention. Lack of detail in describing the temporal char-
+acteristics of BCIs shows the need for the formalisation of
+knowledge related to the schedule of delivery of BCIs.
+Strengths and limitations
+A strength of this work is the fact that the ontologies are inter-
+operable (i.e. are interlinked and can be used together) with
+other ontologies within the BCIO developed within the Human
+Behaviour-Change Project, including delivery characteristics
+such as the Mode of Delivery Ontology (Marques et al., 2021),
+Intervention Source Ontology (Norris et al., 2021a), and
+Style of Delivery (Wright et al., 2023), and ontologies that
+represent the content of BCIs - Behaviour Change Techniques
+Ontology (Marques et al., 2024) and Dose Ontology. Because
+ontologies are machine-readable, they support complex, rapid
+analysis of large datasets to produce, for example, advanced
+evidence syntheses and predictions of intervention outcomes.
+This allows real-time, up-to-date evidence to be interrogated
+by users such as policy-makers, planners, practitioners andTable 2. Behaviour Change Intervention Schedule of Delivery Ontology.
+Class ID
+Label
+Definition
+Parent Class
+Type of relation
+BCIO:008500
+BCI schedule of
+delivery
+A <BCI attribute> that is its temporal organisation.
+BCI attribute
+“Is attribute of” BCI
+delivery
+BCIO:008535
+regular intervention
+schedule
+A <BCI schedule of delivery> in which the frequency
+and duration of Intervention temporal parts are
+uniform across the course of a BCI or BCI part.
+BCI schedule of
+delivery
+BCIO:008540
+irregular intervention
+schedule
+A <BCI schedule of delivery> in which the frequency
+and duration of contact events change over the
+course of a temporal part or BCI.
+BCI schedule of
+delivery
+BCIO:008560
+BCI duration*
+A <temporal interval> between the start and end of
+a BCI.
+temporal interval
+(one-dimensional
+temporal region)
+“is about” behaviour
+change intervention
+BCIO:008505
+BCI temporal part
+A <planned process> that is a temporal part of a
+BCI.
+planned process
+“part of” behaviour
+change intervention
+BCIO:008565
+BCI temporal part
+duration*
+A <temporal interval> between the start and end of
+an intervention temporal part.
+temporal interval
+(one-dimensional
+temporal region)
+“is about” BCI
+temporal part
+BCIO:008710
+BCI temporal part
+frequency*
+A <data item> that is how often intervention
+temporal parts occur within a BCI.
+data item
+“is about” BCI
+temporal part
+BCIO:008575
+interval between BCI
+temporal parts
+A <temporal interval> between the end of one BCI
+temporal part and the beginning of a subsequent
+BCI temporal part.
+temporal interval
+(one-dimensional
+temporal region)
+“is about” BCI
+temporal part
+BCIO:008580
+order of BCI
+temporal parts
+A <BCI attribute> that is the temporal positioning of
+BCI temporal parts.
+BCI attribute
+“Is attribute of” BCI
+schedule of delivery
+BCIO:008510
+BCI contact event
+An <intervention temporal part> that is an occasion
+in which a member of a BCI population comes into
+contact with a BCI.
+interval temporal
+part
+BCIO:008525
+BCI contact event
+duration*
+A <temporal interval> between the start and end of
+a BCI contact event.
+temporal interval
+(one-dimensional
+temporal region)
+“is about” BCI
+contact event
+BCIO:008515
+number of BCI
+contact events*
+A <data item> that is the number of contact events
+in a BCI temporal part.
+data item
+“is about” BCI
+contact event
+BCIO:008700
+BCI contact event
+frequency*
+A <data item> about the number times a contact
+event occurs per unit of time.
+data item
+“is about” BCI
+contact event
+BCIO:008530
+temporal reference
+associated with the
+intervention
+A <temporal region> against which a BCI temporal
+part is referenced.
+temporal region
+“part of” BCI
+schedule of delivery
+BCIO:008545
+total BCI contact
+event duration*
+A <temporal interval> that is the total of
+intervention temporal parts within a behaviour
+change intervention.
+temporal interval
+(one-dimensional
+temporal region)
+“is about” BCI
+contact event
+* Each of these classes can be linked to 5 additional classes that capture the statistical information about them, these are - maximum, minimum mean, and median
+- and an additional parent class “BCI duration statistic”
+intervention designers to answer variants of the “big question”:
+“What works, compared with what, how well, with what expo-
+sure, with what behaviours (for how long), for whom, in what
+settings and why?”, across a wide range of contexts.
+A strength of the methodology used was the inclusion of
+an expert panel consultation from a variety of domains and
+backgrounds who appraised and revised the ontology (Norris
+et al., 2021a; Wright et al., 2020), ensuring that the classes
+are as comprehensive as possible and provide good coverage
+of the phenomena for its purposes.
+A limitation of this work is that the dataset of report papers used
+for the annotations of the schedule classes only covered someof the types of behaviour targeted by behaviour change inter-
+ventions (e.g., smoking cessation and physical activity for the
+inter-rater reliability testing). It is likely that future application
+of the ontology for other behaviours and contexts may identify
+additional classes that can be added to this ontology. The onto-
+logical representations of schedule will need to be updated
+according to advances in behavioral science and based on the
+feedback from users that can be submitted through GitHub. Users
+may wish to add new classes or relations, or suggest changes to
+labels or definitions. This can be done by creating an “Issue”
+on the GitHub portal for the BCIO (https://github.com/Human-
+BehaviourChangeProject/ontologies/issues). Ontology users can
+submit suggested changes about the ontology (e.g., adding
+or changing classes) through the GitHub Issues Tracker
+(https://github.com/ontology-tools/onto-spread-ed/issues).
+To submit changes, people first need to create an account on
+Github, and then submit an issue by clicking “New Issue” on
+the provided link for the issue tracker. Any submitted issue will
+be monitored, responded to and addressed by changing the
+ontology or providing guidance where relevant.
+Parts of the Behaviour Change Intervention Schedule of
+Delivery Ontology have been used to inform the development
+of classes for the temporal patterning of behaviours, such as
+“behavioural duration” (Schenk et al., 2024a); these classes will
+be further developed and reported in a forthcoming paper in
+Wellcome Open Research.
+Conclusion
+The Behaviour Change Intervention (BCI) Schedule of Deliv-
+ery Ontology constitutes a shared vocabulary describing char-
+acteristics of the temporal organisation of behaviour change
+interventions. It can be used to support intervention reporting,
+descriptions and intervention development about the tempo-
+ral aspects of behaviour change interventions. Moreover, by
+incorporating feedback from its users into the Schedule Ontol-
+ogy in the future, the ontology will become increasingly
+useful for applications. The Schedule Ontology can also
+be linked and used with other parts of the BCIO describing
+characteristics of delivery (e.g. mode of delivery), content
+(behaviour change techniques) and dose (i.e. the amount), con-
+tributing to the detailed and precise accumulation of evidence
+in behavioural science.
+Ethics and consent
+Ethical
+approval
+was
+granted
+by
+University
+College
+London’s
+ethics
+committee
+(CEHP/2020/579)
+in
+2020.
+Written Participant consent was gained in the stakeholder review
+on a page of the online Qualtrics survey. (https://osf.io/tm2fh)
+(West et al., 2020).
+Data availability
+Underlying data
+Open Science Framework: Human Behaviour-Change Project,
+https://doi.org/10.17605/OSF.IO/EFP4X (West et al., 2020).
+This project contains the following underlying data:
+Archived version of the Behaviour Change Intervention Sched-
+ule of Delivery Ontology available from Zenodo: https://doi.org/
+10.5281/zenodo.14001266
+Behaviour Change Intervention Schedule of Delivery Ontology
+available
+from:
+https://github.com/HumanBehaviourChange-
+Project/ontologies/blob/master/Schedule/bcio_schedule.owl
+Data are available under the terms of the Creative Commons
+Attribution 4.0 International license (CC-BY 4.0).
+Extended data
+Open Science Framework: Human Behaviour-Change Project,
+https://doi.org/10.17605/OSF.IO/EFP4X (West et al., 2020).
+This project contains the following extended data:
+•
+Expert stakeholder feedback survey; Full survey
+provided; https://osf.io/tm2fh
+•
+Annotation guidance; Manual for annotating using the
+Behaviour Change Intervention Schedule of Delivery
+Ontology; https://osf.io/2rfwy
+•
+Preliminary version of Behaviour Change Intervention
+Schedule of Delivery Ontology; https://osf.io/qmcf4/
+•
+Version 1 of Behaviour Change Intervention Schedule
+of Delivery Ontology; https://osf.io/65r8e
+•
+Stakeholder survey: Survey sent to stakeholders
+for feedback in the Behaviour Change Intervention
+Schedule of Delivery Ontology; https://osf.io/tm2fh
+•
+Expert stakeholder feedback; Raw feedback received
+from behavioural science and ontology experts, and
+responses from research team; https://osf.io/z98tq
+•
+Internal inter-rater reliability testing; https://osf.io/x276p
+•
+External inter-rater reliability testing; https://osf.io/
+xdp34
+Data are available under the terms of the Creative Commons
+Attribution 4.0 International license (CC-BY 4.0).
+Software availability
+Source code used to calculate alpha for IRR available from:
+https://github.com/HumanBehaviourChangeProject/Automation-
+InterRater-Reliability
+Archived code at time of publication: https://doi.org/10.5281/
+zenodo.3833816 (Finnerty & Moore, 2020)
+License: GNU General Public License v3.0 only
+Acknowledgements
+We are grateful to Shaon Lahiri and Micaela Santilli for anno-
+tating papers to refine the ontology. We would also like to
+thank all the experts who provided feedback on the ontology.

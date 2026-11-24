@@ -1,0 +1,6 @@
+{
+  "entry": "code/metrics.py",
+  "shared_code_with_a": false,
+  "signer_pkg_id": "pkg-B",
+  "source": "独立第二实现：minidom 解析＋显式栈迭代＋流式一次过计数＋urlsplit 划界；全程不读取、不引用另一实现包的任何件，六量与全部产物由本包 code 现场重算"
+}

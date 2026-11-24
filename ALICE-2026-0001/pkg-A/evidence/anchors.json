@@ -1,0 +1,67 @@
+[
+  {
+    "id": "A01",
+    "source": "paper_text.txt#L58",
+    "value": 281
+  },
+  {
+    "id": "A02",
+    "source": "paper_text.txt#L53",
+    "value": 247
+  },
+  {
+    "id": "A03",
+    "source": "paper_text.txt#L55",
+    "value": 0.82
+  },
+  {
+    "id": "A04",
+    "source": "paper_text.txt#L55",
+    "value": 0.79
+  },
+  {
+    "id": "A05",
+    "source": "paper_text.txt#L80",
+    "value": "five"
+  },
+  {
+    "id": "A06",
+    "source": "paper_text.txt#L59",
+    "value": "Table 2. Definitions of the 20 higher-level groups in the final BCT Ontology, and number of BCTs in each group (after step 5). Note. The number of BCTs in each of group should not be considered final. The BCTO will continue to evolve and grow (e.g. new BCTs or new groups) as a result of user feedback and new available evidence."
+  },
+  {
+    "id": "A07",
+    "source": "paper_text.txt#L60",
+    "value": "BCT group"
+  },
+  {
+    "id": "A08",
+    "source": "paper_text.txt#L11",
+    "value": "Figure 1. The upper level of the Behaviour Change Intervention Ontology (BCIO) V1.5.‘Behaviour change technique’ is part of ‘BCI content’."
+  },
+  {
+    "id": "A09",
+    "source": "paper_text.txt#L15",
+    "value": "Methods"
+  },
+  {
+    "id": "A10",
+    "source": "paper_text.txt#L20",
+    "value": "Step 1: Extract and synthesise feedback on the BCTTv1"
+  },
+  {
+    "id": "A11",
+    "source": "fulltext__PMC10427801.xml#front/article-meta/article-id[@pub-id-type='doi']",
+    "value": "10.12688/wellcomeopenres.19363.2"
+  },
+  {
+    "id": "A12",
+    "source": "bcto.owl#http://humanbehaviourchange.org/ontology/bcto.owl/2026-11-10",
+    "value": "http://humanbehaviourchange.org/ontology/bcto.owl/2026-11-10"
+  },
+  {
+    "id": "A13",
+    "source": "bcto.owl#http://humanbehaviourchange.org/ontology/bcto.owl",
+    "value": "http://humanbehaviourchange.org/ontology/bcto.owl"
+  }
+]

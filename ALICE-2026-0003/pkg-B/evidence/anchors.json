@@ -1,0 +1,67 @@
+[
+  {
+    "id": "A01",
+    "value": 65,
+    "source": "paper_text.txt#L50"
+  },
+  {
+    "id": "A02",
+    "value": "0.68 to 0.97",
+    "source": "paper_text.txt#L37"
+  },
+  {
+    "id": "A03",
+    "value": 16,
+    "source": "paper_text.txt#L43"
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Glossary.",
+    "source": "paper_text.txt#L7"
+  },
+  {
+    "id": "A05",
+    "value": "Table 2. Steps for developing the Mode of Delivery Ontology.",
+    "source": "paper_text.txt#L17"
+  },
+  {
+    "id": "A06",
+    "value": "Table 3. Entity labels, definitions, URIs and examples of usage for Mode of Delivery Ontology entities.",
+    "source": "paper_text.txt#L51"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L15"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L35"
+  },
+  {
+    "id": "A09",
+    "value": "Discussion",
+    "source": "paper_text.txt#L53"
+  },
+  {
+    "id": "A10",
+    "value": "Step 1: Development of the preliminary ontology and piloting",
+    "source": "paper_text.txt#L19"
+  },
+  {
+    "id": "A11",
+    "value": "Step 7: Making the MoD Ontology machine-readable and available online",
+    "source": "paper_text.txt#L32"
+  },
+  {
+    "id": "A12",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl/2026-11-10",
+    "source": "bcio_mode_of_delivery.owl#http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl/2026-11-10"
+  },
+  {
+    "id": "A13",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl",
+    "source": "bcio_mode_of_delivery.owl#http://humanbehaviourchange.org/ontology/bcio_mode_of_delivery.owl"
+  }
+]

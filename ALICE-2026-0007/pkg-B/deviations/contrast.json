@@ -1,0 +1,35 @@
+[
+  {
+    "rule": "rdf:about 去文件名（本体 IRI 去末段得 http://humanbehaviourchange.org/ontology/）：命中 0 类（主口径推导见 evidence/ns.json 的 host＋dir）",
+    "hits": 0,
+    "derivation_ref": {
+      "code": "code/metrics.py",
+      "entry": "contrast_reading",
+      "params": {
+        "reading": "strip_filename"
+      }
+    }
+  },
+  {
+    "rule": "前缀 BCIO_（类 IRI 本地名以 BCIO_ 起头）：命中 202 类（与主值同值：巧合，不是判据；主口径推导见 evidence/ns.json 的 host＋dir）",
+    "hits": 202,
+    "derivation_ref": {
+      "code": "code/metrics.py",
+      "entry": "contrast_reading",
+      "params": {
+        "reading": "prefix_BCIO"
+      }
+    }
+  },
+  {
+    "rule": "出现最多的前缀（本地名首段计数降序取首，本件为 BCIO）：命中 202 类（与主值同值：巧合，不是判据；主口径推导见 evidence/ns.json 的 host＋dir）",
+    "hits": 202,
+    "derivation_ref": {
+      "code": "code/metrics.py",
+      "entry": "contrast_reading",
+      "params": {
+        "reading": "most_frequent_prefix"
+      }
+    }
+  }
+]

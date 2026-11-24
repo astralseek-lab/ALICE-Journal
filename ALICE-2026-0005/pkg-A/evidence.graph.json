@@ -1,0 +1,469 @@
+{
+ "schema": "evidence-graph/1",
+ "task_id": "ALICE-2026-0005",
+ "nodes": [
+  {
+   "id": "ALICE-2026-0005#n_in_owl",
+   "kind": "input",
+   "ref": "ext:bcio_upper_level",
+   "bytes": 461217,
+   "sha256": "b7d1d80ce1758900f71d884ab0930d5d348dcf839984a8ff4dd1b19ba1e915fe",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_in_text",
+   "kind": "input",
+   "ref": "ext:paper_text",
+   "bytes": 38004,
+   "sha256": "74e892ac391690c25c668db4e23fbd2c0db9fcacc8308adfd55eeefed7d75da0",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_l1",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "l1_local_classes",
+    "params": {}
+   },
+   "value": {
+    "v": 66
+   },
+   "unit": "count",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_l2",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "l2_subclass_edges",
+    "params": {}
+   },
+   "value": {
+    "v": 255
+   },
+   "unit": "count",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_l3",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "l3_object_properties",
+    "params": {}
+   },
+   "value": {
+    "v": 50
+   },
+   "unit": "count",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_l4",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "l4_annotation_properties",
+    "params": {}
+   },
+   "value": {
+    "v": 56
+   },
+   "unit": "count",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_l5",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "l5_max_depth",
+    "params": {}
+   },
+   "value": {
+    "v": 8
+   },
+   "unit": "count",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_l6",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "l6_leaf_classes",
+    "params": {}
+   },
+   "value": {
+    "v": 36
+   },
+   "unit": "count",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_deviations_contrast_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "deviations/contrast.json"
+    }
+   },
+   "value": {
+    "path": "deviations/contrast.json"
+   },
+   "bytes": 1158,
+   "sha256": "495cfdd96a896d5a52610102b6eec8572271c7212af3cebdbdaa37e5b7c1cfd2",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_deviations_diff_A01_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "deviations/diff_A01.json"
+    }
+   },
+   "value": {
+    "path": "deviations/diff_A01.json"
+   },
+   "bytes": 6005,
+   "sha256": "4b3b18a53ae361f889c2d5693dab37c17bd33dd1e82844836507a8f2111fae9e",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_deviations_diff_A02_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "deviations/diff_A02.json"
+    }
+   },
+   "value": {
+    "path": "deviations/diff_A02.json"
+   },
+   "bytes": 6005,
+   "sha256": "ddb43fadaf11ab0b3ecf22a92639a2d16ad5d003f76e291783468eecdb357d69",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_deviations_diff_A03_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "deviations/diff_A03.json"
+    }
+   },
+   "value": {
+    "path": "deviations/diff_A03.json"
+   },
+   "bytes": 6005,
+   "sha256": "be9fa36cd012f22dd59a45656cae4b57431a5b59760c398f4969a1a315382f5e",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_deviations_overlap_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "deviations/overlap.json"
+    }
+   },
+   "value": {
+    "path": "deviations/overlap.json"
+   },
+   "bytes": 149724,
+   "sha256": "127b0ccbd09aaf1585c45195aa4f68a321a685742143f7bc3ab1f6585acfa749",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_deviations_readings_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "deviations/readings.json"
+    }
+   },
+   "value": {
+    "path": "deviations/readings.json"
+   },
+   "bytes": 1025,
+   "sha256": "fabb05ffd574b5fd402a0ceffbb95bba32f78de955b4689822a619cb428936cd",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_deviations_tiers_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "deviations/tiers.json"
+    }
+   },
+   "value": {
+    "path": "deviations/tiers.json"
+   },
+   "bytes": 34189,
+   "sha256": "f51a7b4e93f9900002a22c7a7fa0b516b494e21a60db3232c9b8ee78beb67872",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_evidence_anchors_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_text"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "evidence/anchors.json"
+    }
+   },
+   "value": {
+    "path": "evidence/anchors.json"
+   },
+   "bytes": 1918,
+   "sha256": "a412e8fea87ce1aa809bfe014dceb74961429860ec5d0dc0408890f3c91aa3ec",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_evidence_entries_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "evidence/entries.json"
+    }
+   },
+   "value": {
+    "path": "evidence/entries.json"
+   },
+   "bytes": 641,
+   "sha256": "aa52848259a90bcb9d878be70ed0426b5f737b9f63a44480e697f0ef781cd1e0",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_evidence_ns_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_owl"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "evidence/ns.json"
+    }
+   },
+   "value": {
+    "path": "evidence/ns.json"
+   },
+   "bytes": 26168,
+   "sha256": "579f1f54565217262054a3244b106d4ff13e78757c2d764a14f3ab76823acffd",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0005#n_art_evidence_protocol_json",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0005#n_in_text"
+   ],
+   "transform": {
+    "code": "code/quant_a.py",
+    "entry": "emit_artifacts",
+    "params": {
+     "only": "evidence/protocol.json"
+    }
+   },
+   "value": {
+    "path": "evidence/protocol.json"
+   },
+   "bytes": 2575,
+   "sha256": "748cec852223e86a53f01105b0dbde3778c96818b3af5bdfbdeb283b12d4a6dc",
+   "check": {
+    "mode": "hash"
+   }
+  }
+ ],
+ "edges": [
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_l1",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_l2",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_l3",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_l4",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_l5",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_l6",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_deviations_contrast_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_deviations_diff_A01_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_deviations_diff_A02_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_deviations_diff_A03_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_deviations_overlap_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_deviations_readings_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_deviations_tiers_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_text",
+   "to": "ALICE-2026-0005#n_art_evidence_anchors_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_evidence_entries_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_owl",
+   "to": "ALICE-2026-0005#n_art_evidence_ns_json",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0005#n_in_text",
+   "to": "ALICE-2026-0005#n_art_evidence_protocol_json",
+   "type": "derived_from"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "A01",
+    "value": 128,
+    "source": "paper_text.txt#L2"
+  },
+  {
+    "id": "A02",
+    "value": 230,
+    "source": "paper_text.txt#L2"
+  },
+  {
+    "id": "A03",
+    "value": 0.63,
+    "source": "paper_text.txt#L28"
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Glossary of terms.",
+    "source": "paper_text.txt#L6"
+  },
+  {
+    "id": "A05",
+    "value": "Figure 1. Schematic representation of the BCIO: key classes and causal connections. Source: Schenk et al., 2024.",
+    "source": "paper_text.txt#L8"
+  },
+  {
+    "id": "A06",
+    "value": "Figure 2. Screenshot of HBO files on GitHub.",
+    "source": "paper_text.txt#L27"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L8"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L13"
+  },
+  {
+    "id": "A09",
+    "value": "Discussion",
+    "source": "paper_text.txt#L28#s3"
+  },
+  {
+    "id": "A10",
+    "value": "Step 1: Specifying the scope of the ontology",
+    "source": "paper_text.txt#L8#s11"
+  },
+  {
+    "id": "A11",
+    "value": "Step 8: Making the ontology machine-readable and available online",
+    "source": "paper_text.txt#L13#s1"
+  },
+  {
+    "id": "A12",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_behaviour.owl/2026-11-10",
+    "source": "bcio_behaviour.owl#http://humanbehaviourchange.org/ontology/bcio_behaviour.owl/2026-11-10"
+  },
+  {
+    "id": "A13",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_behaviour.owl",
+    "source": "bcio_behaviour.owl#http://humanbehaviourchange.org/ontology/bcio_behaviour.owl"
+  }
+]

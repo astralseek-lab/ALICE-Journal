@@ -1,0 +1,20 @@
+{
+  "schema": "alice-replay-receipt/1",
+  "run_id": "r_3bef589483b8",
+  "runs": [
+    {
+      "cmd": "python3 code/moa_entry_b.py --owl ../bcio_moa.owl",
+      "exit": 0,
+      "stdout_sha256": "5ddaf57ad3cb3253b766eeeac9cd9f1447baea841588aa55559a7bc27e63407a",
+      "started": "2026-11-17T14:29:12+08:00",
+      "duration_s": 0.227
+    },
+    {
+      "cmd": "python3 code/b_anchors.py",
+      "exit": 0,
+      "stdout_sha256": "8b95cf9e061b600988c90b30c64576f29c25c0731913f556a0f0029b2bdf347f",
+      "started": "2026-11-17T14:29:12+08:00",
+      "duration_s": 0.455
+    }
+  ]
+}

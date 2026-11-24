@@ -1,0 +1,50 @@
+{
+  "rule": "先列 Methods 下全部标题行，再按位置取 i)–iv) 四个 H2（整行逐字匹配）；禁用标题去重当数法",
+  "source": "paper_text.txt#L13-L22",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "i) Scoping review of papers citing the BCIO",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L13-L16",
+      "evidence_loc": "paper_text.txt#L13-L13",
+      "input": "published papers reporting the development of lower-level ontologies within the BCIO",
+      "output": "Information on papers citing and using each ontology was extracted onto a Microsoft Excel template"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "ii) Development of data extraction template",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L17-L18",
+      "evidence_loc": "paper_text.txt#L17-L17",
+      "input": "the identified examples of BCIO annotations from published papers",
+      "output": "A prototype BCIO data extraction template"
+    },
+    {
+      "pos": 3,
+      "label": "S3",
+      "title": "iii) Piloting and revising the data extraction template",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L19-L20",
+      "evidence_loc": "paper_text.txt#L19-L19",
+      "input": "The prototype BCIO data extraction template",
+      "output": "‘BCIO data extraction template v1’"
+    },
+    {
+      "pos": 4,
+      "label": "S4",
+      "title": "iv) Launch and maintenance of data extraction template",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L21-L22",
+      "evidence_loc": "paper_text.txt#L21-L21",
+      "input": "The BCIO data extraction template v1",
+      "output": "made available online on the Open Science Framework and promoted via social media"
+    }
+  ]
+}

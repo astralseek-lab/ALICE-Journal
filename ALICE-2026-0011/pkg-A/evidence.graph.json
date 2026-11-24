@@ -1,0 +1,246 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0011",
+  "nodes": [
+    {
+      "id": "ALICE-2026-0011#n_in_text",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 46895,
+      "sha256": "5f6bbf71856394abe6377c8cb3485e345e114066aa3c7411fafcc0617c505354",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0011#n_in_xml",
+      "kind": "input",
+      "ref": "ext:fulltext__PMC7786424",
+      "bytes": 214403,
+      "sha256": "2ca936c045f6d9a43707bda94ca3432a8ebdc0f46b93c55a86c44ce3f56e3b5f",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0011#n_m1",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0011#n_in_text"
+      ],
+      "transform": {
+        "code": "code/count_steps.py",
+        "entry": "count_steps",
+        "params": {}
+      },
+      "value": {
+        "v": 7
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      },
+      "hook": true
+    },
+    {
+      "id": "ALICE-2026-0011#n_m2",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0011#n_in_xml"
+      ],
+      "transform": {
+        "code": "code/count_table1_terms.py",
+        "entry": "count_table1_terms",
+        "params": {}
+      },
+      "value": {
+        "v": 25
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      },
+      "hook": true
+    },
+    {
+      "id": "ALICE-2026-0011#n_m3",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0011#n_in_xml"
+      ],
+      "transform": {
+        "code": "code/count_table2_rows.py",
+        "entry": "count_table2_rows",
+        "params": {}
+      },
+      "value": {
+        "v": 22
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      },
+      "hook": true
+    },
+    {
+      "id": "ALICE-2026-0011#n_art_protocol",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0011#n_m1"
+      ],
+      "transform": {
+        "code": "code/make_evidence.py",
+        "entry": "make_protocol",
+        "params": {}
+      },
+      "value": {
+        "path": "evidence/protocol.json"
+      },
+      "bytes": 3664,
+      "sha256": "a70b96dadb66af101e2f39950d150d8a618511eb3b278e675bbe00c558fd5ccd",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0011#n_art_anchors",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0011#n_in_text",
+        "ALICE-2026-0011#n_in_xml"
+      ],
+      "transform": {
+        "code": "code/make_evidence.py",
+        "entry": "make_anchors",
+        "params": {}
+      },
+      "value": {
+        "path": "evidence/anchors.json"
+      },
+      "bytes": 1473,
+      "sha256": "0b7f1110984609b0242c543c3f6253d5edb32bcdbacd16eb6ba16694a5c48688",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0011#n_art_readings",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0011#n_m2",
+        "ALICE-2026-0011#n_m3"
+      ],
+      "transform": {
+        "code": "code/make_evidence.py",
+        "entry": "make_readings",
+        "params": {}
+      },
+      "value": {
+        "path": "deviations/readings.json"
+      },
+      "bytes": 2258,
+      "sha256": "b074e65b27518d98f456ba9290a15e7aa6247ef67b12067fc5ab19acd176e21b",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0011#n_art_diff_a01",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0011#n_m1"
+      ],
+      "transform": {
+        "code": "code/make_evidence.py",
+        "entry": "make_diff_a01",
+        "params": {}
+      },
+      "value": {
+        "path": "deviations/diff_A01.json"
+      },
+      "bytes": 984,
+      "sha256": "9952a8346f5ff28eae9a1f8246b525e709a13a751c0463a92fdb38569e9eecaa",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0011#n_art_contrast",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0011#n_in_text",
+        "ALICE-2026-0011#n_in_xml"
+      ],
+      "transform": {
+        "code": "code/make_evidence.py",
+        "entry": "make_contrast",
+        "params": {}
+      },
+      "value": {
+        "path": "deviations/contrast.json"
+      },
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "check": {
+        "mode": "hash"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "ALICE-2026-0011#n_in_text",
+      "to": "ALICE-2026-0011#n_m1",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_in_xml",
+      "to": "ALICE-2026-0011#n_m2",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_in_xml",
+      "to": "ALICE-2026-0011#n_m3",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_m1",
+      "to": "ALICE-2026-0011#n_art_protocol",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_in_text",
+      "to": "ALICE-2026-0011#n_art_anchors",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_in_xml",
+      "to": "ALICE-2026-0011#n_art_anchors",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_m2",
+      "to": "ALICE-2026-0011#n_art_readings",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_m3",
+      "to": "ALICE-2026-0011#n_art_readings",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_m1",
+      "to": "ALICE-2026-0011#n_art_diff_a01",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_in_text",
+      "to": "ALICE-2026-0011#n_art_contrast",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0011#n_in_xml",
+      "to": "ALICE-2026-0011#n_art_contrast",
+      "type": "derived_from"
+    }
+  ]
+}

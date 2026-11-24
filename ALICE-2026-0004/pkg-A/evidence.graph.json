@@ -1,0 +1,203 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0004",
+  "nodes": [
+    {
+      "id": "ALICE-2026-0004#n_in_behaviour",
+      "kind": "input",
+      "ref": "ext:bcio_behaviour",
+      "bytes": 1125852,
+      "sha256": "e02c93d5fe5df1a747ef83e837147bad70c744126ad9e4f4094de817e45b78ad",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0004#n_in_paper",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 128346,
+      "sha256": "e692f1ba4df94e4628ce58978643443f23f392e125fb09bda6b5228aaa0d62cc",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0004#n_in_style",
+      "kind": "input",
+      "ref": "ext:bcio_style",
+      "bytes": 1209886,
+      "sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0004#n_V1",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0004#n_in_behaviour"
+      ],
+      "transform": {
+        "code": "code/entry.py",
+        "entry": "quantity",
+        "params": {
+          "quantity": "V1"
+        }
+      },
+      "value": {
+        "v": 1170
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0004#n_V2",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0004#n_in_behaviour"
+      ],
+      "transform": {
+        "code": "code/entry.py",
+        "entry": "quantity",
+        "params": {
+          "quantity": "V2"
+        }
+      },
+      "value": {
+        "v": 93
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0004#n_V3",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0004#n_in_behaviour"
+      ],
+      "transform": {
+        "code": "code/entry.py",
+        "entry": "quantity",
+        "params": {
+          "quantity": "V3"
+        }
+      },
+      "value": {
+        "v": 1083
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0004#n_returned",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0004#n_in_behaviour",
+        "ALICE-2026-0004#n_in_style"
+      ],
+      "transform": {
+        "code": "code/entry.py",
+        "entry": "returned",
+        "params": {}
+      },
+      "value": {
+        "v": 1170
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0004#n_target_only",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0004#n_in_behaviour",
+        "ALICE-2026-0004#n_in_style"
+      ],
+      "transform": {
+        "code": "code/entry.py",
+        "entry": "target_only",
+        "params": {}
+      },
+      "value": {
+        "v": 134
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0004#n_steps",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0004#n_in_paper"
+      ],
+      "transform": {
+        "code": "code/entry.py",
+        "entry": "quantity",
+        "params": {
+          "quantity": "steps",
+          "protocol_pages": "8-13"
+        }
+      },
+      "value": {
+        "v": 8
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "ALICE-2026-0004#n_in_behaviour",
+      "to": "ALICE-2026-0004#n_V1",
+      "ref": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0004#n_in_behaviour",
+      "to": "ALICE-2026-0004#n_V2",
+      "ref": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0004#n_in_behaviour",
+      "to": "ALICE-2026-0004#n_V3",
+      "ref": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0004#n_in_behaviour",
+      "to": "ALICE-2026-0004#n_returned",
+      "ref": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0004#n_in_style",
+      "to": "ALICE-2026-0004#n_returned",
+      "ref": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0004#n_in_behaviour",
+      "to": "ALICE-2026-0004#n_target_only",
+      "ref": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0004#n_in_style",
+      "to": "ALICE-2026-0004#n_target_only",
+      "ref": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0004#n_in_paper",
+      "to": "ALICE-2026-0004#n_steps",
+      "ref": "derived_from"
+    }
+  ]
+}

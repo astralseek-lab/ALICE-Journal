@@ -1,0 +1,694 @@
+[
+  {
+    "name": "intro_sheet_meta",
+    "kind": "map",
+    "sha256": "6480a3699d93636674ea2ea5d6a652fe2a14d48b4dac3a84680c02044eac99a3",
+    "items": [
+      {
+        "key": "title",
+        "value": "Behaviour Change Intervention Ontology (BCIO) data extraction template (v1)"
+      },
+      {
+        "key": "version",
+        "value": "12/3/25"
+      }
+    ],
+    "rows": 2
+  },
+  {
+    "name": "column_vectors",
+    "kind": "map",
+    "sha256": "8c16ac30e247127c3a20ca11b1cab96971fea8a3e3e2dd4e6835055c34f48070",
+    "items": [
+      {
+        "key": "BCT Ontology",
+        "value": 11
+      },
+      {
+        "key": "Engagement",
+        "value": 12
+      },
+      {
+        "key": "Human Behaviour Ontology",
+        "value": 14
+      },
+      {
+        "key": "Interven. Population Ontology",
+        "value": 12
+      },
+      {
+        "key": "Intervention Setting Ontology",
+        "value": 12
+      },
+      {
+        "key": "Intervention Source Ontology",
+        "value": 13
+      },
+      {
+        "key": "Intro",
+        "value": 13
+      },
+      {
+        "key": "Mechanism of Action Ontology",
+        "value": 13
+      },
+      {
+        "key": "Mode of Delivery Ontology",
+        "value": 10
+      },
+      {
+        "key": "Style of Delivery Ontology",
+        "value": 12
+      }
+    ],
+    "rows": 10
+  },
+  {
+    "name": "non_bcio_rows",
+    "kind": "set",
+    "sha256": "b33bc1de37859841a900d17521424532ec8e74189e42e7cd8de164c4d696f1e2",
+    "items": [
+      {
+        "key": "Engagement#r48",
+        "ord": 1
+      },
+      {
+        "key": "Engagement#r50",
+        "ord": 2
+      },
+      {
+        "key": "Engagement#r51",
+        "ord": 3
+      },
+      {
+        "key": "Engagement#r52",
+        "ord": 4
+      },
+      {
+        "key": "Engagement#r53",
+        "ord": 5
+      },
+      {
+        "key": "Engagement#r54",
+        "ord": 6
+      },
+      {
+        "key": "Engagement#r55",
+        "ord": 7
+      },
+      {
+        "key": "Engagement#r56",
+        "ord": 8
+      },
+      {
+        "key": "Engagement#r57",
+        "ord": 9
+      },
+      {
+        "key": "Human Behaviour Ontology#r46",
+        "ord": 10
+      },
+      {
+        "key": "Interven. Population Ontology#r10",
+        "ord": 11
+      },
+      {
+        "key": "Interven. Population Ontology#r13",
+        "ord": 12
+      },
+      {
+        "key": "Interven. Population Ontology#r15",
+        "ord": 13
+      },
+      {
+        "key": "Interven. Population Ontology#r72",
+        "ord": 14
+      },
+      {
+        "key": "Interven. Population Ontology#r87",
+        "ord": 15
+      },
+      {
+        "key": "Interven. Population Ontology#r103",
+        "ord": 16
+      },
+      {
+        "key": "Interven. Population Ontology#r106",
+        "ord": 17
+      },
+      {
+        "key": "Interven. Population Ontology#r137",
+        "ord": 18
+      },
+      {
+        "key": "Interven. Population Ontology#r138",
+        "ord": 19
+      },
+      {
+        "key": "Interven. Population Ontology#r148",
+        "ord": 20
+      },
+      {
+        "key": "Interven. Population Ontology#r149",
+        "ord": 21
+      },
+      {
+        "key": "Interven. Population Ontology#r158",
+        "ord": 22
+      },
+      {
+        "key": "Interven. Population Ontology#r162",
+        "ord": 23
+      },
+      {
+        "key": "Interven. Population Ontology#r163",
+        "ord": 24
+      },
+      {
+        "key": "Interven. Population Ontology#r171",
+        "ord": 25
+      },
+      {
+        "key": "Interven. Population Ontology#r174",
+        "ord": 26
+      },
+      {
+        "key": "Interven. Population Ontology#r180",
+        "ord": 27
+      },
+      {
+        "key": "Interven. Population Ontology#r198",
+        "ord": 28
+      },
+      {
+        "key": "Interven. Population Ontology#r205",
+        "ord": 29
+      },
+      {
+        "key": "Interven. Population Ontology#r218",
+        "ord": 30
+      },
+      {
+        "key": "Interven. Population Ontology#r219",
+        "ord": 31
+      },
+      {
+        "key": "Intervention Setting Ontology#r5",
+        "ord": 32
+      },
+      {
+        "key": "Intervention Setting Ontology#r13",
+        "ord": 33
+      },
+      {
+        "key": "Intervention Setting Ontology#r15",
+        "ord": 34
+      },
+      {
+        "key": "Intervention Setting Ontology#r16",
+        "ord": 35
+      },
+      {
+        "key": "Intervention Setting Ontology#r17",
+        "ord": 36
+      },
+      {
+        "key": "Intervention Setting Ontology#r18",
+        "ord": 37
+      },
+      {
+        "key": "Intervention Setting Ontology#r25",
+        "ord": 38
+      },
+      {
+        "key": "Intervention Setting Ontology#r26",
+        "ord": 39
+      },
+      {
+        "key": "Intervention Setting Ontology#r27",
+        "ord": 40
+      },
+      {
+        "key": "Intervention Setting Ontology#r31",
+        "ord": 41
+      },
+      {
+        "key": "Intervention Setting Ontology#r32",
+        "ord": 42
+      },
+      {
+        "key": "Intervention Setting Ontology#r33",
+        "ord": 43
+      },
+      {
+        "key": "Intervention Setting Ontology#r35",
+        "ord": 44
+      },
+      {
+        "key": "Intervention Setting Ontology#r41",
+        "ord": 45
+      },
+      {
+        "key": "Intervention Setting Ontology#r55",
+        "ord": 46
+      },
+      {
+        "key": "Intervention Setting Ontology#r60",
+        "ord": 47
+      },
+      {
+        "key": "Intervention Setting Ontology#r61",
+        "ord": 48
+      },
+      {
+        "key": "Intervention Setting Ontology#r66",
+        "ord": 49
+      },
+      {
+        "key": "Intervention Setting Ontology#r67",
+        "ord": 50
+      },
+      {
+        "key": "Intervention Setting Ontology#r68",
+        "ord": 51
+      },
+      {
+        "key": "Intervention Setting Ontology#r70",
+        "ord": 52
+      },
+      {
+        "key": "Intervention Setting Ontology#r71",
+        "ord": 53
+      },
+      {
+        "key": "Intervention Source Ontology#r141",
+        "ord": 54
+      },
+      {
+        "key": "Mechanism of Action Ontology#r5",
+        "ord": 55
+      },
+      {
+        "key": "Mechanism of Action Ontology#r6",
+        "ord": 56
+      },
+      {
+        "key": "Mechanism of Action Ontology#r7",
+        "ord": 57
+      },
+      {
+        "key": "Mechanism of Action Ontology#r8",
+        "ord": 58
+      },
+      {
+        "key": "Mechanism of Action Ontology#r9",
+        "ord": 59
+      },
+      {
+        "key": "Mechanism of Action Ontology#r10",
+        "ord": 60
+      },
+      {
+        "key": "Mechanism of Action Ontology#r16",
+        "ord": 61
+      },
+      {
+        "key": "Mechanism of Action Ontology#r17",
+        "ord": 62
+      },
+      {
+        "key": "Mechanism of Action Ontology#r18",
+        "ord": 63
+      },
+      {
+        "key": "Mechanism of Action Ontology#r32",
+        "ord": 64
+      },
+      {
+        "key": "Mechanism of Action Ontology#r33",
+        "ord": 65
+      },
+      {
+        "key": "Mechanism of Action Ontology#r40",
+        "ord": 66
+      },
+      {
+        "key": "Mechanism of Action Ontology#r126",
+        "ord": 67
+      },
+      {
+        "key": "Mechanism of Action Ontology#r127",
+        "ord": 68
+      },
+      {
+        "key": "Mechanism of Action Ontology#r129",
+        "ord": 69
+      },
+      {
+        "key": "Mechanism of Action Ontology#r130",
+        "ord": 70
+      },
+      {
+        "key": "Mechanism of Action Ontology#r131",
+        "ord": 71
+      },
+      {
+        "key": "Mechanism of Action Ontology#r132",
+        "ord": 72
+      },
+      {
+        "key": "Mechanism of Action Ontology#r133",
+        "ord": 73
+      },
+      {
+        "key": "Mechanism of Action Ontology#r134",
+        "ord": 74
+      },
+      {
+        "key": "Mechanism of Action Ontology#r136",
+        "ord": 75
+      },
+      {
+        "key": "Mechanism of Action Ontology#r137",
+        "ord": 76
+      },
+      {
+        "key": "Mechanism of Action Ontology#r138",
+        "ord": 77
+      },
+      {
+        "key": "Mechanism of Action Ontology#r139",
+        "ord": 78
+      },
+      {
+        "key": "Mechanism of Action Ontology#r141",
+        "ord": 79
+      },
+      {
+        "key": "Mechanism of Action Ontology#r145",
+        "ord": 80
+      },
+      {
+        "key": "Mechanism of Action Ontology#r146",
+        "ord": 81
+      },
+      {
+        "key": "Mechanism of Action Ontology#r148",
+        "ord": 82
+      },
+      {
+        "key": "Mechanism of Action Ontology#r149",
+        "ord": 83
+      },
+      {
+        "key": "Mechanism of Action Ontology#r157",
+        "ord": 84
+      },
+      {
+        "key": "Mechanism of Action Ontology#r165",
+        "ord": 85
+      },
+      {
+        "key": "Mechanism of Action Ontology#r178",
+        "ord": 86
+      },
+      {
+        "key": "Mechanism of Action Ontology#r186",
+        "ord": 87
+      },
+      {
+        "key": "Mechanism of Action Ontology#r187",
+        "ord": 88
+      },
+      {
+        "key": "Mechanism of Action Ontology#r188",
+        "ord": 89
+      },
+      {
+        "key": "Mechanism of Action Ontology#r189",
+        "ord": 90
+      },
+      {
+        "key": "Mechanism of Action Ontology#r190",
+        "ord": 91
+      },
+      {
+        "key": "Mechanism of Action Ontology#r191",
+        "ord": 92
+      },
+      {
+        "key": "Mechanism of Action Ontology#r192",
+        "ord": 93
+      },
+      {
+        "key": "Mechanism of Action Ontology#r193",
+        "ord": 94
+      },
+      {
+        "key": "Mechanism of Action Ontology#r194",
+        "ord": 95
+      },
+      {
+        "key": "Mechanism of Action Ontology#r195",
+        "ord": 96
+      },
+      {
+        "key": "Mechanism of Action Ontology#r196",
+        "ord": 97
+      },
+      {
+        "key": "Mechanism of Action Ontology#r197",
+        "ord": 98
+      },
+      {
+        "key": "Mechanism of Action Ontology#r198",
+        "ord": 99
+      },
+      {
+        "key": "Mechanism of Action Ontology#r199",
+        "ord": 100
+      },
+      {
+        "key": "Mechanism of Action Ontology#r200",
+        "ord": 101
+      },
+      {
+        "key": "Mechanism of Action Ontology#r201",
+        "ord": 102
+      },
+      {
+        "key": "Mechanism of Action Ontology#r202",
+        "ord": 103
+      },
+      {
+        "key": "Mechanism of Action Ontology#r203",
+        "ord": 104
+      },
+      {
+        "key": "Mechanism of Action Ontology#r204",
+        "ord": 105
+      },
+      {
+        "key": "Mechanism of Action Ontology#r205",
+        "ord": 106
+      },
+      {
+        "key": "Mechanism of Action Ontology#r207",
+        "ord": 107
+      },
+      {
+        "key": "Mechanism of Action Ontology#r209",
+        "ord": 108
+      },
+      {
+        "key": "Mechanism of Action Ontology#r211",
+        "ord": 109
+      },
+      {
+        "key": "Mechanism of Action Ontology#r212",
+        "ord": 110
+      },
+      {
+        "key": "Mechanism of Action Ontology#r213",
+        "ord": 111
+      },
+      {
+        "key": "Mechanism of Action Ontology#r215",
+        "ord": 112
+      },
+      {
+        "key": "Mechanism of Action Ontology#r217",
+        "ord": 113
+      },
+      {
+        "key": "Mechanism of Action Ontology#r218",
+        "ord": 114
+      },
+      {
+        "key": "Mechanism of Action Ontology#r219",
+        "ord": 115
+      },
+      {
+        "key": "Mechanism of Action Ontology#r221",
+        "ord": 116
+      },
+      {
+        "key": "Mechanism of Action Ontology#r224",
+        "ord": 117
+      },
+      {
+        "key": "Mechanism of Action Ontology#r225",
+        "ord": 118
+      },
+      {
+        "key": "Mechanism of Action Ontology#r226",
+        "ord": 119
+      },
+      {
+        "key": "Mechanism of Action Ontology#r237",
+        "ord": 120
+      },
+      {
+        "key": "Mechanism of Action Ontology#r242",
+        "ord": 121
+      },
+      {
+        "key": "Mechanism of Action Ontology#r249",
+        "ord": 122
+      },
+      {
+        "key": "Mechanism of Action Ontology#r261",
+        "ord": 123
+      },
+      {
+        "key": "Mechanism of Action Ontology#r262",
+        "ord": 124
+      },
+      {
+        "key": "Mechanism of Action Ontology#r263",
+        "ord": 125
+      },
+      {
+        "key": "Mechanism of Action Ontology#r264",
+        "ord": 126
+      },
+      {
+        "key": "Mechanism of Action Ontology#r265",
+        "ord": 127
+      },
+      {
+        "key": "Mechanism of Action Ontology#r273",
+        "ord": 128
+      },
+      {
+        "key": "Mechanism of Action Ontology#r275",
+        "ord": 129
+      },
+      {
+        "key": "Mechanism of Action Ontology#r276",
+        "ord": 130
+      },
+      {
+        "key": "Mechanism of Action Ontology#r279",
+        "ord": 131
+      },
+      {
+        "key": "Mechanism of Action Ontology#r281",
+        "ord": 132
+      },
+      {
+        "key": "Mechanism of Action Ontology#r282",
+        "ord": 133
+      }
+    ],
+    "rows": 133
+  },
+  {
+    "name": "non_bcio_prefixes",
+    "kind": "map",
+    "sha256": "1b7ff346579f59df8224b1d0a423538e788b08d82807eca52acc24677f5d3e3a",
+    "items": [
+      {
+        "key": "ADDICTO",
+        "value": 11
+      },
+      {
+        "key": "BFO",
+        "value": 6
+      },
+      {
+        "key": "ENVO",
+        "value": 11
+      },
+      {
+        "key": "GAZ",
+        "value": 1
+      },
+      {
+        "key": "GO",
+        "value": 5
+      },
+      {
+        "key": "MF",
+        "value": 27
+      },
+      {
+        "key": "MFOEM",
+        "value": 47
+      },
+      {
+        "key": "NCIT",
+        "value": 3
+      },
+      {
+        "key": "OBI",
+        "value": 2
+      },
+      {
+        "key": "OGMS",
+        "value": 1
+      },
+      {
+        "key": "OMRSE",
+        "value": 10
+      },
+      {
+        "key": "OPMI",
+        "value": 1
+      },
+      {
+        "key": "PDRO",
+        "value": 1
+      },
+      {
+        "key": "RO",
+        "value": 1
+      },
+      {
+        "key": "SDGIO",
+        "value": 4
+      },
+      {
+        "key": "UBERON",
+        "value": 2
+      }
+    ],
+    "rows": 16
+  },
+  {
+    "name": "self_report_unmeasured",
+    "kind": "map",
+    "sha256": "9328edcfaada7713e7eb833a939179dfcbf902641b90b1f303a391bb370d3cdd",
+    "items": [
+      {
+        "key": "A01",
+        "value": 14
+      },
+      {
+        "key": "P1",
+        "value": 9
+      }
+    ],
+    "rows": 2
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "anchor": "A03",
+  "measured": 12,
+  "self_reported": 6,
+  "items": [
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010003",
+      "ord": 1
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010004",
+      "ord": 2
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010006",
+      "ord": 3
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010044",
+      "ord": 4
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010045",
+      "ord": 5
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010047",
+      "ord": 6
+    },
+    {
+      "key": "http://humanbehaviourchange.org/ontology/BCIO_010048",
+      "ord": 7
+    }
+  ],
+  "rows": 7,
+  "gap": 6,
+  "direction": "实测多",
+  "sha256": "05fb0da7553b08a04a603fb637d46ca0e2f7fb532e2731d3737cfe500b0ee93a"
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "name": "external_by_domain",
+    "kind": "map",
+    "sha256": "4b7d48c429421881ef99f8caa49d8b01f7f6b11c93097c29ebbb10741d9d0da0",
+    "items": [
+      {
+        "key": "ADDICTO_0000179",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000349",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000352",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000377",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000381",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000399",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000456",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000511",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000715",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0000750",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001050",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001087",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001109",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001127",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001135",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001212",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001273",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001303",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001317",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001318",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001350",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001377",
+        "value": 1
+      },
+      {
+        "key": "ADDICTO_0001378",
+        "value": 1
+      },
+      {
+        "key": "obo",
+        "value": 169
+      }
+    ],
+    "rows": 24
+  },
+  {
+    "name": "anonymous_class",
+    "kind": "scalar",
+    "sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+    "value": 3
+  },
+  {
+    "name": "anonymous_restriction_count",
+    "kind": "scalar",
+    "sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+    "value": 9
+  },
+  {
+    "name": "unreturned",
+    "kind": "scalar",
+    "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "value": 0
+  },
+  {
+    "name": "target_only",
+    "kind": "scalar",
+    "sha256": "9a72c24f2fd76561729110d804c69f38a7088f2ec41fdf8fbfea20d07e8bcff8",
+    "value": 352
+  },
+  {
+    "name": "identity",
+    "kind": "map",
+    "sha256": "5f51b775deb951813c65740be4a4f541ea422b5f43a5e5cacda7e1c24b00bd8c",
+    "items": [
+      {
+        "key": "mapping_rows_eq_V1",
+        "value": 1
+      },
+      {
+        "key": "returned_eq_V1",
+        "value": 1
+      }
+    ],
+    "rows": 2
+  },
+  {
+    "name": "self_report_unmeasured",
+    "kind": "map",
+    "sha256": "e26305901f4c014e621a17bd7392f60d9823f3ac09800a1ee099f4eb9a6f3d62",
+    "value": {
+      "A02": ".79",
+      "A03": 139
+    }
+  }
+]

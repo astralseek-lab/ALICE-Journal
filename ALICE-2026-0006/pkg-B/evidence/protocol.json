@@ -1,0 +1,83 @@
+{
+  "rule": "先列 Methods 节内全部 Step 标题行，按位置取前七（Results 节内的同形重列一概不计，标题去重禁用）；步段＝标题行至下一标题前一行",
+  "source": "paper_text.txt#L10-L29",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "Step 1 – Defining the scope of the Intervention Setting Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L10-L11",
+      "evidence_loc": "paper_text.txt#L10-L10",
+      "input": "CONSORT／CONSORT-SPI／TIDieR／TIPPME 等词典与报告规范（正文 L11）",
+      "output": "本体的定义与总主题（正文 L11）"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "Step 2 – Identifying key entities and developing the preliminary Intervention Setting Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L12-L15",
+      "evidence_loc": "paper_text.txt#L12-L12",
+      "input": "既有文献报告（bottom-up 抽样）与既有分类系统（top-down 汇集）（正文 L13–L14）",
+      "output": "初版原型本体（正文 L13–L15）"
+    },
+    {
+      "pos": 3,
+      "label": "S3",
+      "title": "Step 3 – Refinement of the ontology through literature annotation, discussion and revision",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L16-L17",
+      "evidence_loc": "paper_text.txt#L16-L16",
+      "input": "试点标注结果（正文 L17 首句所指）",
+      "output": "修订后的本体与标注指南（正文 L17）"
+    },
+    {
+      "pos": 4,
+      "label": "S4",
+      "title": "Step 4 – Expert stakeholder review",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L18-L22",
+      "evidence_loc": "paper_text.txt#L18-L18",
+      "input": "Step 3 产出的修订版本体（正文 L19 首句所指）",
+      "output": "专家反馈及据之再修订的本体与标注手册（正文 L22）"
+    },
+    {
+      "pos": 5,
+      "label": "S5",
+      "title": "Step 5 – Inter-rater Reliability of Annotations using the Intervention Setting Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L23-L24",
+      "evidence_loc": "paper_text.txt#L23-L23",
+      "input": "两组各 50 篇文献（熟手一组、生手一组）（正文 L24）",
+      "output": "标注一致性评估（Krippendorff’s Alpha）（正文 L24）"
+    },
+    {
+      "pos": 6,
+      "label": "S6",
+      "title": "Step 6 – Specifying the relationships between Intervention Setting Ontology entities",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L25-L26",
+      "evidence_loc": "paper_text.txt#L25-L25",
+      "input": "BFO 与 Relation Ontology 的候选关系（正文 L26）",
+      "output": "实体间关系（is_a／located_in）（正文 L26）"
+    },
+    {
+      "pos": 7,
+      "label": "S7",
+      "title": "Step 7 - Making the Intervention Setting Ontology machine-readable and available online",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L27-L29",
+      "evidence_loc": "paper_text.txt#L27-L27",
+      "input": "稳定后的实体表（正文 L28 首句所指）",
+      "output": "OWL 版本并上架 GitHub（正文 L28–L29）"
+    }
+  ]
+}

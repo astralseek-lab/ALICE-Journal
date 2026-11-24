@@ -1,0 +1,83 @@
+{
+  "rule": "先列 Methods 下全部 Step 标题行，再按位置取前七个（禁用标题去重；Results 重列的同形标题不计），段＝标题行至下一同级标题前一行",
+  "source": "paper_text.txt#L10-L29",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "Step 1 – Defining the scope of the Intervention Setting Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L10-L11",
+      "evidence_loc": "paper_text.txt#L10-L10",
+      "input": "dictionaries and the reporting guidelines of CONSORT, CONSORT-SPI, TIDieR and TIPPME（L11 段）",
+      "output": "a definition and overall topic for the ontology（L11 段）"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "Step 2 – Identifying key entities and developing the preliminary Intervention Setting Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L12-L15",
+      "evidence_loc": "paper_text.txt#L12-L12",
+      "input": "100 published reports of BCIs（bottom-up，L13 段）与 existing classification systems（top-down，L14 段）",
+      "output": "an initial prototype version of the ontology（L13–L15 段）"
+    },
+    {
+      "pos": 3,
+      "label": "S3",
+      "title": "Step 3 – Refinement of the ontology through literature annotation, discussion and revision",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L16-L17",
+      "evidence_loc": "paper_text.txt#L16-L16",
+      "input": "the results of the pilot annotations（L17 段首句）",
+      "output": "the revised Intervention Setting Ontology 与修订后的 annotation guidance manual（L17 段）"
+    },
+    {
+      "pos": 4,
+      "label": "S4",
+      "title": "Step 4 – Expert stakeholder review",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L18-L22",
+      "evidence_loc": "paper_text.txt#L18-L18",
+      "input": "the Intervention Setting Ontology resulting from Step 3（L19 段）",
+      "output": "feedback from the expert consultation，以及据之修订的 ontology 与 annotation guidance（L22 段）"
+    },
+    {
+      "pos": 5,
+      "label": "S5",
+      "title": "Step 5 – Inter-rater Reliability of Annotations using the Intervention Setting Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L23-L24",
+      "evidence_loc": "paper_text.txt#L23-L23",
+      "input": "50 papers from Cochrane reviews 与另一组 50 randomised controlled trials（L24 段）",
+      "output": "inter-rater reliability assessed using Krippendorff’s Alpha（L24 段）"
+    },
+    {
+      "pos": 6,
+      "label": "S6",
+      "title": "Step 6 – Specifying the relationships between Intervention Setting Ontology entities",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L25-L26",
+      "evidence_loc": "paper_text.txt#L25-L25",
+      "input": "common relationships from Basic Formal Ontology and the Relation Ontology（L26 段）",
+      "output": "relationships between ontology entities（is_a／located_in，L26 段）"
+    },
+    {
+      "pos": 7,
+      "label": "S7",
+      "title": "Step 7 - Making the Intervention Setting Ontology machine-readable and available online",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L27-L29",
+      "evidence_loc": "paper_text.txt#L27-L27",
+      "input": "a table of entities（stable level of development for initial release，L28 段）",
+      "output": "the Web Ontology Language (OWL) format version, stored on the project GitHub repository（L28–L29 段）"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "rule": "先列 Methods 下全部标题，再按位置取前七个 Step 小节；禁用标题去重",
+  "source": "paper_text.txt#L11-L27",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "Step 1 – Development of the scope and definition of the Intervention Source Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L11-L12",
+      "evidence_loc": "paper_text.txt#L11-L11",
+      "input": "dictionaries and the TIDieR reporting guidelines",
+      "output": "A definition and overall topic for the ontology"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "Step 2 – Identifying key entities and developing the preliminary Intervention Source Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L13-L15",
+      "evidence_loc": "paper_text.txt#L13-L13",
+      "input": "100 published reports of behaviour change interventions",
+      "output": "An initial prototype version of the ontology"
+    },
+    {
+      "pos": 3,
+      "label": "S3",
+      "title": "Step 3 – Refining the ontology through literature annotation, discussion and revision",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L16-L17",
+      "evidence_loc": "paper_text.txt#L16-L16",
+      "input": "120 behaviour change intervention evaluation reports",
+      "output": "the ontology structure, definitions and annotation guidance were revised accordingly"
+    },
+    {
+      "pos": 4,
+      "label": "S4",
+      "title": "Step 4 – Expert stakeholder review",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L18-L22",
+      "evidence_loc": "paper_text.txt#L18-L18",
+      "input": "123 members of an existing international panel",
+      "output": "the Intervention Source Ontology and annotation guidance were revised"
+    },
+    {
+      "pos": 5,
+      "label": "S5",
+      "title": "Step 5 – Inter-rater reliability of annotations using the Intervention Source Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L23-L24",
+      "evidence_loc": "paper_text.txt#L23-L23",
+      "input": "50 papers from Cochrane reviews",
+      "output": "Inter-rater reliability was assessed using Krippendorff’s Alpha"
+    },
+    {
+      "pos": 6,
+      "label": "S6",
+      "title": "Step 6 – Specifying relationships between Intervention Source Ontology entities",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L25-L26",
+      "evidence_loc": "paper_text.txt#L25-L25",
+      "input": "Basic Formal Ontology principles",
+      "output": "relationships between ontology entities to formalise the knowledge present in the ontology"
+    },
+    {
+      "pos": 7,
+      "label": "S7",
+      "title": "Step 7 – Disseminating and maintaining the Intervention Source Ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L27-L29",
+      "evidence_loc": "paper_text.txt#L27-L27",
+      "input": "a table of entities",
+      "output": "Web Ontology Language (OWL)"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "L3_local",
+    "kind": "scalar",
+    "value": 18,
+    "sha256": "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a"
+  },
+  {
+    "name": "L4_local",
+    "kind": "scalar",
+    "value": 0,
+    "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+  },
+  {
+    "name": "L5_alt",
+    "kind": "scalar",
+    "value": 5,
+    "sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "name": "L5_selfcheck",
+    "kind": "scalar",
+    "value": 0,
+    "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+  },
+  {
+    "name": "L6_alt",
+    "kind": "scalar",
+    "value": 90,
+    "sha256": "69f59c273b6e669ac32a6dd5e1b2cb63333d8b004f9696447aee2d422ce63763"
+  },
+  {
+    "name": "anonymous_class",
+    "kind": "scalar",
+    "value": 2,
+    "sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "name": "self_report_unmeasured",
+    "kind": "map",
+    "value": {
+      "A02": "0.68 to 0.97",
+      "A03": 16
+    },
+    "sha256": "fdbc8352325247f05337428c162f0acf0264633cec282c39bf1536f0c1356bee"
+  }
+]

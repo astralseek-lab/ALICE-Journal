@@ -1,0 +1,133 @@
+{
+  "task_id": "ALICE-2026-0012",
+  "grade": "native",
+  "entry": "code/metrics.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "paper_text",
+        "uri": "paper_text.txt",
+        "bytes": 18177,
+        "sha256": "63cf2c53bf1bc68c465d6632de73a2e0d387e228c3d4bb2ec387dce51cbe4442"
+      },
+      {
+        "slug": "fulltext__PMC11170071",
+        "uri": "fulltext__PMC11170071.xml",
+        "bytes": 138022,
+        "sha256": "8af998ec1012781a030c387db8d52ef79f083a1525bdfe005e9b05dd8ebe8600"
+      },
+      {
+        "slug": "bcio_data_extraction_template_v1",
+        "uri": "bcio_data_extraction_template_v1.xlsx",
+        "bytes": 185377,
+        "sha256": "9a8326ed4efe09d11c0c53a6fa1f1bc68979871689ef48def0f4e3b6d2598acc"
+      },
+      {
+        "slug": "paper",
+        "uri": "paper.pdf",
+        "bytes": 781665,
+        "sha256": "ca6cbf152a5369904648856df6295ef5bf3733d85463785dc3888fd97b9a8e7f"
+      },
+      {
+        "slug": "table_template_v1",
+        "uri": "table_template_v1.csv",
+        "bytes": 384741,
+        "sha256": "462249cbcdfd5d34ecdb406a93130292ab9a1d84a8f156fc3ad4ec208759527d"
+      }
+    ]
+  },
+  "params": {
+    "peer_held": [],
+    "readings_names": [
+      "intro_sheet_meta",
+      "column_vectors",
+      "non_bcio_rows",
+      "non_bcio_prefixes",
+      "self_report_unmeasured"
+    ],
+    "reads_count": 5
+  },
+  "budget": {
+    "cpu_s": 1.51,
+    "gpu_s": 0,
+    "wall_clock_s": 1.51,
+    "cost_cny": 0
+  },
+  "judge": {
+    "metric": "dual_implementation_exact_match",
+    "band": "0",
+    "tolerance_reason": "六个 K 量都是整数计数，正确值唯一；两实现（openpyxl 对直解 sheet XML）严格同值才采信，不容差",
+    "version": "v2.5"
+  },
+  "quoted": [
+    {
+      "id": "A01",
+      "value": 14,
+      "source": "paper_text.txt#L25",
+      "locator": "首句；定位串止于取值之前"
+    },
+    {
+      "id": "A02",
+      "value": "A data extraction template for the behaviour change intervention ontology",
+      "source": "fulltext__PMC11170071.xml#front/article-meta/title-group/article-title"
+    },
+    {
+      "id": "A03",
+      "value": "four",
+      "source": "fulltext__PMC11170071.xml#front/article-meta/abstract[not(@abstract-type)]",
+      "locator": "developed in 之后紧接的英文数词"
+    },
+    {
+      "id": "A04",
+      "value": "Table 1. Forward citation searching for BCIO data extraction on Google Scholar.",
+      "source": "paper_text.txt#L15"
+    },
+    {
+      "id": "A05",
+      "value": "Table A1. Glossary of terms.",
+      "source": "paper.pdf#p12"
+    },
+    {
+      "id": "A06",
+      "value": "Behaviour Change Intervention Ontology (BCIO) data extraction template (v1)",
+      "source": "bcio_data_extraction_template_v1.xlsx#Intro#r1"
+    },
+    {
+      "id": "A07",
+      "value": "Methods",
+      "source": "paper_text.txt#L10"
+    },
+    {
+      "id": "A08",
+      "value": "Results",
+      "source": "paper_text.txt#L23"
+    },
+    {
+      "id": "A09",
+      "value": "Discussion",
+      "source": "paper_text.txt#L34"
+    },
+    {
+      "id": "A10",
+      "value": "i) Scoping review of papers citing the BCIO",
+      "source": "paper_text.txt#L13",
+      "locator": "第 1/2 处"
+    },
+    {
+      "id": "A11",
+      "value": "iv) Launch and maintenance of data extraction template",
+      "source": "paper_text.txt#L21"
+    },
+    {
+      "id": "A12",
+      "value": "12/3/25",
+      "source": "bcio_data_extraction_template_v1.xlsx#Intro#r4",
+      "locator": "current as of 之后紧接的日期串"
+    },
+    {
+      "id": "A13",
+      "value": "168",
+      "source": "fulltext__PMC11170071.xml#front/article-meta/elocation-id"
+    }
+  ]
+}

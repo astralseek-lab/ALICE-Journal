@@ -1,0 +1,7 @@
+{
+  "@context": "https://alice-journal.local/profile",
+  "@type": "ResearchPackage",
+  "task_id": "ALICE-2026-0002",
+  "grade": "native",
+  "note": "自算包：六量全部由包内入口从 bcio_moa.owl 现场算出，非转写。"
+}

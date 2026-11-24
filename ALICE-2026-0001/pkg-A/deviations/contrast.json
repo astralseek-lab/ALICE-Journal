@@ -1,0 +1,29 @@
+[
+  {
+    "derivation_ref": {
+      "code": "code/build_evidence.py",
+      "entry": "compute",
+      "params": {}
+    },
+    "hits": 371,
+    "rule": "rdf:about 去文件名当目录（禁用读法①对照；与主口径同值纯属巧合，不是判据）"
+  },
+  {
+    "derivation_ref": {
+      "code": "code/build_evidence.py",
+      "entry": "compute",
+      "params": {}
+    },
+    "hits": 371,
+    "rule": "类名前缀 BCIO_ 判本地（禁用读法②对照；与主口径同值纯属巧合，不是判据）"
+  },
+  {
+    "derivation_ref": {
+      "code": "code/build_evidence.py",
+      "entry": "compute",
+      "params": {}
+    },
+    "hits": 371,
+    "rule": "出现最多的前缀判本地（禁用读法③对照；与主口径同值纯属巧合，不是判据）"
+  }
+]

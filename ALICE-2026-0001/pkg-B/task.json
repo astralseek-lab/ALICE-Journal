@@ -1,0 +1,136 @@
+{
+  "task_id": "ALICE-2026-0001",
+  "grade": "native",
+  "entry": "code/bcto_scan.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "paper_text",
+        "uri": "paper_text.txt",
+        "doi": "10.12688/wellcomeopenres.19363.2",
+        "bytes": 44806,
+        "sha256": "a6fe460aa7d0da00eed75a669953651e883eaf3084084126caeb6f97be3a86e0"
+      },
+      {
+        "slug": "bcto",
+        "uri": "bcto.owl",
+        "bytes": 681847,
+        "sha256": "764eec11410da13f3013678db201e7ebeb93367d5cb67a60cce04da822ded206"
+      },
+      {
+        "slug": "fulltext__PMC10427801",
+        "uri": "fulltext__PMC10427801.xml",
+        "bytes": 213966,
+        "sha256": "49cc0eef5df08006be149b9333dc750f5f5034bf9a421f2bec84ee85b80b9f71"
+      }
+    ],
+    "hooks": []
+  },
+  "params": {
+    "quantity": "L1|L2|L3|L4|L5|L6 之一（每条 claim 的 derivation_ref.params 带其一）",
+    "peer_held": [],
+    "readings_names": [
+      "L3_local",
+      "L4_local",
+      "L5_alt",
+      "L5_selfcheck",
+      "L6_alt",
+      "anonymous_class",
+      "self_report_unmeasured"
+    ],
+    "reads_count": 7
+  },
+  "budget": {
+    "cpu_s": 4,
+    "gpu_s": 0,
+    "wall_clock_s": 8,
+    "cost_cny": 0
+  },
+  "judge": {
+    "metric": "check_taskpack 在册 21 条逐条 ok",
+    "band": "0",
+    "tolerance_reason": "结构计数任务：K 量为整数计数，无容差带",
+    "version": "35b82345b95885b59a46f7cba7c42d93f4c343d0119798dfa75a4755e076589e"
+  },
+  "gaps": [],
+  "quoted": [
+    {
+      "id": "A01",
+      "value": 281,
+      "source": "paper_text.txt#L58",
+      "locator": "全文恰 1 处"
+    },
+    {
+      "id": "A02",
+      "value": 247,
+      "source": "paper_text.txt#L53",
+      "locator": "全文恰 1 处"
+    },
+    {
+      "id": "A03",
+      "value": 0.82,
+      "source": "paper_text.txt#L55",
+      "locator": "第 1/2 个 a="
+    },
+    {
+      "id": "A04",
+      "value": 0.79,
+      "source": "paper_text.txt#L55",
+      "locator": "第 2/2 个 a="
+    },
+    {
+      "id": "A05",
+      "value": "five",
+      "source": "paper_text.txt#L80",
+      "locator": "全文恰 1 处；紧接 hierarchical levels 之前的英文数词"
+    },
+    {
+      "id": "A06",
+      "value": "Table 2. Definitions of the 20 higher-level groups in the final BCT Ontology, and number of BCTs in each group (after step 5). Note. The number of BCTs in each of group should not be considered final. The BCTO will continue to evolve and grow (e.g. new BCTs or new groups) as a result of user feedback and new available evidence.",
+      "source": "paper_text.txt#L59",
+      "locator": "第 2/2 处（题注行）"
+    },
+    {
+      "id": "A07",
+      "value": "BCT group",
+      "source": "paper_text.txt#L60",
+      "locator": "表头行首格（thead 首个 th）"
+    },
+    {
+      "id": "A08",
+      "value": "Figure 1. The upper level of the Behaviour Change Intervention Ontology (BCIO) V1.5.‘Behaviour change technique’ is part of ‘BCI content’.",
+      "source": "paper_text.txt#L11",
+      "locator": "全文恰 1 处"
+    },
+    {
+      "id": "A09",
+      "value": "Methods",
+      "source": "paper_text.txt#L15",
+      "locator": "全文恰 1 处"
+    },
+    {
+      "id": "A10",
+      "value": "Step 1: Extract and synthesise feedback on the BCTTv1",
+      "source": "paper_text.txt#L20",
+      "locator": "第 1/2 处（Methods 内）"
+    },
+    {
+      "id": "A11",
+      "value": "10.12688/wellcomeopenres.19363.2",
+      "source": "fulltext__PMC10427801.xml#front/article-meta/article-id[@pub-id-type='doi']",
+      "locator": "article-meta 直属 doi 型（文档序第 6 个 article-id）；pub-history 内 doi 禁用"
+    },
+    {
+      "id": "A12",
+      "value": "http://humanbehaviourchange.org/ontology/bcto.owl/2026-11-10",
+      "source": "bcto.owl#http://humanbehaviourchange.org/ontology/bcto.owl/2026-11-10",
+      "locator": "owl:versionIRI 的 rdf:resource（带前缀定位串全件恰 1 处）"
+    },
+    {
+      "id": "A13",
+      "value": "http://humanbehaviourchange.org/ontology/bcto.owl",
+      "source": "bcto.owl#http://humanbehaviourchange.org/ontology/bcto.owl",
+      "locator": "owl:Ontology 的 rdf:about（带前缀定位串全件恰 1 处）"
+    }
+  ]
+}

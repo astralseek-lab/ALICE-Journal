@@ -1,0 +1,83 @@
+{
+ "rule": "kind=line：整行逐字匹配、区间内恰 1 次、行号严格递增（七段为 Methods 空壳 H2 的平级具名 H2）",
+ "source": "paper_text.txt#L19-L34",
+ "steps": [
+  {
+   "evidence_loc": "paper_text.txt#L19-L19",
+   "input": "研究团队的领域知识与试点清单（Methods 首节所述起点）",
+   "kind": "line",
+   "label": "S1",
+   "output": "初始因果模型草稿（12 个实体及其箭头）",
+   "pos": 1,
+   "src": "paper_text.txt",
+   "target": "paper_text.txt#L19-L20",
+   "title": "Initial drafting of entities and relationships in a causal model"
+  },
+  {
+   "evidence_loc": "paper_text.txt#L21-L21",
+   "input": "既有本体清单与检索式",
+   "kind": "line",
+   "label": "S2",
+   "output": "scoping review 结论（无可复用的 BCI 本体）",
+   "pos": 2,
+   "src": "paper_text.txt",
+   "target": "paper_text.txt#L21-L22",
+   "title": "Review of existing ontologies"
+  },
+  {
+   "evidence_loc": "paper_text.txt#L23-L23",
+   "input": "已发表报告的语料与标注方案",
+   "kind": "line",
+   "label": "S3",
+   "output": "数据驱动修订清单（含成瘾域报告的对照标注）",
+   "pos": 3,
+   "src": "paper_text.txt",
+   "target": "paper_text.txt#L23-L26",
+   "title": "Data-driven development: Testing by annotating published reports"
+  },
+  {
+   "evidence_loc": "paper_text.txt#L27-L27",
+   "input": "本体初稿与专家名单",
+   "kind": "line",
+   "label": "S4",
+   "output": "三条专家反馈意见（命名／定义／结构）",
+   "pos": 4,
+   "src": "paper_text.txt",
+   "target": "paper_text.txt#L27-L29",
+   "title": "Expert feedback"
+  },
+  {
+   "evidence_loc": "paper_text.txt#L30-L30",
+   "input": "专家反馈意见",
+   "kind": "line",
+   "label": "S5",
+   "output": "研究团队采纳与驳回的处置决定",
+   "pos": 5,
+   "src": "paper_text.txt",
+   "target": "paper_text.txt#L30-L31",
+   "title": "Discussion by study team"
+  },
+  {
+   "evidence_loc": "paper_text.txt#L32-L32",
+   "input": "本体当前版与 AddictO 本体",
+   "kind": "line",
+   "label": "S6",
+   "output": "跨本体复用测试结果",
+   "pos": 6,
+   "src": "paper_text.txt",
+   "target": "paper_text.txt#L32-L33",
+   "title": "Testing re-use in a separate ontology (AddictO)"
+  },
+  {
+   "evidence_loc": "paper_text.txt#L34-L34",
+   "input": "前六段产出的本体与测试结果",
+   "kind": "line",
+   "label": "S7",
+   "output": "可持续维护计划",
+   "pos": 7,
+   "src": "paper_text.txt",
+   "target": "paper_text.txt#L34-L35",
+   "title": "Creation of a sustainability plan"
+  }
+ ]
+}

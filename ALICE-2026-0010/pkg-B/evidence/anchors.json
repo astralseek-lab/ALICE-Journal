@@ -1,0 +1,67 @@
+[
+  {
+    "id": "A01",
+    "value": 218,
+    "source": "paper_text.txt#L9"
+  },
+  {
+    "id": "A02",
+    "value": ".79",
+    "source": "paper_text.txt#L9#s26"
+  },
+  {
+    "id": "A03",
+    "value": 139,
+    "source": "paper_text.txt#L9"
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Glossary of terms.",
+    "source": "paper_text.txt#L5"
+  },
+  {
+    "id": "A05",
+    "value": "Table 2. IDs, labels, definitions, parent classes and how aggregated for all Intervention Population Ontology entities.",
+    "source": "paper_text.txt#L10"
+  },
+  {
+    "id": "A06",
+    "value": "Development of an Intervention Population Ontology for specifying the characteristics of intervention participants",
+    "source": "paper_text.txt#L1"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L6#s22"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L8#s33"
+  },
+  {
+    "id": "A09",
+    "value": "Discussion",
+    "source": "paper_text.txt#L23"
+  },
+  {
+    "id": "A10",
+    "value": "Step 1: defining the scope of the ontology",
+    "source": "paper_text.txt#L6#s23"
+  },
+  {
+    "id": "A11",
+    "value": "Step 7: making the intervention population ontology machine-readable and available online",
+    "source": "paper_text.txt#L8#s22"
+  },
+  {
+    "id": "A12",
+    "value": "http://humanbehaviourchange.org/ontology/Population/bcio_population.owl/2026-11-10",
+    "source": "bcio_population.owl#http://humanbehaviourchange.org/ontology/Population/bcio_population.owl/2026-11-10"
+  },
+  {
+    "id": "A13",
+    "value": "http://humanbehaviourchange.org/ontology/Population/bcio_population.owl",
+    "source": "bcio_population.owl#http://humanbehaviourchange.org/ontology/Population/bcio_population.owl"
+  }
+]

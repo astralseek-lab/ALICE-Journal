@@ -1,0 +1,20 @@
+[
+  {
+    "role": "corpus",
+    "uri": "paper_text.txt",
+    "bytes": 32718,
+    "sha256": "d243691cca745216e7a2075712f69d31169377dd018f888a33c255a2f01c2764"
+  },
+  {
+    "role": "corpus",
+    "uri": "fulltext__PMC12596556.xml",
+    "bytes": 293343,
+    "sha256": "ef029bca9bb34b7cb70416b1f551f0c02fb63ea7d3f7e92ba8566a35cffd1249"
+  },
+  {
+    "role": "pdf",
+    "uri": "paper.pdf",
+    "bytes": 4194397,
+    "sha256": "0d7d25106b844c10199b16092b1aeefcadbfd83bf82bab7376d5e17b248f42bc"
+  }
+]

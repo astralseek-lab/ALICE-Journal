@@ -1,0 +1,202 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0012",
+  "nodes": [
+    {
+      "id": "ALICE-2026-0012#n_in_paper_text",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 18177,
+      "sha256": "63cf2c53bf1bc68c465d6632de73a2e0d387e228c3d4bb2ec387dce51cbe4442",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_in_fulltext__PMC11170071",
+      "kind": "input",
+      "ref": "ext:fulltext__PMC11170071",
+      "bytes": 138022,
+      "sha256": "8af998ec1012781a030c387db8d52ef79f083a1525bdfe005e9b05dd8ebe8600",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1",
+      "kind": "input",
+      "ref": "ext:bcio_data_extraction_template_v1",
+      "bytes": 185377,
+      "sha256": "9a8326ed4efe09d11c0c53a6fa1f1bc68979871689ef48def0f4e3b6d2598acc",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_in_paper",
+      "kind": "input",
+      "ref": "ext:paper",
+      "bytes": 781665,
+      "sha256": "ca6cbf152a5369904648856df6295ef5bf3733d85463785dc3888fd97b9a8e7f",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_in_table_template_v1",
+      "kind": "input",
+      "ref": "ext:table_template_v1",
+      "bytes": 384741,
+      "sha256": "462249cbcdfd5d34ecdb406a93130292ab9a1d84a8f156fc3ad4ec208759527d",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_t1",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "t1_sheet_count",
+        "params": {}
+      },
+      "value": {
+        "v": 10
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_t2",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "t2_ontology_sheets",
+        "params": {}
+      },
+      "value": {
+        "v": 9
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_t3",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "t3_external_class_count",
+        "params": {}
+      },
+      "value": {
+        "v": 123
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_t4",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "t4_data_rows_sum",
+        "params": {}
+      },
+      "value": {
+        "v": 1488
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_t5",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "t5_level_cols_sum",
+        "params": {}
+      },
+      "value": {
+        "v": 55
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0012#n_t6",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "t6_cross_sheet_ids",
+        "params": {}
+      },
+      "value": {
+        "v": 23
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1",
+      "to": "ALICE-2026-0012#n_t1",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1",
+      "to": "ALICE-2026-0012#n_t2",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1",
+      "to": "ALICE-2026-0012#n_t3",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1",
+      "to": "ALICE-2026-0012#n_t4",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1",
+      "to": "ALICE-2026-0012#n_t5",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0012#n_in_bcio_data_extraction_template_v1",
+      "to": "ALICE-2026-0012#n_t6",
+      "type": "derived_from"
+    }
+  ]
+}

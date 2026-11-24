@@ -1,0 +1,127 @@
+{
+  "task_id": "ALICE-2026-0006",
+  "grade": "native",
+  "entry": "code/quant_a.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "paper_text",
+        "uri": "paper_text.txt",
+        "bytes": 29777,
+        "sha256": "f918cfc540e77b673707b451fffe0e03bbf264fb5f7f076aeecafc8dd1e648b5"
+      },
+      {
+        "slug": "bcio_setting",
+        "uri": "bcio_setting.owl",
+        "bytes": 497542,
+        "sha256": "9221ca33bd2f7f2160ef858bf306b6427c5a218ffcaf9f838a7459cdf5909a84"
+      }
+    ],
+    "hooks": [
+      "ALICE-2026-0006#n_l1",
+      "ALICE-2026-0006#n_l2",
+      "ALICE-2026-0006#n_l3",
+      "ALICE-2026-0006#n_l4",
+      "ALICE-2026-0006#n_l5",
+      "ALICE-2026-0006#n_l6"
+    ]
+  },
+  "params": {
+    "peer_held": [],
+    "readings_names": [
+      "L3_local",
+      "L4_local",
+      "L5_alt",
+      "L5_selfcheck",
+      "L6_alt",
+      "anonymous_class",
+      "self_report_unmeasured"
+    ],
+    "reads_count": 7
+  },
+  "budget": {
+    "cpu_s": 0,
+    "gpu_s": 0,
+    "wall_clock_s": 0,
+    "cost_cny": 0
+  },
+  "judge": {
+    "metric": "exact_count",
+    "band": "±0",
+    "tolerance_reason": "结构计数为整数精确量，判据 20 严格相等、不设容差",
+    "version": "check_taskpack.py@35b82345"
+  },
+  "quoted": [
+    {
+      "id": "A01",
+      "value": 72,
+      "source": "paper_text.txt#L53",
+      "locator": "#s1"
+    },
+    {
+      "id": "A02",
+      "value": 0.73,
+      "source": "paper_text.txt#L46",
+      "locator": "取第 1/2 处"
+    },
+    {
+      "id": "A03",
+      "value": 23,
+      "source": "paper_text.txt#L42",
+      "locator": "#s2"
+    },
+    {
+      "id": "A04",
+      "value": "Table 1. Glossary.",
+      "source": "paper_text.txt#L5"
+    },
+    {
+      "id": "A05",
+      "value": "Table 2. Entity labels, definitions and URIs for all Intervention Setting Ontology Entities. Note: Entity URIs correspond to Behaviour Change Intervention Ontology (BCIO), Environment Ontology (ENVO), Gazetteer Ontology (GAZ), NCI Thesaurus (NCIT), Ontology of Medically Related Social Entities (OMRSE) and Prescription of Drugs Ontology (PDRO).",
+      "source": "paper_text.txt#L51"
+    },
+    {
+      "id": "A06",
+      "value": "Upper-Level",
+      "source": "paper_text.txt#L52"
+    },
+    {
+      "id": "A07",
+      "value": "Methods",
+      "source": "paper_text.txt#L8"
+    },
+    {
+      "id": "A08",
+      "value": "Results",
+      "source": "paper_text.txt#L30"
+    },
+    {
+      "id": "A09",
+      "value": "Discussion",
+      "source": "paper_text.txt#L56"
+    },
+    {
+      "id": "A10",
+      "value": "Step 1 – Defining the scope of the Intervention Setting Ontology",
+      "source": "paper_text.txt#L10",
+      "locator": "取第 1/2 处"
+    },
+    {
+      "id": "A11",
+      "value": "Step 7 - Making the Intervention Setting Ontology machine-readable and available online",
+      "source": "paper_text.txt#L27"
+    },
+    {
+      "id": "A12",
+      "value": "http://humanbehaviourchange.org/ontology/bcio_setting.owl/2026-11-10",
+      "source": "bcio_setting.owl#http://humanbehaviourchange.org/ontology/bcio_setting.owl/2026-11-10",
+      "locator": "rdf:resource=\"http://humanbehaviourchange.org/ontology/bcio_setting.owl/2026-11-10\""
+    },
+    {
+      "id": "A13",
+      "value": "http://humanbehaviourchange.org/ontology/bcio_setting.owl",
+      "source": "bcio_setting.owl#http://humanbehaviourchange.org/ontology/bcio_setting.owl",
+      "locator": "rdf:about=\"http://humanbehaviourchange.org/ontology/bcio_setting.owl\""
+    }
+  ]
+}

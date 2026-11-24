@@ -1,0 +1,6 @@
+{
+  "entry": "code/metrics.py::main",
+  "shared_code_with_a": false,
+  "signer_pkg_id": "pkg-B@ALICE-2026-0012",
+  "source": "pkg-B 全部代码为本包自成实现：xlsx 走 zipfile＋ElementTree 直解 xl/worksheets/*.xml（不 import openpyxl），遍历用显式栈／iterparse，计数流式一次过；未读、未引 pkg-A 的任何模块与件。"
+}

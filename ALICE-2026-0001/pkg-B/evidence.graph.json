@@ -1,0 +1,200 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0001",
+  "nodes": [
+    {
+      "id": "n_in_bcto",
+      "kind": "input",
+      "ref": "ext:bcto",
+      "bytes": 681847,
+      "sha256": "764eec11410da13f3013678db201e7ebeb93367d5cb67a60cce04da822ded206",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "n_in_corpus",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 44806,
+      "sha256": "a6fe460aa7d0da00eed75a669953651e883eaf3084084126caeb6f97be3a86e0",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "n_in_xml",
+      "kind": "input",
+      "ref": "ext:fulltext__PMC10427801",
+      "bytes": 213966,
+      "sha256": "49cc0eef5df08006be149b9333dc750f5f5034bf9a421f2bec84ee85b80b9f71",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "n_L1",
+      "kind": "derived",
+      "from": [
+        "n_in_bcto"
+      ],
+      "transform": {
+        "code": "code/bcto_scan.py",
+        "entry": "L1_class_local",
+        "params": {
+          "quantity": "L1"
+        }
+      },
+      "value": {
+        "v": 371,
+        "unit": "classes"
+      },
+      "unit": "classes",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "n_L2",
+      "kind": "derived",
+      "from": [
+        "n_in_bcto"
+      ],
+      "transform": {
+        "code": "code/bcto_scan.py",
+        "entry": "L2_subclass_edges",
+        "params": {
+          "quantity": "L2"
+        }
+      },
+      "value": {
+        "v": 564,
+        "unit": "edges"
+      },
+      "unit": "edges",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "n_L3",
+      "kind": "derived",
+      "from": [
+        "n_in_bcto"
+      ],
+      "transform": {
+        "code": "code/bcto_scan.py",
+        "entry": "L3_object_properties",
+        "params": {
+          "quantity": "L3"
+        }
+      },
+      "value": {
+        "v": 50,
+        "unit": "properties"
+      },
+      "unit": "properties",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "n_L4",
+      "kind": "derived",
+      "from": [
+        "n_in_bcto"
+      ],
+      "transform": {
+        "code": "code/bcto_scan.py",
+        "entry": "L4_annotation_properties",
+        "params": {
+          "quantity": "L4"
+        }
+      },
+      "value": {
+        "v": 56,
+        "unit": "properties"
+      },
+      "unit": "properties",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "n_L5",
+      "kind": "derived",
+      "from": [
+        "n_in_bcto"
+      ],
+      "transform": {
+        "code": "code/bcto_scan.py",
+        "entry": "L5_max_depth",
+        "params": {
+          "quantity": "L5"
+        }
+      },
+      "value": {
+        "v": 9,
+        "unit": "edges"
+      },
+      "unit": "edges",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "n_L6",
+      "kind": "derived",
+      "from": [
+        "n_in_bcto"
+      ],
+      "transform": {
+        "code": "code/bcto_scan.py",
+        "entry": "L6_leaf_classes",
+        "params": {
+          "quantity": "L6"
+        }
+      },
+      "value": {
+        "v": 258,
+        "unit": "classes"
+      },
+      "unit": "classes",
+      "check": {
+        "mode": "recompute"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "n_in_bcto",
+      "to": "n_L1",
+      "type": "derived_from"
+    },
+    {
+      "from": "n_in_bcto",
+      "to": "n_L2",
+      "type": "derived_from"
+    },
+    {
+      "from": "n_in_bcto",
+      "to": "n_L3",
+      "type": "derived_from"
+    },
+    {
+      "from": "n_in_bcto",
+      "to": "n_L4",
+      "type": "derived_from"
+    },
+    {
+      "from": "n_in_bcto",
+      "to": "n_L5",
+      "type": "derived_from"
+    },
+    {
+      "from": "n_in_bcto",
+      "to": "n_L6",
+      "type": "derived_from"
+    }
+  ]
+}

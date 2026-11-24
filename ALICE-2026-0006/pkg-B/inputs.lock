@@ -1,0 +1,14 @@
+[
+  {
+    "role": "corpus",
+    "uri": "paper_text.txt",
+    "bytes": 29777,
+    "sha256": "f918cfc540e77b673707b451fffe0e03bbf264fb5f7f076aeecafc8dd1e648b5"
+  },
+  {
+    "role": "ontology",
+    "uri": "bcio_setting.owl",
+    "bytes": 497542,
+    "sha256": "9221ca33bd2f7f2160ef858bf306b6427c5a218ffcaf9f838a7459cdf5909a84"
+  }
+]

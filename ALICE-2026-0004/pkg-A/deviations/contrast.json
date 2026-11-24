@@ -1,0 +1,46 @@
+[
+  {
+    "rule": "对照读法「rdf:about 去文件名当目录」的命中类数（禁法；与主值同值系巧合，不是判据）",
+    "hits": 1170,
+    "derivation_ref": {
+      "code": "code/entry.py",
+      "entry": "contrast_hits",
+      "params": {
+        "rule": "rdf_about_dir"
+      }
+    }
+  },
+  {
+    "rule": "对照读法「类名前缀 BCIO_」的命中类数（禁法；与主值同值系巧合，不是判据）",
+    "hits": 1170,
+    "derivation_ref": {
+      "code": "code/entry.py",
+      "entry": "contrast_hits",
+      "params": {
+        "rule": "prefix_bcio"
+      }
+    }
+  },
+  {
+    "rule": "对照读法「出现最多的前缀」（本地类名第一个 _ 之前段，降序同数取串升序第一）的命中类数（禁法；与主值同值系巧合，不是判据）",
+    "hits": 1170,
+    "derivation_ref": {
+      "code": "code/entry.py",
+      "entry": "contrast_hits",
+      "params": {
+        "rule": "top_prefix"
+      }
+    }
+  },
+  {
+    "rule": "「owl:imports 元素数为空」这一判定（成立记一条，不成立记零条）",
+    "hits": 1,
+    "derivation_ref": {
+      "code": "code/entry.py",
+      "entry": "contrast_hits",
+      "params": {
+        "rule": "imports_empty"
+      }
+    }
+  }
+]

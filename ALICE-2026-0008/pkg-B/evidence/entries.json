@@ -1,0 +1,50 @@
+{
+  "L1": {
+    "file": "code/sod_metrics.py",
+    "entry": "l1_local_classes",
+    "lines": [
+      179,
+      181
+    ]
+  },
+  "L2": {
+    "file": "code/sod_metrics.py",
+    "entry": "l2_subclass_edges",
+    "lines": [
+      184,
+      186
+    ]
+  },
+  "L3": {
+    "file": "code/sod_metrics.py",
+    "entry": "l3_object_properties",
+    "lines": [
+      189,
+      191
+    ]
+  },
+  "L4": {
+    "file": "code/sod_metrics.py",
+    "entry": "l4_annotation_properties",
+    "lines": [
+      194,
+      196
+    ]
+  },
+  "L5": {
+    "file": "code/sod_metrics.py",
+    "entry": "l5_max_depth",
+    "lines": [
+      215,
+      233
+    ]
+  },
+  "L6": {
+    "file": "code/sod_metrics.py",
+    "entry": "l6_leaf_classes",
+    "lines": [
+      236,
+      240
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "rule": "读法①（禁用读法，只留痕）：命名空间＝owl:Ontology@rdf:about 去文件名＝http://humanbehaviourchange.org/ontology/Schedule/；推导：该串是去末段后的目录，本件具名类无一落在其下（hits=0）——本件属「带子目录」型，落 0 即实证该读法在本件失效；非判据。",
+    "hits": 0,
+    "derivation_ref": {
+      "code": "code/sdo_dom.py",
+      "entry": "contrast_hits",
+      "params": {}
+    }
+  },
+  {
+    "rule": "读法②（禁用读法，只留痕）：本地名以 BCIO_ 起头者计为本地，hits=114；推导：BCIO_ 前缀集与主口径 in_ns 集逐 IRI 全等（对称差为空，见本包 evidence 的 ns 件 coincidence）。与主值同值——巧合，不是判据。",
+    "hits": 114,
+    "derivation_ref": {
+      "code": "code/sdo_dom.py",
+      "entry": "contrast_hits",
+      "params": {}
+    }
+  },
+  {
+    "rule": "读法③（禁用读法，只留痕）：全件具名类按 host＋目录分组取出现最多者＝http://purl.obolibrary.org/obo/（hits=169，外部类群）；与主值 114 不同——本件恰是能反证「出现最多的前缀」读法的件；推导见 derivation_ref 所指入口；非判据。",
+    "hits": 169,
+    "derivation_ref": {
+      "code": "code/sdo_dom.py",
+      "entry": "contrast_hits",
+      "params": {}
+    }
+  }
+]

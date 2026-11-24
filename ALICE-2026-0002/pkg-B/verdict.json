@@ -1,0 +1,222 @@
+{
+  "schema": "alice-b-verdict/1",
+  "task_id": "ALICE-2026-0002",
+  "result": "pass",
+  "inputs": {
+    "bcio_moa.owl": {
+      "bytes": 1585048,
+      "sha256": "61e53a6d3908cd16be20058cdfd2de2ac8785a89834cc2bbca1dddf889f1ab4e"
+    },
+    "paper_text.txt": {
+      "bytes": 59867,
+      "sha256": "fc2d1542d23916b31bebf8cfad95f1f0d6cfa6a21687d32655d3440a282efb11"
+    }
+  },
+  "quantities": {
+    "L1_class_local": 1705,
+    "L2_subclass_edges": 1905,
+    "L3_object_props": 53,
+    "L4_annotation_props": 56,
+    "L5_depth_max": 7,
+    "L6_leaf_classes": 1220
+  },
+  "L2_split": {
+    "internal": 1449,
+    "to_external": 456
+  },
+  "X_ext_classes": {
+    "v": 193,
+    "by_namespace": {
+      "obo": 169,
+      "addicto": 24,
+      "other": 0
+    }
+  },
+  "L5_cycle_breaks": [],
+  "impl": {
+    "family": "xml.dom.minidom 建 DOM 后显式栈迭代",
+    "differs_from_A": "另一包用递归式解析器遍历；本包用 minidom＋显式栈＋单次遍历累计＋urlsplit 划界（已 grep 确认 code/ 无另一套解析器字样、无递归调用、无跨包 import）。"
+  },
+  "anchors": [
+    {
+      "id": "A01",
+      "kind": "number",
+      "source": "paper_text.txt",
+      "value": 284,
+      "line": 122,
+      "quote": "The final version of the MoA Ontology has 284 entities",
+      "maps_to": "L1_class_local",
+      "mine": 1705,
+      "delta": 1421,
+      "explained": false,
+      "reason": "论文口径只数 MoA 专域实体（最终版 284）；本量按本地命名空间（整个 BCIO 命名空间）计数，得 1705，两口径不同属预期偏离，偏离全体落名于 items_file。",
+      "items_file": "deviations/A01.jsonl"
+    },
+    {
+      "id": "A02",
+      "kind": "number",
+      "source": "paper_text.txt",
+      "value": 261,
+      "line": 7,
+      "quote": "We created an initial MoA Ontology with 261 entities",
+      "maps_to": "L2_subclass_edges",
+      "mine": 1905,
+      "delta": 1644,
+      "explained": false,
+      "reason": "论文没有自报子类边数；最近邻的结构性自报是初始版实体数 261（每条实体一条 is_a 边的前身），与本量 1905 的偏离全体落名于 items_file。",
+      "items_file": "deviations/A02.jsonl"
+    },
+    {
+      "id": "A03",
+      "kind": "number",
+      "source": "paper_text.txt",
+      "value": 7,
+      "line": 114,
+      "quote": "The 7 upper-level entities in the MoA Ontology",
+      "maps_to": "L5_depth_max",
+      "mine": 7,
+      "delta": 0,
+      "explained": true,
+      "reason": "数值同为 7。口径差异如实记录：论文说层级（levels）按层数计，本量按边数计；若折成层数则本量为 8 层。"
+    },
+    {
+      "id": "A04",
+      "kind": "number",
+      "source": "paper_text.txt",
+      "value": 3,
+      "line": 26,
+      "quote": "Figure 3. Overview of steps to develop the MoA Ontology",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "题注行内唯一整数是图号 3；步骤总数见 A11（Methods 范围 L24–L90 内末个 Step 标题），不属于六量。"
+    },
+    {
+      "id": "A05",
+      "kind": "number",
+      "source": "paper_text.txt",
+      "value": 4,
+      "line": 93,
+      "quote": "Figure 4. Summary of results from each step to develop the MoA Ontol.",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "题注行唯一整数是图号 4，不是量。"
+    },
+    {
+      "id": "A06",
+      "kind": "number",
+      "source": "paper_text.txt",
+      "value": 7,
+      "line": 114,
+      "quote": "The 7 upper-level entities in the MoA Ontology",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "上位实体数是 L1 的子口径，六量未单列该口径，不硬映射；论文自报为 7。"
+    },
+    {
+      "id": "A07",
+      "kind": "text",
+      "source": "paper_text.txt",
+      "value": null,
+      "line": 4,
+      "quote": "## Methods",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "节标题不是量；为 protocol 件起点节界"
+    },
+    {
+      "id": "A08",
+      "kind": "text",
+      "source": "paper_text.txt",
+      "value": null,
+      "line": 6,
+      "quote": "## Results",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "节标题不是量；protocol 件范围（L24–L90）之后的下一节"
+    },
+    {
+      "id": "A09",
+      "kind": "text",
+      "source": "paper_text.txt",
+      "value": null,
+      "line": 124,
+      "quote": "## Discussion",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "节标题不是量；自报数字所在叙述段的边界"
+    },
+    {
+      "id": "A10",
+      "kind": "number",
+      "source": "paper_text.txt",
+      "value": 1,
+      "line": 27,
+      "quote": "## Step 1 – Defining the scope of the MoA Ontology",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "步骤编号不是六量；Methods 范围（L24–L90）内首个 Step 标题的编号。"
+    },
+    {
+      "id": "A11",
+      "kind": "number",
+      "source": "paper_text.txt",
+      "value": 9,
+      "line": 89,
+      "quote": "## Step 9 – Making the MoA Ontology machine-readable and available online",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "步骤编号不是六量；Methods 范围（L24–L90）内末个 Step 标题的编号，即 protocol 件步数的上界。"
+    },
+    {
+      "id": "A12",
+      "kind": "text",
+      "source": "bcio_moa.owl",
+      "value": null,
+      "line": 22,
+      "quote": "<owl:versionIRI rdf:resource=\"http://humanbehaviourchange.org/ontology/MechanismOfAction/bcio_moa.owl/2026-11-10\"/>",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "版本快照标识不是量；text 锚逐字抄该行。"
+    },
+    {
+      "id": "A13",
+      "kind": "text",
+      "source": "bcio_moa.owl",
+      "value": null,
+      "line": 21,
+      "quote": "<owl:Ontology rdf:about=\"http://humanbehaviourchange.org/ontology/MechanismOfAction/bcio_moa.owl\">",
+      "maps_to": null,
+      "mine": null,
+      "delta": null,
+      "explained": true,
+      "reason": "本体身份 IRI 不是量；text 锚逐字抄该行。"
+    }
+  ],
+  "not_done": [
+    "未做 OWL 推理",
+    "未做双人独立编码"
+  ],
+  "checks": {
+    "V1": true,
+    "V2": true,
+    "V3": true
+  }
+}

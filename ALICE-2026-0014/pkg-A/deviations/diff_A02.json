@@ -1,0 +1,75 @@
+{
+  "anchor": "A02",
+  "measured": 16,
+  "self_reported": 16,
+  "items": [
+    {
+      "key": "1. Goals and planning",
+      "ord": 1
+    },
+    {
+      "key": "2. Feedback and monitoring",
+      "ord": 2
+    },
+    {
+      "key": "3. Social support",
+      "ord": 3
+    },
+    {
+      "key": "4. Shaping knowledge",
+      "ord": 4
+    },
+    {
+      "key": "5. Natural consequences",
+      "ord": 5
+    },
+    {
+      "key": "6. Comparison of behaviour",
+      "ord": 6
+    },
+    {
+      "key": "7. Associations",
+      "ord": 7
+    },
+    {
+      "key": "8. Repetition and substitution",
+      "ord": 8
+    },
+    {
+      "key": "9. Comparison of outcomes",
+      "ord": 9
+    },
+    {
+      "key": "10. Reward and threat",
+      "ord": 10
+    },
+    {
+      "key": "11. Regulation",
+      "ord": 11
+    },
+    {
+      "key": "12. Antecedents",
+      "ord": 12
+    },
+    {
+      "key": "13. Identity",
+      "ord": 13
+    },
+    {
+      "key": "14. Scheduled consequences",
+      "ord": 14
+    },
+    {
+      "key": "15. Self-belief",
+      "ord": 15
+    },
+    {
+      "key": "16. Covert learning",
+      "ord": 16
+    }
+  ],
+  "rows": 16,
+  "gap": 0,
+  "direction": "相等",
+  "sha256": "64a2f02707e85b8675f5f042699cfb58ca97b8fdd448a18f621f4f17d74b8e66"
+}

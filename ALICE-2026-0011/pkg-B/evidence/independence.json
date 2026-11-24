@@ -1,0 +1,6 @@
+{
+  "source": "独立第二实现：按小节流式读（语料逐行迭代、XML 走 iterparse 事件流）、自切节、逐字回指；三量数法与主实现走不同路径（序列法／归属直数），未导入、未复用另一实现的任何模块",
+  "shared_code_with_a": false,
+  "entry": "code/step_tally.py::tally_step_titles",
+  "signer_pkg_id": "pkg-B"
+}

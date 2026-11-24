@@ -1,0 +1,46 @@
+[
+  {
+    "rule": "以 owl:Ontology@rdf:about 去掉末段文件名所得目录（/ontology/Population/）判本地：该目录下命中的类数",
+    "hits": 0,
+    "derivation_ref": {
+      "code": "code/measure_b.py",
+      "entry": "measure",
+      "params": {
+        "quantity": "V1"
+      }
+    }
+  },
+  {
+    "rule": "以类名前缀 BCIO_ 判本地：该读法命中的类数（与主值同值／异值均为巧合，不是判据）",
+    "hits": 952,
+    "derivation_ref": {
+      "code": "code/measure_b.py",
+      "entry": "measure",
+      "params": {
+        "quantity": "V1"
+      }
+    }
+  },
+  {
+    "rule": "以本地类中出现最多的前缀（类名第一个 _ 之前段，命中数降序、同数按串升序取首）判本地：该前缀命中的类数（巧合，不是判据）",
+    "hits": 952,
+    "derivation_ref": {
+      "code": "code/measure_b.py",
+      "entry": "measure",
+      "params": {
+        "quantity": "V1"
+      }
+    }
+  },
+  {
+    "rule": "owl:imports 元素列表为空这一判定：成立记一条，不成立记零条",
+    "hits": 1,
+    "derivation_ref": {
+      "code": "code/measure_b.py",
+      "entry": "measure",
+      "params": {
+        "quantity": "V1"
+      }
+    }
+  }
+]

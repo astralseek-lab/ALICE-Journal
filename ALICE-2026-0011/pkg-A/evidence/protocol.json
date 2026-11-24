@@ -1,0 +1,83 @@
+{
+  "rule": "先列 Methods 这个 H1 下的全部直接子节标题，再按位置取标题以 Step 起首的 H2；整行逐字匹配、区间内恰 1 次、行号严格递增；禁用标题去重、禁按标题内容判步骤",
+  "source": "paper_text.txt#L23-L67",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "Step 1: Development of the scope and definition of the ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L29-L31",
+      "evidence_loc": "paper_text.txt#L29-L29",
+      "input": "语料 Introduction 节与 Good practice in ontology development 节（L11–L12）的既有内容",
+      "output": "ontology 的 scope 与 definition（Step 1 标题：Development of the scope and definition of the ontology）"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "Step 2: Identifying key entities and developing their preliminary definitions",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L32-L43",
+      "evidence_loc": "paper_text.txt#L32-L32",
+      "input": "Step 1 产出的 scope and definition",
+      "output": "key entities 及其 preliminary definitions（Step 2 标题：Identifying key entities and developing their preliminary definitions）"
+    },
+    {
+      "pos": 3,
+      "label": "S3",
+      "title": "Step 3: Refining the ontology through an iterative process of literature annotation, discussion and revision",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L44-L49",
+      "evidence_loc": "paper_text.txt#L44-L44",
+      "input": "Step 2 产出的 key entities 与 preliminary definitions",
+      "output": "经文献标注、讨论与修订迭代精炼的 ontology（Step 3 标题：Refining the ontology through an iterative process of literature annotation, discussion and revision）"
+    },
+    {
+      "pos": 4,
+      "label": "S4",
+      "title": "Step 4: Expert stakeholder review",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L50-L55",
+      "evidence_loc": "paper_text.txt#L50-L50",
+      "input": "Step 3 迭代后的 ontology",
+      "output": "专家利益相关者的评审意见（Step 4 标题：Expert stakeholder review）"
+    },
+    {
+      "pos": 5,
+      "label": "S5",
+      "title": "Step 5: Testing inter-rater reliability and making revisions",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L56-L60",
+      "evidence_loc": "paper_text.txt#L56-L56",
+      "input": "Step 4 评审后的 ontology",
+      "output": "inter-rater reliability 的测定结果与据此所作的修订（Step 5 标题：Testing inter-rater reliability and making revisions）"
+    },
+    {
+      "pos": 6,
+      "label": "S6",
+      "title": "Step 6: Specifying relationships between entities in the ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L61-L63",
+      "evidence_loc": "paper_text.txt#L61-L61",
+      "input": "Step 5 修订后的 ontology 实体集",
+      "output": "实体间关系的精确说明（Step 6 标题：Specifying relationships between entities in the ontology）"
+    },
+    {
+      "pos": 7,
+      "label": "S7",
+      "title": "Step 7: Disseminating and maintaining the ontology",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L64-L67",
+      "evidence_loc": "paper_text.txt#L64-L64",
+      "input": "Step 6 完成关系说明的 ontology",
+      "output": "ontology 的发布与维护安排（Step 7 标题：Disseminating and maintaining the ontology）"
+    }
+  ]
+}

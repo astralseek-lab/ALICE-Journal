@@ -1,0 +1,50 @@
+{
+  "L1": {
+    "file": "code/metrics.py",
+    "entry": "l1_local_classes",
+    "lines": [
+      122,
+      126
+    ]
+  },
+  "L2": {
+    "file": "code/metrics.py",
+    "entry": "l2_subclass_edges",
+    "lines": [
+      129,
+      132
+    ]
+  },
+  "L3": {
+    "file": "code/metrics.py",
+    "entry": "l3_object_properties",
+    "lines": [
+      135,
+      138
+    ]
+  },
+  "L4": {
+    "file": "code/metrics.py",
+    "entry": "l4_annotation_properties",
+    "lines": [
+      141,
+      144
+    ]
+  },
+  "L5": {
+    "file": "code/metrics.py",
+    "entry": "l5_max_depth",
+    "lines": [
+      164,
+      176
+    ]
+  },
+  "L6": {
+    "file": "code/metrics.py",
+    "entry": "l6_leaf_classes",
+    "lines": [
+      179,
+      184
+    ]
+  }
+}

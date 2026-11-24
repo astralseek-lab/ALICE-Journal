@@ -1,0 +1,103 @@
+{
+ "pkg_id": "pkg:915535bbc43657bab238f747f8d2a0e8f08a269102e3a73b6e6b639a92c6ca8d",
+ "manifest_root": "915535bbc43657bab238f747f8d2a0e8f08a269102e3a73b6e6b639a92c6ca8d",
+ "kind": "output",
+ "note": "网关不可载入，按判分器内同式本地复算公式生成；entries 口径＝sorted_walk 排除 pkg.json",
+ "entries": [
+  {
+   "path": "README.md",
+   "sha256": "f452c6bf5901219008308ac1e8970eb94cf0688a156ee811136b5604b4b347c7",
+   "bytes": 2383
+  },
+  {
+   "path": "claims.jsonl",
+   "sha256": "076d198f7e071842acfbb2fb73358c0cbe092d819b578482f67a97b0770ef8b1",
+   "bytes": 2989
+  },
+  {
+   "path": "code/README.md",
+   "sha256": "b919502648bc8d6d0b7a11ed4f2bc411662f72367924b71060f1cabcc3b6c5b9",
+   "bytes": 226
+  },
+  {
+   "path": "code/quant_a.py",
+   "sha256": "9575ec380018cd8460da70f54d4563c0972e40c8a1ba8f158952c5b9aac89c69",
+   "bytes": 23170
+  },
+  {
+   "path": "deviations/contrast.json",
+   "sha256": "495cfdd96a896d5a52610102b6eec8572271c7212af3cebdbdaa37e5b7c1cfd2",
+   "bytes": 1158
+  },
+  {
+   "path": "deviations/diff_A01.json",
+   "sha256": "4b3b18a53ae361f889c2d5693dab37c17bd33dd1e82844836507a8f2111fae9e",
+   "bytes": 6005
+  },
+  {
+   "path": "deviations/diff_A02.json",
+   "sha256": "ddb43fadaf11ab0b3ecf22a92639a2d16ad5d003f76e291783468eecdb357d69",
+   "bytes": 6005
+  },
+  {
+   "path": "deviations/diff_A03.json",
+   "sha256": "be9fa36cd012f22dd59a45656cae4b57431a5b59760c398f4969a1a315382f5e",
+   "bytes": 6005
+  },
+  {
+   "path": "deviations/overlap.json",
+   "sha256": "127b0ccbd09aaf1585c45195aa4f68a321a685742143f7bc3ab1f6585acfa749",
+   "bytes": 149724
+  },
+  {
+   "path": "deviations/readings.json",
+   "sha256": "fabb05ffd574b5fd402a0ceffbb95bba32f78de955b4689822a619cb428936cd",
+   "bytes": 1025
+  },
+  {
+   "path": "deviations/tiers.json",
+   "sha256": "f51a7b4e93f9900002a22c7a7fa0b516b494e21a60db3232c9b8ee78beb67872",
+   "bytes": 34189
+  },
+  {
+   "path": "env.lock",
+   "sha256": "84efaa06e8b82135af31e63d4839c39a7e74380c34a2d556c5196c3439b044e6",
+   "bytes": 65
+  },
+  {
+   "path": "evidence.graph.json",
+   "sha256": "9301f1ada72d266d582a567e4b2e8f7acf38871064c8c833304b62a7be37b529",
+   "bytes": 9826
+  },
+  {
+   "path": "evidence/anchors.json",
+   "sha256": "a412e8fea87ce1aa809bfe014dceb74961429860ec5d0dc0408890f3c91aa3ec",
+   "bytes": 1918
+  },
+  {
+   "path": "evidence/entries.json",
+   "sha256": "aa52848259a90bcb9d878be70ed0426b5f737b9f63a44480e697f0ef781cd1e0",
+   "bytes": 641
+  },
+  {
+   "path": "evidence/ns.json",
+   "sha256": "579f1f54565217262054a3244b106d4ff13e78757c2d764a14f3ab76823acffd",
+   "bytes": 26168
+  },
+  {
+   "path": "evidence/protocol.json",
+   "sha256": "748cec852223e86a53f01105b0dbde3778c96818b3af5bdfbdeb283b12d4a6dc",
+   "bytes": 2575
+  },
+  {
+   "path": "inputs.lock",
+   "sha256": "764374362bd0864c6219651460f050303898793f64703a440123a0578e6c9154",
+   "bytes": 628
+  },
+  {
+   "path": "task.json",
+   "sha256": "4df6b4681c02ef19ce2602d2e95561f7f51a4580a63e4057ccd14c9664da2d23",
+   "bytes": 3058
+  }
+ ]
+}

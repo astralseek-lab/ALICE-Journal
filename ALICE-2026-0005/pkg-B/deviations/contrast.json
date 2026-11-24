@@ -1,0 +1,38 @@
+[
+ {
+  "derivation_ref": {
+   "code": "code/quant_b.py",
+   "entry": "contrast_namespace_values_b",
+   "params": {}
+  },
+  "hits": 66,
+  "rule": "禁法留痕① rdf:about 去文件名法：ns＝本体 IRI 去末段＝http://humanbehaviourchange.org/ontology/；与主值同值＝巧合，不是判据（推导见 evidence 侧 ns 件的 host＋dir）"
+ },
+ {
+  "derivation_ref": {
+   "code": "code/quant_b.py",
+   "entry": "contrast_namespace_values_b",
+   "params": {}
+  },
+  "hits": 66,
+  "rule": "禁法留痕② 前缀 BCIO_ 法：IRI 末段以 BCIO_ 起头；与主值同值＝巧合，不是判据（推导见 evidence 侧 ns 件的 host＋dir）"
+ },
+ {
+  "derivation_ref": {
+   "code": "code/quant_b.py",
+   "entry": "contrast_namespace_values_b",
+   "params": {}
+  },
+  "hits": 169,
+  "rule": "禁法留痕③ 出现最多的前缀法：得最集中前缀 http://purl.obolibrary.org/obo/（外部宿主更集中）——与主值不同值，不作判据"
+ },
+ {
+  "derivation_ref": {
+   "code": "code/quant_b.py",
+   "entry": "alt_readings_b",
+   "params": {}
+  },
+  "hits": 0,
+  "rule": "owl:imports 为空这一判定：全件 owl:imports 元素个数"
+ }
+]

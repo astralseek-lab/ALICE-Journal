@@ -1,0 +1,94 @@
+{
+  "rule": "kind=line：在 paper_text.txt 的 L343–L516 区间内按整行逐字匹配八个 Step N: 标题行（行号严格递增、区间内每个标题恰出现 1 次）；区外同形整行（Results 小节复述的六处）披露不计",
+  "source": "paper_text.txt#L343-L516",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "Step 1: Developing the Prototype Classification System",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L343-L356",
+      "evidence_loc": "paper_text.txt#L343-L343",
+      "input": "six BCT classification systems identified by a literature search",
+      "output": "the prototype classification system (distinct BCTs with labels and definitions)"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "Step 2: Delphi Exercise First Round",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L357-L416",
+      "evidence_loc": "paper_text.txt#L357-L357",
+      "input": "the prototype BCT list from Step 1 and the study definition of a BCT",
+      "output": "ratings plus newly identified BCTs to be presented in the second Delphi exercise round"
+    },
+    {
+      "pos": 3,
+      "label": "S3",
+      "title": "Step 3: Delphi Exercise Second Round",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L417-L450",
+      "evidence_loc": "paper_text.txt#L417-L417",
+      "input": "the BCTs identified as requiring further consideration in Step 2",
+      "output": "a refined BCT list resolved by the study team from the round responses"
+    },
+    {
+      "pos": 4,
+      "label": "S4",
+      "title": "Step 4: Feedback from the International Advisory Board",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L451-L455",
+      "evidence_loc": "paper_text.txt#L451-L451",
+      "input": "the refined BCT list from the Delphi rounds",
+      "output": "advice from the International Advisory Board and a further refined BCT list"
+    },
+    {
+      "pos": 5,
+      "label": "S5",
+      "title": "Step 5: Reliability Testing Round 1",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L456-L463",
+      "evidence_loc": "paper_text.txt#L456-L456",
+      "input": "45 intervention descriptions and the refined BCT list",
+      "output": "inter-rater reliability results of round 1 and the amended BCT list"
+    },
+    {
+      "pos": 6,
+      "label": "S6",
+      "title": "Step 6: Investigating Hierarchical Structure of the BCT List",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L464-L499",
+      "evidence_loc": "paper_text.txt#L464-L464",
+      "input": "the developed list of BCTs (delivered via an online open-sort grouping task)",
+      "output": "labeled groups of BCTs from hierarchical cluster analysis with the word frequency analysis"
+    },
+    {
+      "pos": 7,
+      "label": "S7",
+      "title": "Step 7: Reliability Testing Round 2",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L500-L515",
+      "evidence_loc": "paper_text.txt#L500-L500",
+      "input": "40 intervention descriptions and the amended list",
+      "output": "reliability scores for BCTs observed at least five times by either coder"
+    },
+    {
+      "pos": 8,
+      "label": "S8",
+      "title": "Step 8: Feedback from Study Team Members",
+      "src": "paper_text.txt",
+      "kind": "line",
+      "target": "paper_text.txt#L516-L525",
+      "evidence_loc": "paper_text.txt#L516-L516",
+      "input": "the BCT definitions produced by the previous steps",
+      "output": "the final taxonomy v1 list after study team feedback (Electronic Supplementary Materials Table 2)"
+    }
+  ]
+}

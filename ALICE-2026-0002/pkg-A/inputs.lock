@@ -1,0 +1,14 @@
+[
+  {
+    "role": "ontology",
+    "uri": "file:///opt/data/profiles/portal-u-363fd91a/workspace/ALICE-2026-0002/bcio_moa.owl",
+    "bytes": 1585048,
+    "sha256": "61e53a6d3908cd16be20058cdfd2de2ac8785a89834cc2bbca1dddf889f1ab4e"
+  },
+  {
+    "role": "corpus",
+    "uri": "file:///opt/data/profiles/portal-u-363fd91a/workspace/ALICE-2026-0002/paper_text.txt",
+    "bytes": 59867,
+    "sha256": "fc2d1542d23916b31bebf8cfad95f1f0d6cfa6a21687d32655d3440a282efb11"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "rule": "对照读法一（禁法·不作判据）：rdf:about 去文件名——以 owl:Ontology@rdf:about 去掉末段文件名所得串 http://humanbehaviourchange.org/ontology/ 为前缀计数；推导得 host=humanbehaviourchange.org、最集中目录=/ontology/；与主值同值，巧合，不是判据",
+    "hits": 118,
+    "derivation_ref": {
+      "code": "code/quant_a.py",
+      "entry": "ns_contrast_rows",
+      "params": {}
+    }
+  },
+  {
+    "rule": "对照读法二（禁法·不作判据）：前缀 BCIO_——本地名以 BCIO_ 起头的命名类计数；推导得 host=humanbehaviourchange.org、最集中目录=/ontology/；与主值同值，巧合，不是判据",
+    "hits": 118,
+    "derivation_ref": {
+      "code": "code/quant_a.py",
+      "entry": "ns_contrast_rows",
+      "params": {}
+    }
+  },
+  {
+    "rule": "对照读法三（禁法·不作判据）：出现最多的前缀——本地名第一个下划线前段计次，BCIO 居首（118 次）；推导得 host=humanbehaviourchange.org、最集中目录=/ontology/；与主值同值，巧合，不是判据",
+    "hits": 118,
+    "derivation_ref": {
+      "code": "code/quant_a.py",
+      "entry": "ns_contrast_rows",
+      "params": {}
+    }
+  }
+]

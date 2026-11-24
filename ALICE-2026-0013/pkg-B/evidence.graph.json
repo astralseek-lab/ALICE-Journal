@@ -1,0 +1,319 @@
+{
+ "schema": "evidence-graph/1",
+ "task_id": "ALICE-2026-0013",
+ "nodes": [
+  {
+   "id": "ALICE-2026-0013#n_in_paper_text",
+   "kind": "input",
+   "ref": "ext:paper_text",
+   "bytes": 32718,
+   "sha256": "d243691cca745216e7a2075712f69d31169377dd018f888a33c255a2f01c2764",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "kind": "input",
+   "ref": "ext:fulltext__PMC12596556",
+   "bytes": 293343,
+   "sha256": "ef029bca9bb34b7cb70416b1f551f0c02fb63ea7d3f7e92ba8566a35cffd1249",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_in_paper",
+   "kind": "input",
+   "ref": "ext:paper",
+   "bytes": 4194397,
+   "sha256": "0d7d25106b844c10199b16092b1aeefcadbfd83bf82bab7376d5e17b248f42bc",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_k1",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "k1_map_rows_bct",
+    "params": {}
+   },
+   "value": {
+    "v": 74
+   },
+   "unit": "行",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_k2",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "k2_bct_codes_dedup",
+    "params": {}
+   },
+   "value": {
+    "v": 106
+   },
+   "unit": "去重代码",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_k3",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "k3_map_rows_moa",
+    "params": {}
+   },
+   "value": {
+    "v": 26
+   },
+   "unit": "行",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_k4",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "k4_moa_codes_dedup",
+    "params": {}
+   },
+   "value": {
+    "v": 60
+   },
+   "unit": "去重代码",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_k5",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "k5_one_to_many_rows",
+    "params": {}
+   },
+   "value": {
+    "v": 36
+   },
+   "unit": "行",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_k6",
+   "kind": "derived",
+   "from": [
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "k6_target_tokens",
+    "params": {}
+   },
+   "value": {
+    "v": 169
+   },
+   "unit": "token",
+   "check": {
+    "mode": "recompute"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_anchors",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0013#n_in_paper_text",
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "build_anchors",
+    "params": {}
+   },
+   "value": {
+    "path": "evidence/anchors.json"
+   },
+   "bytes": 3862,
+   "sha256": "43300dc1396bdc53af66371a92456ec1646708ace81bf1e3dc55f9f2b252bd2e",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_protocol",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0013#n_in_paper_text"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "build_protocol",
+    "params": {}
+   },
+   "value": {
+    "path": "evidence/protocol.json"
+   },
+   "bytes": 1413,
+   "sha256": "41b7998d52c9c9342905ba1563250be2ce1eea4686d83ff8ff3225cf0f93af72",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_readings",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+    "ALICE-2026-0013#n_in_paper_text"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "build_readings",
+    "params": {}
+   },
+   "value": {
+    "path": "deviations/readings.json"
+   },
+   "bytes": 1600,
+   "sha256": "16068107ca1dbf4f9ef5f675e7152ef060bc496742444387916d47f71d3007d0",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_contrast",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0013#n_in_fulltext__PMC12596556"
+   ],
+   "transform": {
+    "code": "code/measure.py",
+    "entry": "build_contrast",
+    "params": {}
+   },
+   "value": {
+    "path": "deviations/contrast.json"
+   },
+   "bytes": 3,
+   "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+   "check": {
+    "mode": "hash"
+   }
+  },
+  {
+   "id": "ALICE-2026-0013#n_independence",
+   "kind": "artifact",
+   "from": [
+    "ALICE-2026-0013#n_in_paper_text"
+   ],
+   "transform": {
+    "code": "code/make_independence.py",
+    "entry": "build_independence",
+    "params": {}
+   },
+   "value": {
+    "path": "evidence/independence.json"
+   },
+   "bytes": 294,
+   "sha256": "2a2cc2505855a8f071c96abc6f3a73936ecda50061c29adbf3612a51ffe37bb3",
+   "check": {
+    "mode": "hash"
+   }
+  }
+ ],
+ "edges": [
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_k1",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_k2",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_k3",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_k4",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_k5",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_k6",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_paper_text",
+   "to": "ALICE-2026-0013#n_anchors",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_anchors",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_paper_text",
+   "to": "ALICE-2026-0013#n_protocol",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_readings",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_paper_text",
+   "to": "ALICE-2026-0013#n_readings",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_fulltext__PMC12596556",
+   "to": "ALICE-2026-0013#n_contrast",
+   "type": "derived_from"
+  },
+  {
+   "from": "ALICE-2026-0013#n_in_paper_text",
+   "to": "ALICE-2026-0013#n_independence",
+   "type": "derived_from"
+  }
+ ]
+}

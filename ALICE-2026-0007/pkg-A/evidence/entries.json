@@ -1,0 +1,50 @@
+{
+  "L1": {
+    "file": "code/quant.py",
+    "entry": "l1_local_classes",
+    "lines": [
+      115,
+      119
+    ]
+  },
+  "L2": {
+    "file": "code/quant.py",
+    "entry": "l2_subclass_edges",
+    "lines": [
+      122,
+      125
+    ]
+  },
+  "L3": {
+    "file": "code/quant.py",
+    "entry": "l3_object_properties",
+    "lines": [
+      128,
+      132
+    ]
+  },
+  "L4": {
+    "file": "code/quant.py",
+    "entry": "l4_annotation_properties",
+    "lines": [
+      135,
+      139
+    ]
+  },
+  "L5": {
+    "file": "code/quant.py",
+    "entry": "l5_max_depth",
+    "lines": [
+      142,
+      167
+    ]
+  },
+  "L6": {
+    "file": "code/quant.py",
+    "entry": "l6_leaf_classes",
+    "lines": [
+      170,
+      176
+    ]
+  }
+}

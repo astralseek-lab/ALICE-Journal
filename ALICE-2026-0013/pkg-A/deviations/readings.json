@@ -1,0 +1,87 @@
+[
+  {
+    "name": "table4_rows",
+    "kind": "scalar",
+    "sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+    "value": 3
+  },
+  {
+    "name": "non_bcio_tatt_codes",
+    "kind": "set",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "items": [],
+    "rows": 0
+  },
+  {
+    "name": "target_non_bcio_codes",
+    "kind": "set",
+    "sha256": "a4aed29b459445234cc6894b62fd0ffa00c485ccb01eaf23c00e8b6cb9365ce1",
+    "items": [
+      {
+        "key": "ADDICTO:0000381",
+        "ord": 1
+      },
+      {
+        "key": "ADDICTO:0000399",
+        "ord": 2
+      },
+      {
+        "key": "ADDICTO:0000715",
+        "ord": 3
+      },
+      {
+        "key": "ADDICTO:0001087",
+        "ord": 4
+      },
+      {
+        "key": "ENVO:01000254",
+        "ord": 5
+      },
+      {
+        "key": "ENVO:01000452",
+        "ord": 6
+      },
+      {
+        "key": "GO:0098596",
+        "ord": 7
+      },
+      {
+        "key": "GO:0098597",
+        "ord": 8
+      },
+      {
+        "key": "MF:0000018",
+        "ord": 9
+      },
+      {
+        "key": "MF:0000021",
+        "ord": 10
+      },
+      {
+        "key": "MFOEM:000001",
+        "ord": 11
+      }
+    ],
+    "rows": 11
+  },
+  {
+    "name": "self_report_unmeasured",
+    "kind": "map",
+    "sha256": "81af119cff362948db70b864a17a274221a629db69d0cca758e8e7e7553eefa5",
+    "items": [
+      {
+        "key": "A01",
+        "value": 85
+      },
+      {
+        "key": "A02",
+        "value": 56
+      },
+      {
+        "key": "P1",
+        "value": 100
+      }
+    ],
+    "rows": 3
+  }
+]

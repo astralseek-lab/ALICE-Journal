@@ -1,0 +1,337 @@
+[
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015001",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      2482,
+      2484
+    ],
+    "decl_line": 2484,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015001\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015035",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      2850,
+      2852
+    ],
+    "decl_line": 2852,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015035\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015069",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      3237,
+      3239
+    ],
+    "decl_line": 3239,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015069\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015107",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      3592,
+      3594
+    ],
+    "decl_line": 3594,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015107\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015139",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      3945,
+      3947
+    ],
+    "decl_line": 3947,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015139\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015172",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      4301,
+      4303
+    ],
+    "decl_line": 4303,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015172\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015204",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      4653,
+      4655,
+      4667,
+      4678
+    ],
+    "decl_line": 4655,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015204\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015235",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      4994,
+      4996
+    ],
+    "decl_line": 4996,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015235\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015267",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      5346,
+      5348,
+      5360,
+      5371
+    ],
+    "decl_line": 5348,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015267\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015299",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      5698,
+      5700
+    ],
+    "decl_line": 5700,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015299\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015331",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      6050,
+      6052
+    ],
+    "decl_line": 6052,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015331\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015362",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      6391,
+      6393
+    ],
+    "decl_line": 6393,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015362\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015394",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      6743,
+      6745
+    ],
+    "decl_line": 6745,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015394\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015433",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      7095,
+      7097,
+      7109,
+      7120
+    ],
+    "decl_line": 7097,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015433\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015477",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      7436,
+      7438,
+      7450,
+      7461,
+      7472,
+      7483,
+      7494,
+      7505
+    ],
+    "decl_line": 7438,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015477\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015509",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      7788,
+      7790,
+      7802,
+      7813
+    ],
+    "decl_line": 7790,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015509\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015541",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      8140,
+      8142
+    ],
+    "decl_line": 8142,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015541\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015573",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      8492,
+      8494
+    ],
+    "decl_line": 8494,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015573\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015611",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      8833,
+      8835
+    ],
+    "decl_line": 8835,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015611\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015643",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      9185,
+      9187,
+      9199,
+      9210,
+      9221,
+      9232,
+      9243,
+      9254,
+      9265
+    ],
+    "decl_line": 9187,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015643\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015675",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      9537,
+      9539
+    ],
+    "decl_line": 9539,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015675\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015707",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      9889,
+      9891
+    ],
+    "decl_line": 9891,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015707\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015746",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      10230,
+      10232,
+      10244,
+      10255,
+      10266,
+      10398
+    ],
+    "decl_line": 10232,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015746\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015778",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      10582,
+      10584
+    ],
+    "decl_line": 10584,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015778\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015813",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      10934,
+      10936
+    ],
+    "decl_line": 10936,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015813\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015845",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      11286,
+      11288
+    ],
+    "decl_line": 11288,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015845\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_015886",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      11627,
+      11629
+    ],
+    "decl_line": 11629,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_015886\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_044003",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      12834,
+      12836,
+      12855,
+      14128,
+      14139,
+      14150,
+      14162,
+      14175,
+      14189
+    ],
+    "decl_line": 12836,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_044003\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_050551",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      895,
+      11839,
+      16040,
+      16042
+    ],
+    "decl_line": 16042,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_050551\">"
+  },
+  {
+    "iri": "http://humanbehaviourchange.org/ontology/BCIO_051029",
+    "target_sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5",
+    "grep_lines": [
+      17049,
+      17074,
+      17076
+    ],
+    "decl_line": 17076,
+    "decl_text": "    <owl:Class rdf:about=\"http://humanbehaviourchange.org/ontology/BCIO_051029\">"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "schema": "alice-replay-receipt/1",
+  "run_id": "r_49a717498bab",
+  "runs": [
+    {
+      "cmd": "/usr/bin/python3 code/b_quantities.py ../bcio_mode_of_delivery.owl --all",
+      "exit": 0,
+      "stdout_sha256": "17f2c2d5b1c650ba533140e696799deafce4fea207c7945f3bab42abadc98662",
+      "started": "2026-11-19T18:44:58+08:00",
+      "duration_s": 0.1
+    },
+    {
+      "cmd": "/usr/bin/python3 code/b_anchors.py ../paper_text.txt ../bcio_mode_of_delivery.owl",
+      "exit": 0,
+      "stdout_sha256": "77edcdc6c05cceee4b63461b2d8e46295a9ee4fe2f305821b434e82fa9ba8457",
+      "started": "2026-11-19T18:44:58+08:00",
+      "duration_s": 0.089
+    }
+  ]
+}

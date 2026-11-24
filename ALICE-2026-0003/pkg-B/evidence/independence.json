@@ -1,0 +1,6 @@
+{
+  "source": "pkg-B 全部代码与数据文件于本研究号夹内独立写成与实算；未读第一套实现包内任何文件",
+  "shared_code_with_a": false,
+  "entry": "code/b_quantities.py::parse",
+  "signer_pkg_id": "pkg:7b9cd03e261157805a42fafa3f1102b87f13982420a9e8c1fbc8e8e919fd9cf6"
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "A01",
+    "value": 72,
+    "source": "paper_text.txt#L53",
+    "locator": "#s1"
+  },
+  {
+    "id": "A02",
+    "value": 0.73,
+    "source": "paper_text.txt#L46",
+    "locator": "取第 1/2 处"
+  },
+  {
+    "id": "A03",
+    "value": 23,
+    "source": "paper_text.txt#L42",
+    "locator": "#s2"
+  },
+  {
+    "id": "A04",
+    "value": "Table 1. Glossary.",
+    "source": "paper_text.txt#L5"
+  },
+  {
+    "id": "A05",
+    "value": "Table 2. Entity labels, definitions and URIs for all Intervention Setting Ontology Entities. Note: Entity URIs correspond to Behaviour Change Intervention Ontology (BCIO), Environment Ontology (ENVO), Gazetteer Ontology (GAZ), NCI Thesaurus (NCIT), Ontology of Medically Related Social Entities (OMRSE) and Prescription of Drugs Ontology (PDRO).",
+    "source": "paper_text.txt#L51"
+  },
+  {
+    "id": "A06",
+    "value": "Upper-Level",
+    "source": "paper_text.txt#L52"
+  },
+  {
+    "id": "A07",
+    "value": "Methods",
+    "source": "paper_text.txt#L8"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "paper_text.txt#L30"
+  },
+  {
+    "id": "A09",
+    "value": "Discussion",
+    "source": "paper_text.txt#L56"
+  },
+  {
+    "id": "A10",
+    "value": "Step 1 – Defining the scope of the Intervention Setting Ontology",
+    "source": "paper_text.txt#L10",
+    "locator": "取第 1/2 处"
+  },
+  {
+    "id": "A11",
+    "value": "Step 7 - Making the Intervention Setting Ontology machine-readable and available online",
+    "source": "paper_text.txt#L27"
+  },
+  {
+    "id": "A12",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_setting.owl/2026-11-10",
+    "source": "bcio_setting.owl#http://humanbehaviourchange.org/ontology/bcio_setting.owl/2026-11-10",
+    "locator": "rdf:resource=\"http://humanbehaviourchange.org/ontology/bcio_setting.owl/2026-11-10\""
+  },
+  {
+    "id": "A13",
+    "value": "http://humanbehaviourchange.org/ontology/bcio_setting.owl",
+    "source": "bcio_setting.owl#http://humanbehaviourchange.org/ontology/bcio_setting.owl",
+    "locator": "rdf:about=\"http://humanbehaviourchange.org/ontology/bcio_setting.owl\""
+  }
+]

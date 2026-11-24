@@ -1,0 +1,61 @@
+[
+  {
+    "name": "L3_local",
+    "kind": "scalar",
+    "sha256": "3d6e39509d21f7ae83a6ad73719471650b87c99481a4bc6fc20a72ad6bed8a73",
+    "value": 18
+  },
+  {
+    "name": "L4_local",
+    "kind": "scalar",
+    "sha256": "3adb324f1f6390ca51b0d9123ad060721318343c7e4ef496ea9d1883a0db5c8c",
+    "value": 0
+  },
+  {
+    "name": "L5_alt",
+    "kind": "scalar",
+    "sha256": "4f2d1279f58a5c8216ddd194df4bac15f8adf0cb00a6a8f7269315bd92aeb90d",
+    "value": 4
+  },
+  {
+    "name": "L5_selfcheck",
+    "kind": "scalar",
+    "sha256": "c8d0e5556b5455dde1137df5928fe85da1b92729842eb3a5c90972f8a0b3bcdf",
+    "value": 0
+  },
+  {
+    "name": "L6_alt",
+    "kind": "scalar",
+    "sha256": "98ae6ba83cb0a855e603b6894ae1352eac9b04dee4b844ddf947f6f4236d23f1",
+    "value": 72
+  },
+  {
+    "name": "dir_class_counts",
+    "kind": "map",
+    "sha256": "2a94531b2efc3a11951b067196f3b9524ae7f8107ef844d2643d2748dab9e60c",
+    "value": {
+      "http://humanbehaviourchange.org/ontology/": 114
+    }
+  },
+  {
+    "name": "initial_version_class_count",
+    "kind": "scalar",
+    "sha256": "5e07707fc2025bad184afbd99705a2a86872926d3c49366ac1ddd518cafc6134",
+    "value": 9
+  },
+  {
+    "name": "anonymous_class",
+    "kind": "scalar",
+    "sha256": "1c89df286637ea44b17730c893235627db22fb373ad207445be81a6b69b651d6",
+    "value": 2
+  },
+  {
+    "name": "self_report_unmeasured",
+    "kind": "map",
+    "sha256": "f5d668cc230b4fb341d9f9748153e4e03df470d325a4eb7f4a2e1a86ffc91059",
+    "value": {
+      "A02": 0.54,
+      "A03": 17
+    }
+  }
+]

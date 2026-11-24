@@ -1,0 +1,132 @@
+[
+  {
+    "name": "h2_h3_level_counts",
+    "kind": "map",
+    "sha256": "7edfa8673a0e3b26997261749cc369b4da078ca81ac6b330b6d892eb1b4ffd62",
+    "items": [
+      {
+        "key": "H2",
+        "value": 7
+      },
+      {
+        "key": "H3",
+        "value": 0
+      }
+    ],
+    "rows": 2
+  },
+  {
+    "name": "table2_tr_total",
+    "kind": "scalar",
+    "sha256": "535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790",
+    "value": 23
+  },
+  {
+    "name": "corpus_sha",
+    "kind": "scalar",
+    "sha256": "c47041a700ce0c3210020a20b129ad0101a6bf60157f58e43489cd4f91c0610a",
+    "value": "5f6bbf71856394abe6377c8cb3485e345e114066aa3c7411fafcc0617c505354"
+  },
+  {
+    "name": "k_ruling",
+    "kind": "scalar",
+    "sha256": "46a93977d89104cfef28499614f183ba3e4b3c745a160bd0d5381b56f615aeec",
+    "value": "为什么 3 个就够"
+  },
+  {
+    "name": "table2_rows",
+    "kind": "set",
+    "sha256": "69316d17756dd1289903374e1be8846d393fe788e51703ca5879aff115b89946",
+    "items": [
+      {
+        "key": "r1",
+        "ord": 1
+      },
+      {
+        "key": "r2",
+        "ord": 2
+      },
+      {
+        "key": "r3",
+        "ord": 3
+      },
+      {
+        "key": "r4",
+        "ord": 4
+      },
+      {
+        "key": "r5",
+        "ord": 5
+      },
+      {
+        "key": "r6",
+        "ord": 6
+      },
+      {
+        "key": "r7",
+        "ord": 7
+      },
+      {
+        "key": "r8",
+        "ord": 8
+      },
+      {
+        "key": "r9",
+        "ord": 9
+      },
+      {
+        "key": "r10",
+        "ord": 10
+      },
+      {
+        "key": "r11",
+        "ord": 11
+      },
+      {
+        "key": "r12",
+        "ord": 12
+      },
+      {
+        "key": "r13",
+        "ord": 13
+      },
+      {
+        "key": "r14",
+        "ord": 14
+      },
+      {
+        "key": "r15",
+        "ord": 15
+      },
+      {
+        "key": "r16",
+        "ord": 16
+      },
+      {
+        "key": "r17",
+        "ord": 17
+      },
+      {
+        "key": "r18",
+        "ord": 18
+      },
+      {
+        "key": "r19",
+        "ord": 19
+      },
+      {
+        "key": "r20",
+        "ord": 20
+      },
+      {
+        "key": "r21",
+        "ord": 21
+      },
+      {
+        "key": "r22",
+        "ord": 22
+      }
+    ],
+    "rows": 22
+  }
+]

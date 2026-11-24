@@ -1,0 +1,67 @@
+[
+  {
+    "id": "A01",
+    "value": 93,
+    "source": "fulltext.pdf#p1#s8"
+  },
+  {
+    "id": "A02",
+    "value": 16,
+    "source": "fulltext.pdf#p9#s6"
+  },
+  {
+    "id": "A03",
+    "value": "Hierarchically Clustered Techniques",
+    "source": "fulltext.pdf#p1#s1"
+  },
+  {
+    "id": "A04",
+    "value": "Table 4 Hierarchical structure labeling (step 6): frequency of words from labels given by participants (conjunctions removed)",
+    "source": "fulltext.pdf#p11"
+  },
+  {
+    "id": "A05",
+    "value": "Table 5 Results of hierarchical cluster analysis of behavior change techniques (step 6): grouping within the 16 cluster solution, approxi- mately unbiased p values (AU), and standard errors",
+    "source": "fulltext.pdf#p12"
+  },
+  {
+    "id": "A06",
+    "value": "No.",
+    "source": "esm1.docx#tbl@4#header"
+  },
+  {
+    "id": "A07",
+    "value": "Method",
+    "source": "fulltext.pdf#p3"
+  },
+  {
+    "id": "A08",
+    "value": "Results",
+    "source": "fulltext.pdf#p6"
+  },
+  {
+    "id": "A09",
+    "value": "Discussion",
+    "source": "fulltext.pdf#p9#s1"
+  },
+  {
+    "id": "A10",
+    "value": "1. Goals and planning",
+    "source": "esm1.docx#tbl@4#r1"
+  },
+  {
+    "id": "A11",
+    "value": "16. Covert learning",
+    "source": "esm1.docx#tbl@4#r106"
+  },
+  {
+    "id": "A12",
+    "value": "Published online: 20 March 2013",
+    "source": "fulltext.pdf#p1#s3"
+  },
+  {
+    "id": "A13",
+    "value": "Step number",
+    "source": "esm1.docx#tbl@2#header"
+  }
+]

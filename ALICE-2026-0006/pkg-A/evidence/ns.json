@@ -1,0 +1,1373 @@
+{
+  "rule": "code/quant_a.py::local_namespace（第 96–113 行）：宿主取 owl:Ontology@rdf:about 的 netloc，再取该宿主上命名类 IRI 最集中的目录；本地＝IRI 以 scheme://host+dir 为前缀",
+  "host": "humanbehaviourchange.org",
+  "dir": "/ontology/",
+  "count": 118,
+  "prefix_count": 118,
+  "coincidence": {
+    "equal": true,
+    "sym_diff": []
+  },
+  "classes": [
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000179",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000349",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000352",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000377",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000381",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000399",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000456",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000511",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000715",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0000750",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001050",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001087",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001109",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001127",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001135",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001212",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001273",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001303",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001317",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001318",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001350",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001377",
+      "in_ns": false
+    },
+    {
+      "iri": "http://addictovocab.org/ADDICTO_0001378",
+      "in_ns": false
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_001000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_002000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_003000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_005000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_006000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_007000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_008000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_009000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_010000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_010003",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_010004",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_010083",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_011000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_014000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_015000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_015095",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_016000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_017000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_018000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_020000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_021000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_022000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_023000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_024000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_025000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026001",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026002",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026003",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026004",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026005",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026006",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026007",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026008",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026009",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026010",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026011",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026012",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026013",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026014",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026015",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026016",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026017",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026018",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026019",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026020",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026021",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026022",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026023",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026024",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026025",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026026",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026027",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026028",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026029",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026030",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026031",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026032",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026033",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026034",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026035",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026036",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026037",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026038",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026039",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026040",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026041",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026042",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026043",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026044",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026045",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026046",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026047",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026048",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026049",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026050",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_026051",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_027000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_028000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_029000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_030000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_031000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_032000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_033000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_034000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_035000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_036000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_036100",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_036107",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_037000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_038000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_039000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_040000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_041000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_043000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_044000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_044003",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_044004",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_045000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_046000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_047000",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_047001",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050210",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050211",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050267",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050300",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050315",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050419",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050551",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050914",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050915",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_050916",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_051010",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_051025",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_051026",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_051027",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_051028",
+      "in_ns": true
+    },
+    {
+      "iri": "http://humanbehaviourchange.org/ontology/BCIO_051029",
+      "in_ns": true
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000001",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000002",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000003",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000004",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000006",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000008",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000016",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000017",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000019",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000020",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000023",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000024",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000027",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000029",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000030",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000031",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000034",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000038",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000040",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000141",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000144",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/BFO_0000182",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/COB_0000082",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_00000064",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_00000091",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_00000106",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_00000111",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_00000469",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_00000562",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_01000254",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_01000408",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_01000452",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_01001110",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/ENVO_03501288",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GAZ_00000448",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0003008",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0007610",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0007611",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0008150",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0032501",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0046958",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0046959",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0046960",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0050877",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0050890",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0051705",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/GO_0098596",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000007",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000027",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000030",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000033",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000078",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000088",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000102",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000104",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/IAO_0000310",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000001",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000002",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000003",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000005",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000006",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000007",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000009",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000019",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000020",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000021",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000022",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000023",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000026",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000028",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000032",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000033",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000035",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000040",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000042",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000053",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000055",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000056",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000060",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000061",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000072",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000075",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000076",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000078",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000080",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000085",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000091",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000103",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000107",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000109",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000112",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000124",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000169",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000193",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000195",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000203",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000204",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000205",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000209",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000210",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000212",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000218",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MFOEM_000226",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000006",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000008",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000012",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000013",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000015",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000016",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000017",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000018",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000019",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000020",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000021",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000027",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000030",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000031",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000032",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000033",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000041",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000043",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000045",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000048",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000050",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000074",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000083",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000088",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000202",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/MF_0000203",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OBI_0000011",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OBI_0000093",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OBI_0000245",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OBI_0000260",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OGMS_0000060",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OGMS_0000087",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000061",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000062",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000063",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000064",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000076",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000092",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000094",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000102",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000104",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000106",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000114",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000150",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000191",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000222",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000235",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000311",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000504",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00000929",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00002029",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00002061",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OMRSE_00002072",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OPMI_0000093",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OPMI_0000121",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/OPMI_0000326",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/PATO_0000044",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/PDRO_0000074",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/PDRO_0000117",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/RO_0002577",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/SEPIO_0000004",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/SEPIO_0000125",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/UBERON_0000061",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/UBERON_0000465",
+      "in_ns": false
+    },
+    {
+      "iri": "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "in_ns": false
+    }
+  ],
+  "prefix_iris": [
+    "http://humanbehaviourchange.org/ontology/BCIO_001000",
+    "http://humanbehaviourchange.org/ontology/BCIO_002000",
+    "http://humanbehaviourchange.org/ontology/BCIO_003000",
+    "http://humanbehaviourchange.org/ontology/BCIO_005000",
+    "http://humanbehaviourchange.org/ontology/BCIO_006000",
+    "http://humanbehaviourchange.org/ontology/BCIO_007000",
+    "http://humanbehaviourchange.org/ontology/BCIO_008000",
+    "http://humanbehaviourchange.org/ontology/BCIO_009000",
+    "http://humanbehaviourchange.org/ontology/BCIO_010000",
+    "http://humanbehaviourchange.org/ontology/BCIO_010003",
+    "http://humanbehaviourchange.org/ontology/BCIO_010004",
+    "http://humanbehaviourchange.org/ontology/BCIO_010083",
+    "http://humanbehaviourchange.org/ontology/BCIO_011000",
+    "http://humanbehaviourchange.org/ontology/BCIO_014000",
+    "http://humanbehaviourchange.org/ontology/BCIO_015000",
+    "http://humanbehaviourchange.org/ontology/BCIO_015095",
+    "http://humanbehaviourchange.org/ontology/BCIO_016000",
+    "http://humanbehaviourchange.org/ontology/BCIO_017000",
+    "http://humanbehaviourchange.org/ontology/BCIO_018000",
+    "http://humanbehaviourchange.org/ontology/BCIO_020000",
+    "http://humanbehaviourchange.org/ontology/BCIO_021000",
+    "http://humanbehaviourchange.org/ontology/BCIO_022000",
+    "http://humanbehaviourchange.org/ontology/BCIO_023000",
+    "http://humanbehaviourchange.org/ontology/BCIO_024000",
+    "http://humanbehaviourchange.org/ontology/BCIO_025000",
+    "http://humanbehaviourchange.org/ontology/BCIO_026000",
+    "http://humanbehaviourchange.org/ontology/BCIO_026001",
+    "http://humanbehaviourchange.org/ontology/BCIO_026002",
+    "http://humanbehaviourchange.org/ontology/BCIO_026003",
+    "http://humanbehaviourchange.org/ontology/BCIO_026004",
+    "http://humanbehaviourchange.org/ontology/BCIO_026005",
+    "http://humanbehaviourchange.org/ontology/BCIO_026006",
+    "http://humanbehaviourchange.org/ontology/BCIO_026007",
+    "http://humanbehaviourchange.org/ontology/BCIO_026008",
+    "http://humanbehaviourchange.org/ontology/BCIO_026009",
+    "http://humanbehaviourchange.org/ontology/BCIO_026010",
+    "http://humanbehaviourchange.org/ontology/BCIO_026011",
+    "http://humanbehaviourchange.org/ontology/BCIO_026012",
+    "http://humanbehaviourchange.org/ontology/BCIO_026013",
+    "http://humanbehaviourchange.org/ontology/BCIO_026014",
+    "http://humanbehaviourchange.org/ontology/BCIO_026015",
+    "http://humanbehaviourchange.org/ontology/BCIO_026016",
+    "http://humanbehaviourchange.org/ontology/BCIO_026017",
+    "http://humanbehaviourchange.org/ontology/BCIO_026018",
+    "http://humanbehaviourchange.org/ontology/BCIO_026019",
+    "http://humanbehaviourchange.org/ontology/BCIO_026020",
+    "http://humanbehaviourchange.org/ontology/BCIO_026021",
+    "http://humanbehaviourchange.org/ontology/BCIO_026022",
+    "http://humanbehaviourchange.org/ontology/BCIO_026023",
+    "http://humanbehaviourchange.org/ontology/BCIO_026024",
+    "http://humanbehaviourchange.org/ontology/BCIO_026025",
+    "http://humanbehaviourchange.org/ontology/BCIO_026026",
+    "http://humanbehaviourchange.org/ontology/BCIO_026027",
+    "http://humanbehaviourchange.org/ontology/BCIO_026028",
+    "http://humanbehaviourchange.org/ontology/BCIO_026029",
+    "http://humanbehaviourchange.org/ontology/BCIO_026030",
+    "http://humanbehaviourchange.org/ontology/BCIO_026031",
+    "http://humanbehaviourchange.org/ontology/BCIO_026032",
+    "http://humanbehaviourchange.org/ontology/BCIO_026033",
+    "http://humanbehaviourchange.org/ontology/BCIO_026034",
+    "http://humanbehaviourchange.org/ontology/BCIO_026035",
+    "http://humanbehaviourchange.org/ontology/BCIO_026036",
+    "http://humanbehaviourchange.org/ontology/BCIO_026037",
+    "http://humanbehaviourchange.org/ontology/BCIO_026038",
+    "http://humanbehaviourchange.org/ontology/BCIO_026039",
+    "http://humanbehaviourchange.org/ontology/BCIO_026040",
+    "http://humanbehaviourchange.org/ontology/BCIO_026041",
+    "http://humanbehaviourchange.org/ontology/BCIO_026042",
+    "http://humanbehaviourchange.org/ontology/BCIO_026043",
+    "http://humanbehaviourchange.org/ontology/BCIO_026044",
+    "http://humanbehaviourchange.org/ontology/BCIO_026045",
+    "http://humanbehaviourchange.org/ontology/BCIO_026046",
+    "http://humanbehaviourchange.org/ontology/BCIO_026047",
+    "http://humanbehaviourchange.org/ontology/BCIO_026048",
+    "http://humanbehaviourchange.org/ontology/BCIO_026049",
+    "http://humanbehaviourchange.org/ontology/BCIO_026050",
+    "http://humanbehaviourchange.org/ontology/BCIO_026051",
+    "http://humanbehaviourchange.org/ontology/BCIO_027000",
+    "http://humanbehaviourchange.org/ontology/BCIO_028000",
+    "http://humanbehaviourchange.org/ontology/BCIO_029000",
+    "http://humanbehaviourchange.org/ontology/BCIO_030000",
+    "http://humanbehaviourchange.org/ontology/BCIO_031000",
+    "http://humanbehaviourchange.org/ontology/BCIO_032000",
+    "http://humanbehaviourchange.org/ontology/BCIO_033000",
+    "http://humanbehaviourchange.org/ontology/BCIO_034000",
+    "http://humanbehaviourchange.org/ontology/BCIO_035000",
+    "http://humanbehaviourchange.org/ontology/BCIO_036000",
+    "http://humanbehaviourchange.org/ontology/BCIO_036100",
+    "http://humanbehaviourchange.org/ontology/BCIO_036107",
+    "http://humanbehaviourchange.org/ontology/BCIO_037000",
+    "http://humanbehaviourchange.org/ontology/BCIO_038000",
+    "http://humanbehaviourchange.org/ontology/BCIO_039000",
+    "http://humanbehaviourchange.org/ontology/BCIO_040000",
+    "http://humanbehaviourchange.org/ontology/BCIO_041000",
+    "http://humanbehaviourchange.org/ontology/BCIO_043000",
+    "http://humanbehaviourchange.org/ontology/BCIO_044000",
+    "http://humanbehaviourchange.org/ontology/BCIO_044003",
+    "http://humanbehaviourchange.org/ontology/BCIO_044004",
+    "http://humanbehaviourchange.org/ontology/BCIO_045000",
+    "http://humanbehaviourchange.org/ontology/BCIO_046000",
+    "http://humanbehaviourchange.org/ontology/BCIO_047000",
+    "http://humanbehaviourchange.org/ontology/BCIO_047001",
+    "http://humanbehaviourchange.org/ontology/BCIO_050210",
+    "http://humanbehaviourchange.org/ontology/BCIO_050211",
+    "http://humanbehaviourchange.org/ontology/BCIO_050267",
+    "http://humanbehaviourchange.org/ontology/BCIO_050300",
+    "http://humanbehaviourchange.org/ontology/BCIO_050315",
+    "http://humanbehaviourchange.org/ontology/BCIO_050419",
+    "http://humanbehaviourchange.org/ontology/BCIO_050551",
+    "http://humanbehaviourchange.org/ontology/BCIO_050914",
+    "http://humanbehaviourchange.org/ontology/BCIO_050915",
+    "http://humanbehaviourchange.org/ontology/BCIO_050916",
+    "http://humanbehaviourchange.org/ontology/BCIO_051010",
+    "http://humanbehaviourchange.org/ontology/BCIO_051025",
+    "http://humanbehaviourchange.org/ontology/BCIO_051026",
+    "http://humanbehaviourchange.org/ontology/BCIO_051027",
+    "http://humanbehaviourchange.org/ontology/BCIO_051028",
+    "http://humanbehaviourchange.org/ontology/BCIO_051029"
+  ]
+}

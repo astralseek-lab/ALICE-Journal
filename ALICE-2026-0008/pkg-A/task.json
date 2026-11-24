@@ -1,0 +1,134 @@
+{
+  "task_id": "ALICE-2026-0008",
+  "grade": "native",
+  "entry": "code/style_metrics.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "paper_text",
+        "uri": "file:./paper_text.txt",
+        "bytes": 32982,
+        "sha256": "8cf989d427fdd97aae18251b6fd50dcb97c943cfae0bc2c96321e5d6e5c4ff9d"
+      },
+      {
+        "slug": "bcio_style",
+        "uri": "file:./bcio_style.owl",
+        "bytes": 1209886,
+        "sha256": "71d0f506493cadf1c52a7d34ac4527864585d31e9a14c78fc769a2c05a3fc6b5"
+      },
+      {
+        "slug": "bcio_upper_level",
+        "uri": "file:./bcio_upper_level.owl",
+        "bytes": 461217,
+        "sha256": "b7d1d80ce1758900f71d884ab0930d5d348dcf839984a8ff4dd1b19ba1e915fe"
+      },
+      {
+        "slug": "bcio_behaviour",
+        "uri": "file:./bcio_behaviour.owl",
+        "bytes": 1125852,
+        "sha256": "e02c93d5fe5df1a747ef83e837147bad70c744126ad9e4f4094de817e45b78ad"
+      }
+    ]
+  },
+  "params": {
+    "peer_held": [
+      "0004",
+      "0005"
+    ],
+    "readings_names": [
+      "L3_local",
+      "L4_local",
+      "L5_alt",
+      "L5_selfcheck",
+      "L6_alt",
+      "anonymous_class",
+      "anonymous_class_direct",
+      "self_report_unmeasured"
+    ],
+    "reads_count": 8
+  },
+  "budget": {
+    "cpu_s": 6.0,
+    "gpu_s": 0,
+    "wall_clock_s": 5400.0,
+    "cost_cny": 0.0
+  },
+  "judge": {
+    "metric": "check_taskpack_items_ok",
+    "band": "21/21",
+    "tolerance_reason": "计数与结构断言均为精确等值核验，无统计容差",
+    "version": "35b82345"
+  },
+  "quoted": [
+    {
+      "id": "A01",
+      "value": 145,
+      "source": "paper_text.txt#L38",
+      "locator": "#s1"
+    },
+    {
+      "id": "A02",
+      "value": 0.77,
+      "source": "paper_text.txt#L36",
+      "locator": "#s1"
+    },
+    {
+      "id": "A03",
+      "value": 100,
+      "source": "paper_text.txt#L18",
+      "locator": "#s2"
+    },
+    {
+      "id": "A04",
+      "value": "Table 1. Glossary.",
+      "source": "paper_text.txt#L8"
+    },
+    {
+      "id": "A05",
+      "value": "Table 2. URIs, labels and definitions for all Style of Delivery Ontology entities.",
+      "source": "paper_text.txt#L58"
+    },
+    {
+      "id": "A06",
+      "value": "Figure 1. The upper level of the Behaviour Change Intervention Ontology (BCIO) V1.5.",
+      "source": "paper_text.txt#L11"
+    },
+    {
+      "id": "A07",
+      "value": "Methods",
+      "source": "paper_text.txt#L40"
+    },
+    {
+      "id": "A08",
+      "value": "Results",
+      "source": "paper_text.txt#L50"
+    },
+    {
+      "id": "A09",
+      "value": "Conclusions",
+      "source": "paper_text.txt#L71"
+    },
+    {
+      "id": "A10",
+      "value": "Step 1 – Development of the scope and definition of the Style of Delivery Ontology",
+      "source": "paper_text.txt#L43",
+      "locator": "取第 1/2 处"
+    },
+    {
+      "id": "A11",
+      "value": "Step 7 – Disseminating and maintaining the Style of Delivery Ontology",
+      "source": "paper_text.txt#L49",
+      "locator": "取第 1/2 处"
+    },
+    {
+      "id": "A12",
+      "value": "http://humanbehaviourchange.org/ontology/bcio_style.owl/2026-11-10",
+      "source": "bcio_style.owl#http://humanbehaviourchange.org/ontology/bcio_style.owl/2026-11-10"
+    },
+    {
+      "id": "A13",
+      "value": "http://humanbehaviourchange.org/ontology/bcio_style.owl",
+      "source": "bcio_style.owl#http://humanbehaviourchange.org/ontology/bcio_style.owl"
+    }
+  ]
+}

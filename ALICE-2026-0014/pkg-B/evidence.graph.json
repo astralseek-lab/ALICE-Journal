@@ -1,0 +1,204 @@
+{
+  "schema": "evidence-graph/1",
+  "task_id": "ALICE-2026-0014",
+  "nodes": [
+    {
+      "id": "ALICE-2026-0014#n_in_paper",
+      "kind": "input",
+      "ref": "ext:paper_text",
+      "bytes": 64283,
+      "sha256": "9f82fcfefb54ab608747a391e0421e56cd368e3b5503cb71decc10a911ace73e",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_in_fulltext",
+      "kind": "input",
+      "ref": "ext:fulltext",
+      "bytes": 426749,
+      "sha256": "c4b925e9b29bca84d998e266306413874ee8854a4bc1cebced6a827867d2f517",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_in_esm1",
+      "kind": "input",
+      "ref": "ext:esm1",
+      "bytes": 77922,
+      "sha256": "fb8719a38a861626a12fd09828c0e8f16eb11f0482a0a8fc3590b4c4ceb90fc2",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_in_terms",
+      "kind": "input",
+      "ref": "ext:terms_bct_v1",
+      "bytes": 42798,
+      "sha256": "8560360ab02e4a8b7eff38a5efb5dbe504e348add85fad8c849d741d6bdcf100",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_q1_items",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0014#n_in_terms"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "count_items",
+        "params": {}
+      },
+      "value": {
+        "v": 93,
+        "unit": "count"
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_q2_clusters",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0014#n_in_terms"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "count_clusters",
+        "params": {}
+      },
+      "value": {
+        "v": 16,
+        "unit": "count"
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_q3_max_per_cluster",
+      "kind": "derived",
+      "from": [
+        "ALICE-2026-0014#n_in_terms"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "max_per_cluster",
+        "params": {}
+      },
+      "value": {
+        "v": 11,
+        "unit": "count"
+      },
+      "unit": "count",
+      "check": {
+        "mode": "recompute"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_art_protocol",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0014#n_in_paper"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "build_protocol",
+        "params": {}
+      },
+      "value": {
+        "path": "evidence/protocol.json"
+      },
+      "bytes": 3790,
+      "sha256": "cd60ed13324009ffe084b8ef1bab19cc59b08df9391047eb07f3be043ef2cbf5",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_art_anchors",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0014#n_in_paper",
+        "ALICE-2026-0014#n_in_esm1"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "build_anchors",
+        "params": {}
+      },
+      "value": {
+        "path": "evidence/anchors.json"
+      },
+      "bytes": 1474,
+      "sha256": "05030db6bc3861b41aa3791ea57212f9c60243fb1b7e552bbd537e677a4ba9ef",
+      "check": {
+        "mode": "hash"
+      }
+    },
+    {
+      "id": "ALICE-2026-0014#n_art_independence",
+      "kind": "artifact",
+      "from": [
+        "ALICE-2026-0014#n_in_terms"
+      ],
+      "transform": {
+        "code": "code/metrics.py",
+        "entry": "build_independence",
+        "params": {}
+      },
+      "value": {
+        "path": "evidence/independence.json"
+      },
+      "bytes": 525,
+      "sha256": "e23c76eb65186ee0ff0ff04ae4df854f62b83d74eedd0e9f8f7415453c6fd019",
+      "check": {
+        "mode": "hash"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "ALICE-2026-0014#n_in_terms",
+      "to": "ALICE-2026-0014#n_q1_items",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0014#n_in_terms",
+      "to": "ALICE-2026-0014#n_q2_clusters",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0014#n_in_terms",
+      "to": "ALICE-2026-0014#n_q3_max_per_cluster",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0014#n_in_paper",
+      "to": "ALICE-2026-0014#n_art_protocol",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0014#n_in_paper",
+      "to": "ALICE-2026-0014#n_art_anchors",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0014#n_in_esm1",
+      "to": "ALICE-2026-0014#n_art_anchors",
+      "type": "derived_from"
+    },
+    {
+      "from": "ALICE-2026-0014#n_in_terms",
+      "to": "ALICE-2026-0014#n_art_independence",
+      "type": "derived_from"
+    }
+  ]
+}

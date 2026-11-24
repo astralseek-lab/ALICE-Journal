@@ -1,0 +1,72 @@
+{
+  "rule": "步骤＝Methods 直系 sub-sec 中标题以 `Step N: `（N=1..6 连续）起头的 6 个；起止行＝该步标题行至下一 title 行前一行（不分层级）；「按位置取前 N 个」与「标题去重读数」都禁用",
+  "source": "paper_text.txt#L15-L36",
+  "steps": [
+    {
+      "evidence_loc": "paper_text.txt#L20-L21",
+      "input": null,
+      "kind": "line",
+      "label": "S1",
+      "output": null,
+      "pos": 1,
+      "src": "paper_text.txt",
+      "target": "paper_text.txt#L20-L21",
+      "title": "Step 1: Extract and synthesise feedback on the BCTTv1"
+    },
+    {
+      "evidence_loc": "paper_text.txt#L22-L23",
+      "input": null,
+      "kind": "line",
+      "label": "S2",
+      "output": null,
+      "pos": 2,
+      "src": "paper_text.txt",
+      "target": "paper_text.txt#L22-L23",
+      "title": "Step 2: Changes to BCTs: labels and definitions"
+    },
+    {
+      "evidence_loc": "paper_text.txt#L24-L25",
+      "input": null,
+      "kind": "line",
+      "label": "S3",
+      "output": null,
+      "pos": 3,
+      "src": "paper_text.txt",
+      "target": "paper_text.txt#L24-L25",
+      "title": "Step 3: Structuring the BCTO as an ontology"
+    },
+    {
+      "evidence_loc": "paper_text.txt#L26-L29",
+      "input": null,
+      "kind": "line",
+      "label": "S4",
+      "output": null,
+      "pos": 4,
+      "src": "paper_text.txt",
+      "target": "paper_text.txt#L26-L29",
+      "title": "Step 4: Expert stakeholder review"
+    },
+    {
+      "evidence_loc": "paper_text.txt#L30-L33",
+      "input": null,
+      "kind": "line",
+      "label": "S5",
+      "output": null,
+      "pos": 5,
+      "src": "paper_text.txt",
+      "target": "paper_text.txt#L30-L33",
+      "title": "Step 5: Inter-rater reliability of annotations using the BCTO"
+    },
+    {
+      "evidence_loc": "paper_text.txt#L34-L36",
+      "input": null,
+      "kind": "line",
+      "label": "S6",
+      "output": null,
+      "pos": 6,
+      "src": "paper_text.txt",
+      "target": "paper_text.txt#L34-L36",
+      "title": "Step 6: Computer-readable version of the BCTO and publication in online repositories"
+    }
+  ]
+}

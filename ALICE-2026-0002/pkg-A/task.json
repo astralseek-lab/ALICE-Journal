@@ -1,0 +1,54 @@
+{
+  "task_id": "ALICE-2026-0002",
+  "grade": "native",
+  "entry": "code/moa_entry.py",
+  "chain": {
+    "upstream": [
+      {
+        "slug": "bcio_moa",
+        "uri": "file:///opt/data/profiles/portal-u-363fd91a/workspace/ALICE-2026-0002/bcio_moa.owl",
+        "bytes": 1585048,
+        "sha256": "61e53a6d3908cd16be20058cdfd2de2ac8785a89834cc2bbca1dddf889f1ab4e",
+        "license": "CC BY 4.0"
+      },
+      {
+        "slug": "paper_text",
+        "uri": "file:///opt/data/profiles/portal-u-363fd91a/workspace/ALICE-2026-0002/paper_text.txt",
+        "bytes": 59867,
+        "sha256": "fc2d1542d23916b31bebf8cfad95f1f0d6cfa6a21687d32655d3440a282efb11",
+        "license": "CC BY 4.0"
+      }
+    ]
+  },
+  "params": {
+    "quantity": {
+      "one_of": [
+        "L1_class_local",
+        "L2_subclass_edges",
+        "L3_object_props",
+        "L4_annotation_props",
+        "L5_depth_max",
+        "L6_leaf_classes",
+        "X_ext_classes"
+      ]
+    }
+  },
+  "budget": {
+    "cpu_s": 30,
+    "gpu_s": 0,
+    "wall_clock_s": 300,
+    "cost_cny": 0
+  },
+  "judge": {
+    "metric": "六量与另报档的结构计数（整数）",
+    "band": "0",
+    "tolerance_reason": "结构计数是确定整数，无测量噪声；同输入重算必须逐字节一致，容忍带为零。"
+  },
+  "quoted": [
+    {"value": 284, "source": "paper_text.txt#L122"},
+    {"value": 261, "source": "paper_text.txt#L7"},
+    {"value": 202, "source": "paper_text.txt#L98"},
+    {"value": 104, "source": "paper_text.txt#L98"}
+  ],
+  "gaps": []
+}

@@ -1,0 +1,28 @@
+{
+  "rule": "两步＝Methods 下 Step 1／Step 2 两个 H2 按位置取（整行逐字、行号递增）；Results 重列的两个同名标题不计；禁用标题去重当数法",
+  "source": "paper_text.txt#L30-L37",
+  "steps": [
+    {
+      "pos": 1,
+      "label": "S1",
+      "title": "Step 1: Mapping the BCTs from the BCTO to the TaTT",
+      "src": "paper_text.txt",
+      "kind": "column",
+      "target": "fulltext__PMC12596556.xml#tbl:2#col:3",
+      "evidence_loc": "paper_text.txt#L30-L32",
+      "input": "the 281 class labels and definitions in BCTO (published in May, 2024)，及 September, 2025 更新版新增四个类后的现行 BCTO（L31–L32）",
+      "output": "BCTO 类到 TaTT 74 BCTs 的映射记录（finalise 并经 wider research team 复核；成表为 Table 2）"
+    },
+    {
+      "pos": 2,
+      "label": "S2",
+      "title": "Step 2: Mapping the MoAs from the MoA Ontology to the TaTT",
+      "src": "paper_text.txt",
+      "kind": "column",
+      "target": "fulltext__PMC12596556.xml#tbl:3#col:3",
+      "evidence_loc": "paper_text.txt#L33-L37",
+      "input": "the 284 class labels and definitions in the MoA Ontology (published May, 2024)，及 September, 2025 更新后 622 类总量的现行 MoA Ontology（L34、L37）",
+      "output": "MoA Ontology 类到 TaTT 26 MoAs 的映射记录（finalise 并经 wider research team 复核；成表为 Table 3）"
+    }
+  ]
+}

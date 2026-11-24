@@ -1,0 +1,38 @@
+[
+  {
+    "name": "min_items_per_cluster",
+    "kind": "scalar",
+    "sha256": "4e01393d8806c280584735be5672bcc7dc528e4e9bba9fdbee101a7153db7621",
+    "value": 3
+  },
+  {
+    "name": "empty_definition_count",
+    "kind": "scalar",
+    "sha256": "89e7861603ac366ecbd6e192bf92e02d98ee1dae6270871451630951ec52d0b0",
+    "value": 0
+  },
+  {
+    "name": "pdf_pages",
+    "kind": "scalar",
+    "sha256": "6c6318a62002e3459591e165e64c8c59512007e4a8ef12bcbf285acbc491307e",
+    "value": 15
+  },
+  {
+    "name": "docx_tables",
+    "kind": "scalar",
+    "sha256": "8c5b2326000c7bd2f2cf44459aae7809e4df049884842f908da5c8be3d2ae69b",
+    "value": 4
+  },
+  {
+    "name": "self_report_unmeasured",
+    "kind": "map",
+    "sha256": "5a8d7ebc7d848cce3ea619feb040d93537a7b11b7eae808112f53193141517e5",
+    "items": [
+      {
+        "key": "A03",
+        "value": "Hierarchically Clustered Techniques"
+      }
+    ],
+    "rows": 1
+  }
+]
